@@ -152,8 +152,8 @@
       ]
     },
     "appearance": {
-      "modelPath": "asset://models/human/human_rigged.glb",
-      "iconPath": "asset://icons/npcs/bank_clerk.png",
+      "modelPath": "asset://avatars/avatar-male-01.vrm",
+      "iconPath": "asset://icons/npcs/shopkeeper.png",
       "scale": 1.0
     }
   },
@@ -206,7 +206,7 @@
       ]
     },
     "appearance": {
-      "modelPath": "asset://models/human/human_rigged.glb",
+      "modelPath": "asset://avatars/avatar-male-01.vrm",
       "iconPath": "asset://icons/npcs/shopkeeper.png",
       "scale": 1.0
     }

@@ -4,5 +4,3 @@
 *.jpeg filter=lfs diff=lfs merge=lfs -text
 *.mp3 filter=lfs diff=lfs merge=lfs -text
 *.vrm filter=lfs diff=lfs merge=lfs -text
-models/goblin/**/*.glb filter=lfs diff=lfs merge=lfs -text
-models/goblin/**/*.png filter=lfs diff=lfs merge=lfs -text
