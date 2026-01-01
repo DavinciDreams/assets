@@ -3,17 +3,17 @@
     "id": "tree_normal",
     "name": "Tree",
     "type": "tree",
-    "examine": "A tree suitable for woodcutting.",
-    "modelPath": "asset://models/resources/tree-normal.glb",
-    "depletedModelPath": "asset://models/resources/tree-stump.glb",
-    "scale": 1.0,
-    "depletedScale": 0.5,
+    "examine": "A commonly found tree. I can chop it down with a hatchet.",
+    "modelPath": "asset://models/basic-reg-tree/basic-tree.glb",
+    "depletedModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
+    "scale": 3.0,
+    "depletedScale": 0.3,
     "harvestSkill": "woodcutting",
-    "toolRequired": "axe",
+    "toolRequired": "bronze_hatchet",
     "levelRequired": 1,
     "baseCycleTicks": 4,
     "depleteChance": 0.125,
-    "respawnTicks": 100,
+    "respawnTicks": 80,
     "harvestYield": [
       {
         "itemId": "logs",
@@ -21,7 +21,7 @@
         "quantity": 1,
         "chance": 1.0,
         "xpAmount": 25,
-        "stackable": false
+        "stackable": true
       }
     ]
   },
@@ -29,25 +29,25 @@
     "id": "tree_oak",
     "name": "Oak Tree",
     "type": "tree",
-    "examine": "A sturdy oak tree.",
-    "modelPath": "asset://models/resources/tree-oak.glb",
-    "depletedModelPath": "asset://models/resources/tree-stump.glb",
-    "scale": 1.2,
-    "depletedScale": 0.5,
+    "examine": "A mighty oak tree. Its wood is valued by skilled woodcutters.",
+    "modelPath": "asset://models/basic-reg-tree/basic-tree.glb",
+    "depletedModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
+    "scale": 3.0,
+    "depletedScale": 0.3,
     "harvestSkill": "woodcutting",
-    "toolRequired": "axe",
+    "toolRequired": "bronze_hatchet",
     "levelRequired": 15,
     "baseCycleTicks": 4,
     "depleteChance": 0.125,
-    "respawnTicks": 150,
+    "respawnTicks": 14,
     "harvestYield": [
       {
-        "itemId": "oak_logs",
-        "itemName": "Oak Logs",
+        "itemId": "logs",
+        "itemName": "Logs",
         "quantity": 1,
         "chance": 1.0,
-        "xpAmount": 37.5,
-        "stackable": false
+        "xpAmount": 38,
+        "stackable": true
       }
     ]
   },
@@ -55,35 +55,35 @@
     "id": "tree_willow",
     "name": "Willow Tree",
     "type": "tree",
-    "examine": "A willow tree with long drooping branches.",
-    "modelPath": "asset://models/resources/tree-willow.glb",
-    "depletedModelPath": "asset://models/resources/tree-stump.glb",
-    "scale": 1.3,
-    "depletedScale": 0.5,
+    "examine": "A graceful willow tree. Only experienced woodcutters can fell it.",
+    "modelPath": "asset://models/basic-reg-tree/basic-tree.glb",
+    "depletedModelPath": "asset://models/basic-reg-tree-stump/basic-tree-stump.glb",
+    "scale": 3.0,
+    "depletedScale": 0.3,
     "harvestSkill": "woodcutting",
-    "toolRequired": "axe",
+    "toolRequired": "bronze_hatchet",
     "levelRequired": 30,
     "baseCycleTicks": 4,
     "depleteChance": 0.125,
-    "respawnTicks": 200,
+    "respawnTicks": 14,
     "harvestYield": [
       {
-        "itemId": "willow_logs",
-        "itemName": "Willow Logs",
+        "itemId": "logs",
+        "itemName": "Logs",
         "quantity": 1,
         "chance": 1.0,
-        "xpAmount": 67.5,
-        "stackable": false
+        "xpAmount": 68,
+        "stackable": true
       }
     ]
   },
   {
-    "id": "ore_normal",
+    "id": "ore_copper",
     "name": "Copper Rock",
     "type": "ore",
     "examine": "A rock containing copper ore.",
-    "modelPath": "asset://models/resources/rock-copper.glb",
-    "depletedModelPath": "asset://models/resources/rock-depleted.glb",
+    "modelPath": "asset://models/ore-copper/copper.glb",
+    "depletedModelPath": "asset://models/rocks/med_rock_v2.glb",
     "scale": 1.0,
     "depletedScale": 0.8,
     "harvestSkill": "mining",
@@ -104,27 +104,27 @@
     ]
   },
   {
-    "id": "ore_iron",
-    "name": "Iron Rock",
+    "id": "ore_tin",
+    "name": "Tin Rock",
     "type": "ore",
-    "examine": "A rock containing iron ore.",
-    "modelPath": "asset://models/resources/rock-iron.glb",
-    "depletedModelPath": "asset://models/resources/rock-depleted.glb",
+    "examine": "A rock containing tin ore.",
+    "modelPath": "asset://models/ore-tin/tin.glb",
+    "depletedModelPath": "asset://models/rocks/med_rock_v2.glb",
     "scale": 1.0,
     "depletedScale": 0.8,
     "harvestSkill": "mining",
     "toolRequired": "pickaxe",
-    "levelRequired": 15,
+    "levelRequired": 1,
     "baseCycleTicks": 4,
     "depleteChance": 0.125,
-    "respawnTicks": 100,
+    "respawnTicks": 50,
     "harvestYield": [
       {
-        "itemId": "iron_ore",
-        "itemName": "Iron Ore",
+        "itemId": "tin_ore",
+        "itemName": "Tin Ore",
         "quantity": 1,
         "chance": 1.0,
-        "xpAmount": 35,
+        "xpAmount": 17.5,
         "stackable": true
       }
     ]
@@ -194,48 +194,6 @@
         "chance": 0.4,
         "xpAmount": 70,
         "stackable": false
-      }
-    ]
-  },
-  {
-    "id": "herb_patch_normal",
-    "name": "Herb Patch",
-    "type": "herb_patch",
-    "examine": "A patch of herbs growing wild.",
-    "modelPath": "asset://models/resources/herb-patch.glb",
-    "depletedModelPath": "asset://models/resources/herb-patch-depleted.glb",
-    "scale": 0.8,
-    "depletedScale": 0.4,
-    "harvestSkill": "herblore",
-    "toolRequired": null,
-    "levelRequired": 1,
-    "baseCycleTicks": 3,
-    "depleteChance": 0.2,
-    "respawnTicks": 150,
-    "harvestYield": [
-      {
-        "itemId": "guam_leaf",
-        "itemName": "Guam Leaf",
-        "quantity": 1,
-        "chance": 0.5,
-        "xpAmount": 12.5,
-        "stackable": true
-      },
-      {
-        "itemId": "marrentill",
-        "itemName": "Marrentill",
-        "quantity": 1,
-        "chance": 0.3,
-        "xpAmount": 15,
-        "stackable": true
-      },
-      {
-        "itemId": "tarromin",
-        "itemName": "Tarromin",
-        "quantity": 1,
-        "chance": 0.2,
-        "xpAmount": 17.5,
-        "stackable": true
       }
     ]
   }

@@ -77,7 +77,26 @@
       ]
     }
   },
-  "level1Areas": {},
+  "level1Areas": {
+    "wilderness_test": {
+      "id": "wilderness_test",
+      "name": "The Wastes",
+      "description": "A dangerous zone where players can attack each other. Enter at your own risk.",
+      "difficultyLevel": 1,
+      "bounds": {
+        "minX": 55,
+        "maxX": 75,
+        "minZ": -10,
+        "maxZ": 10
+      },
+      "biomeType": "wastes",
+      "safeZone": false,
+      "pvpEnabled": true,
+      "npcs": [],
+      "resources": [],
+      "mobSpawns": []
+    }
+  },
   "level2Areas": {},
   "level3Areas": {}
 }

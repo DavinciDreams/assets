@@ -11,22 +11,24 @@
       "attack": 1,
       "strength": 1,
       "defense": 1,
+      "defenseBonus": 0,
       "ranged": 1,
       "magic": 1
     },
     "combat": {
       "attackable": true,
-      "aggressive": false,
+      "aggressive": true,
       "retaliates": true,
-      "aggroRange": 8,
+      "aggroRange": 4,
       "combatRange": 1,
+      "leashRange": 7,
       "attackSpeedTicks": 4,
-      "respawnTicks": 25
+      "respawnTicks": 35
     },
     "movement": {
       "type": "wander",
       "speed": 3.33,
-      "wanderRadius": 10
+      "wanderRadius": 5
     },
     "drops": {
       "defaultDrop": {
