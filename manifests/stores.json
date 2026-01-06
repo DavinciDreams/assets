@@ -57,14 +57,54 @@
         "category": "tools"
       },
       {
+        "id": "small_fishing_net",
+        "itemId": "small_fishing_net",
+        "name": "Small Fishing Net",
+        "price": 5,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A small net for catching shrimp and anchovies",
+        "category": "tools"
+      },
+      {
         "id": "fishing_rod",
         "itemId": "fishing_rod",
         "name": "Fishing Rod",
         "price": 30,
         "stockQuantity": -1,
         "restockTime": 0,
-        "description": "A simple fishing rod for catching fish",
+        "description": "A fishing rod for bait fishing",
         "category": "tools"
+      },
+      {
+        "id": "fly_fishing_rod",
+        "itemId": "fly_fishing_rod",
+        "name": "Fly Fishing Rod",
+        "price": 100,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A specialized rod for fly fishing",
+        "category": "tools"
+      },
+      {
+        "id": "fishing_bait",
+        "itemId": "fishing_bait",
+        "name": "Fishing Bait",
+        "price": 3,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Bait used with a fishing rod",
+        "category": "supplies"
+      },
+      {
+        "id": "feathers",
+        "itemId": "feathers",
+        "name": "Feathers",
+        "price": 6,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Feathers used for fly fishing",
+        "category": "supplies"
       },
       {
         "id": "tinderbox",
@@ -85,6 +125,76 @@
         "restockTime": 0,
         "description": "Wood logs from trees",
         "category": "resources"
+      },
+      {
+        "id": "raw_shrimp",
+        "itemId": "raw_shrimp",
+        "name": "Raw Shrimp",
+        "price": 5,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A small, raw shrimp",
+        "category": "food"
+      },
+      {
+        "id": "raw_anchovies",
+        "itemId": "raw_anchovies",
+        "name": "Raw Anchovies",
+        "price": 10,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A small, raw anchovy",
+        "category": "food"
+      },
+      {
+        "id": "raw_sardine",
+        "itemId": "raw_sardine",
+        "name": "Raw Sardine",
+        "price": 10,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A small, raw sardine",
+        "category": "food"
+      },
+      {
+        "id": "raw_herring",
+        "itemId": "raw_herring",
+        "name": "Raw Herring",
+        "price": 15,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A raw herring",
+        "category": "food"
+      },
+      {
+        "id": "raw_trout",
+        "itemId": "raw_trout",
+        "name": "Raw Trout",
+        "price": 20,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A raw trout",
+        "category": "food"
+      },
+      {
+        "id": "raw_pike",
+        "itemId": "raw_pike",
+        "name": "Raw Pike",
+        "price": 25,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A large, raw pike",
+        "category": "food"
+      },
+      {
+        "id": "raw_salmon",
+        "itemId": "raw_salmon",
+        "name": "Raw Salmon",
+        "price": 30,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A raw salmon",
+        "category": "food"
       }
     ]
   }

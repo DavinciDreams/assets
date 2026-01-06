@@ -1,0 +1,43 @@
+[
+  {
+    "itemId": "bronze_hatchet",
+    "skill": "woodcutting",
+    "tier": "bronze",
+    "levelRequired": 1,
+    "priority": 1
+  },
+  {
+    "itemId": "bronze_pickaxe",
+    "skill": "mining",
+    "tier": "bronze",
+    "levelRequired": 1,
+    "rollTicks": 8,
+    "priority": 1
+  },
+  {
+    "itemId": "small_fishing_net",
+    "skill": "fishing",
+    "tier": "net",
+    "levelRequired": 1,
+    "priority": 1,
+    "fishingMethod": "net"
+  },
+  {
+    "itemId": "fishing_rod",
+    "skill": "fishing",
+    "tier": "standard",
+    "levelRequired": 5,
+    "priority": 2,
+    "fishingMethod": "bait",
+    "secondaryRequired": "fishing_bait"
+  },
+  {
+    "itemId": "fly_fishing_rod",
+    "skill": "fishing",
+    "tier": "fly",
+    "levelRequired": 20,
+    "priority": 3,
+    "fishingMethod": "lure",
+    "secondaryRequired": "feathers"
+  }
+]

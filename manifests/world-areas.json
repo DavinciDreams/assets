@@ -6,10 +6,10 @@
       "description": "The central hub of Hyperscape, a peaceful sanctuary protected by ancient wards.",
       "difficultyLevel": 0,
       "bounds": {
-        "minX": -20,
-        "maxX": 20,
-        "minZ": -20,
-        "maxZ": 20
+        "minX": -150,
+        "maxX": 150,
+        "minZ": -150,
+        "maxZ": 150
       },
       "biomeType": "starter_town",
       "safeZone": true,
@@ -47,6 +47,15 @@
         {
           "type": "tree",
           "position": {
+            "x": 20,
+            "y": 0,
+            "z": -10
+          },
+          "resourceId": "tree_oak"
+        },
+        {
+          "type": "tree",
+          "position": {
             "x": 28,
             "y": 0,
             "z": -18
@@ -61,6 +70,42 @@
             "z": -28
           },
           "resourceId": "tree_normal"
+        },
+        {
+          "type": "ore",
+          "position": {
+            "x": -18,
+            "y": 0,
+            "z": 10
+          },
+          "resourceId": "ore_copper"
+        },
+        {
+          "type": "ore",
+          "position": {
+            "x": -14,
+            "y": 0,
+            "z": 10
+          },
+          "resourceId": "ore_copper"
+        },
+        {
+          "type": "ore",
+          "position": {
+            "x": -10,
+            "y": 0,
+            "z": 10
+          },
+          "resourceId": "ore_tin"
+        },
+        {
+          "type": "ore",
+          "position": {
+            "x": -6,
+            "y": 0,
+            "z": 10
+          },
+          "resourceId": "ore_tin"
         }
       ],
       "mobSpawns": [
@@ -74,7 +119,12 @@
           "spawnRadius": 0,
           "maxCount": 3
         }
-      ]
+      ],
+      "fishing": {
+        "enabled": true,
+        "spotCount": 6,
+        "spotTypes": ["fishing_spot_net", "fishing_spot_bait", "fishing_spot_fly"]
+      }
     }
   },
   "level1Areas": {
@@ -84,17 +134,22 @@
       "description": "A dangerous zone where players can attack each other. Enter at your own risk.",
       "difficultyLevel": 1,
       "bounds": {
-        "minX": 55,
-        "maxX": 75,
-        "minZ": -10,
-        "maxZ": 10
+        "minX": 200,
+        "maxX": 300,
+        "minZ": -50,
+        "maxZ": 50
       },
       "biomeType": "wastes",
       "safeZone": false,
       "pvpEnabled": true,
       "npcs": [],
       "resources": [],
-      "mobSpawns": []
+      "mobSpawns": [],
+      "fishing": {
+        "enabled": true,
+        "spotCount": 2,
+        "spotTypes": ["fishing_spot_fly"]
+      }
     }
   },
   "level2Areas": {},
