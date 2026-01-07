@@ -201,7 +201,11 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": "asset://models/logs-wood/logs-wood.glb",
-    "iconPath": "asset://models/logs-wood/concept-art.png"
+    "iconPath": "asset://models/logs-wood/concept-art.png",
+    "firemaking": {
+      "levelRequired": 1,
+      "xp": 40
+    }
   },
   {
     "id": "oak_logs",
@@ -216,7 +220,11 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": "asset://models/logs-wood/logs-wood.glb",
-    "iconPath": "asset://models/logs-wood/concept-art.png"
+    "iconPath": "asset://models/logs-wood/concept-art.png",
+    "firemaking": {
+      "levelRequired": 15,
+      "xp": 60
+    }
   },
   {
     "id": "copper_ore",
@@ -261,7 +269,14 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/raw-shrimp.png"
+    "iconPath": "asset://icons/raw-shrimp.png",
+    "cooking": {
+      "cookedItemId": "shrimp",
+      "burntItemId": "burnt_shrimp",
+      "levelRequired": 1,
+      "xp": 30,
+      "stopBurnLevel": { "fire": 34, "range": 33 }
+    }
   },
   {
     "id": "raw_anchovies",
@@ -276,7 +291,14 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/raw-anchovies.png"
+    "iconPath": "asset://icons/raw-anchovies.png",
+    "cooking": {
+      "cookedItemId": "anchovies",
+      "burntItemId": "burnt_anchovies",
+      "levelRequired": 1,
+      "xp": 30,
+      "stopBurnLevel": { "fire": 34, "range": 33 }
+    }
   },
   {
     "id": "raw_trout",
@@ -291,7 +313,14 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/raw-trout.png"
+    "iconPath": "asset://icons/raw-trout.png",
+    "cooking": {
+      "cookedItemId": "trout",
+      "burntItemId": "burnt_trout",
+      "levelRequired": 15,
+      "xp": 70,
+      "stopBurnLevel": { "fire": 49, "range": 46 }
+    }
   },
   {
     "id": "raw_salmon",
@@ -306,7 +335,14 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/raw-salmon.png"
+    "iconPath": "asset://icons/raw-salmon.png",
+    "cooking": {
+      "cookedItemId": "salmon",
+      "burntItemId": "burnt_salmon",
+      "levelRequired": 25,
+      "xp": 90,
+      "stopBurnLevel": { "fire": 58, "range": 55 }
+    }
   },
   {
     "id": "fly_fishing_rod",
@@ -389,7 +425,14 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/raw-sardine.png"
+    "iconPath": "asset://icons/raw-sardine.png",
+    "cooking": {
+      "cookedItemId": "sardine",
+      "burntItemId": "burnt_sardine",
+      "levelRequired": 1,
+      "xp": 40,
+      "stopBurnLevel": { "fire": 38, "range": 35 }
+    }
   },
   {
     "id": "raw_herring",
@@ -404,7 +447,14 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/raw-herring.png"
+    "iconPath": "asset://icons/raw-herring.png",
+    "cooking": {
+      "cookedItemId": "herring",
+      "burntItemId": "burnt_herring",
+      "levelRequired": 5,
+      "xp": 50,
+      "stopBurnLevel": { "fire": 41, "range": 37 }
+    }
   },
   {
     "id": "raw_pike",
@@ -419,7 +469,14 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/raw-pike.png"
+    "iconPath": "asset://icons/raw-pike.png",
+    "cooking": {
+      "cookedItemId": "pike",
+      "burntItemId": "burnt_pike",
+      "levelRequired": 20,
+      "xp": 80,
+      "stopBurnLevel": { "fire": 54, "range": 50 }
+    }
   },
   {
     "id": "tinderbox",
@@ -433,6 +490,568 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/tools.png"
+  },
+  {
+    "id": "raw_lobster",
+    "name": "Raw Lobster",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 100,
+    "weight": 0.5,
+    "description": "A raw lobster",
+    "examine": "I should cook this before eating it.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/raw-lobster.png",
+    "cooking": {
+      "cookedItemId": "lobster",
+      "burntItemId": "burnt_lobster",
+      "levelRequired": 40,
+      "xp": 120,
+      "stopBurnLevel": { "fire": 74, "range": 74 }
+    }
+  },
+  {
+    "id": "raw_swordfish",
+    "name": "Raw Swordfish",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 150,
+    "weight": 0.6,
+    "description": "A raw swordfish",
+    "examine": "I should cook this before eating it.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/raw-swordfish.png",
+    "cooking": {
+      "cookedItemId": "swordfish",
+      "burntItemId": "burnt_swordfish",
+      "levelRequired": 45,
+      "xp": 140,
+      "stopBurnLevel": { "fire": 86, "range": 80 }
+    }
+  },
+  {
+    "id": "raw_monkfish",
+    "name": "Raw Monkfish",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 200,
+    "weight": 0.5,
+    "description": "A raw monkfish",
+    "examine": "I should cook this before eating it.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/raw-monkfish.png",
+    "cooking": {
+      "cookedItemId": "monkfish",
+      "burntItemId": "burnt_monkfish",
+      "levelRequired": 62,
+      "xp": 150,
+      "stopBurnLevel": { "fire": 92, "range": 90 }
+    }
+  },
+  {
+    "id": "raw_shark",
+    "name": "Raw Shark",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 300,
+    "weight": 0.8,
+    "description": "A raw shark",
+    "examine": "I should cook this before eating it.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/raw-shark.png",
+    "cooking": {
+      "cookedItemId": "shark",
+      "burntItemId": "burnt_shark",
+      "levelRequired": 80,
+      "xp": 210,
+      "stopBurnLevel": { "fire": 99, "range": 99 }
+    }
+  },
+  {
+    "id": "shrimp",
+    "name": "Shrimp",
+    "type": "consumable",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 10,
+    "weight": 0.2,
+    "description": "Some nicely cooked shrimp",
+    "examine": "Some nicely cooked shrimp.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/shrimp.png",
+    "healAmount": 3
+  },
+  {
+    "id": "anchovies",
+    "name": "Anchovies",
+    "type": "consumable",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 15,
+    "weight": 0.2,
+    "description": "Some nicely cooked anchovies",
+    "examine": "Some nicely cooked anchovies.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/anchovies.png",
+    "healAmount": 1
+  },
+  {
+    "id": "sardine",
+    "name": "Sardine",
+    "type": "consumable",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 20,
+    "weight": 0.2,
+    "description": "A nicely cooked sardine",
+    "examine": "A nicely cooked sardine.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/sardine.png",
+    "healAmount": 4
+  },
+  {
+    "id": "herring",
+    "name": "Herring",
+    "type": "consumable",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 25,
+    "weight": 0.2,
+    "description": "A nicely cooked herring",
+    "examine": "A nicely cooked herring.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/herring.png",
+    "healAmount": 5
+  },
+  {
+    "id": "trout",
+    "name": "Trout",
+    "type": "consumable",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 30,
+    "weight": 0.3,
+    "description": "A nicely cooked trout",
+    "examine": "A nicely cooked trout.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/trout.png",
+    "healAmount": 7
+  },
+  {
+    "id": "pike",
+    "name": "Pike",
+    "type": "consumable",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 40,
+    "weight": 0.4,
+    "description": "A nicely cooked pike",
+    "examine": "A nicely cooked pike.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/pike.png",
+    "healAmount": 8
+  },
+  {
+    "id": "salmon",
+    "name": "Salmon",
+    "type": "consumable",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 50,
+    "weight": 0.3,
+    "description": "A nicely cooked salmon",
+    "examine": "A nicely cooked salmon.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/salmon.png",
+    "healAmount": 9
+  },
+  {
+    "id": "lobster",
+    "name": "Lobster",
+    "type": "consumable",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 150,
+    "weight": 0.5,
+    "description": "A nicely cooked lobster",
+    "examine": "A nicely cooked lobster.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/lobster.png",
+    "healAmount": 12
+  },
+  {
+    "id": "swordfish",
+    "name": "Swordfish",
+    "type": "consumable",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 200,
+    "weight": 0.6,
+    "description": "A nicely cooked swordfish",
+    "examine": "A nicely cooked swordfish.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/swordfish.png",
+    "healAmount": 14
+  },
+  {
+    "id": "monkfish",
+    "name": "Monkfish",
+    "type": "consumable",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 300,
+    "weight": 0.5,
+    "description": "A nicely cooked monkfish",
+    "examine": "A nicely cooked monkfish.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/monkfish.png",
+    "healAmount": 16
+  },
+  {
+    "id": "shark",
+    "name": "Shark",
+    "type": "consumable",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 500,
+    "weight": 0.8,
+    "description": "A nicely cooked shark",
+    "examine": "A nicely cooked shark.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/shark.png",
+    "healAmount": 20
+  },
+  {
+    "id": "burnt_shrimp",
+    "name": "Burnt Shrimp",
+    "type": "junk",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 0,
+    "weight": 0.2,
+    "description": "Oops! It's ruined",
+    "examine": "Oops! It's ruined.",
+    "tradeable": false,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/burnt-fish.png"
+  },
+  {
+    "id": "burnt_anchovies",
+    "name": "Burnt Anchovies",
+    "type": "junk",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 0,
+    "weight": 0.2,
+    "description": "Oops! It's ruined",
+    "examine": "Oops! It's ruined.",
+    "tradeable": false,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/burnt-fish.png"
+  },
+  {
+    "id": "burnt_sardine",
+    "name": "Burnt Sardine",
+    "type": "junk",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 0,
+    "weight": 0.2,
+    "description": "Oops! It's ruined",
+    "examine": "Oops! It's ruined.",
+    "tradeable": false,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/burnt-fish.png"
+  },
+  {
+    "id": "burnt_herring",
+    "name": "Burnt Herring",
+    "type": "junk",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 0,
+    "weight": 0.2,
+    "description": "Oops! It's ruined",
+    "examine": "Oops! It's ruined.",
+    "tradeable": false,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/burnt-fish.png"
+  },
+  {
+    "id": "burnt_trout",
+    "name": "Burnt Trout",
+    "type": "junk",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 0,
+    "weight": 0.3,
+    "description": "Oops! It's ruined",
+    "examine": "Oops! It's ruined.",
+    "tradeable": false,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/burnt-fish.png"
+  },
+  {
+    "id": "burnt_pike",
+    "name": "Burnt Pike",
+    "type": "junk",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 0,
+    "weight": 0.4,
+    "description": "Oops! It's ruined",
+    "examine": "Oops! It's ruined.",
+    "tradeable": false,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/burnt-fish.png"
+  },
+  {
+    "id": "burnt_salmon",
+    "name": "Burnt Salmon",
+    "type": "junk",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 0,
+    "weight": 0.3,
+    "description": "Oops! It's ruined",
+    "examine": "Oops! It's ruined.",
+    "tradeable": false,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/burnt-fish.png"
+  },
+  {
+    "id": "burnt_lobster",
+    "name": "Burnt Lobster",
+    "type": "junk",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 0,
+    "weight": 0.5,
+    "description": "Oops! It's ruined",
+    "examine": "Oops! It's ruined.",
+    "tradeable": false,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/burnt-fish.png"
+  },
+  {
+    "id": "burnt_swordfish",
+    "name": "Burnt Swordfish",
+    "type": "junk",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 0,
+    "weight": 0.6,
+    "description": "Oops! It's ruined",
+    "examine": "Oops! It's ruined.",
+    "tradeable": false,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/burnt-fish.png"
+  },
+  {
+    "id": "burnt_monkfish",
+    "name": "Burnt Monkfish",
+    "type": "junk",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 0,
+    "weight": 0.5,
+    "description": "Oops! It's ruined",
+    "examine": "Oops! It's ruined.",
+    "tradeable": false,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/burnt-fish.png"
+  },
+  {
+    "id": "burnt_shark",
+    "name": "Burnt Shark",
+    "type": "junk",
+    "stackable": false,
+    "maxStackSize": 1,
+    "value": 0,
+    "weight": 0.8,
+    "description": "Oops! It's ruined",
+    "examine": "Oops! It's ruined.",
+    "tradeable": false,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/burnt-fish.png"
+  },
+  {
+    "id": "willow_logs",
+    "name": "Willow Logs",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 15,
+    "weight": 0.5,
+    "description": "Logs from a willow tree",
+    "examine": "Logs cut from a willow tree.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/willow-logs.png",
+    "firemaking": {
+      "levelRequired": 30,
+      "xp": 90
+    }
+  },
+  {
+    "id": "teak_logs",
+    "name": "Teak Logs",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 20,
+    "weight": 0.5,
+    "description": "Logs from a teak tree",
+    "examine": "Logs cut from a teak tree.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/teak-logs.png",
+    "firemaking": {
+      "levelRequired": 35,
+      "xp": 105
+    }
+  },
+  {
+    "id": "maple_logs",
+    "name": "Maple Logs",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 25,
+    "weight": 0.5,
+    "description": "Logs from a maple tree",
+    "examine": "Logs cut from a maple tree.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/maple-logs.png",
+    "firemaking": {
+      "levelRequired": 45,
+      "xp": 135
+    }
+  },
+  {
+    "id": "mahogany_logs",
+    "name": "Mahogany Logs",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 40,
+    "weight": 0.5,
+    "description": "Logs from a mahogany tree",
+    "examine": "Logs cut from a mahogany tree.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "iconPath": "asset://icons/mahogany-logs.png",
+    "firemaking": {
+      "levelRequired": 50,
+      "xp": 157.5
+    }
+  },
+  {
+    "id": "yew_logs",
+    "name": "Yew Logs",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 50,
+    "weight": 0.5,
+    "description": "Logs from a yew tree",
+    "examine": "Logs cut from a yew tree.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/yew-logs.png",
+    "firemaking": {
+      "levelRequired": 60,
+      "xp": 202.5
+    }
+  },
+  {
+    "id": "magic_logs",
+    "name": "Magic Logs",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 150,
+    "weight": 0.5,
+    "description": "Logs from a magic tree",
+    "examine": "Logs cut from a magic tree.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/magic-logs.png",
+    "firemaking": {
+      "levelRequired": 75,
+      "xp": 303.8
+    }
+  },
+  {
+    "id": "redwood_logs",
+    "name": "Redwood Logs",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 200,
+    "weight": 0.5,
+    "description": "Logs from a redwood tree",
+    "examine": "Logs cut from a redwood tree.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/redwood-logs.png",
+    "firemaking": {
+      "levelRequired": 90,
+      "xp": 350
+    }
   },
   {
     "id": "coins",
