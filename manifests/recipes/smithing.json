@@ -6,7 +6,7 @@
       "output": "bronze_sword",
       "bar": "bronze_bar",
       "barsRequired": 1,
-      "level": 5,
+      "level": 4,
       "xp": 12.5,
       "ticks": 4,
       "category": "sword"
