@@ -39,7 +39,7 @@
       "layers": [
         {
           "category": "tree",
-          "density": 8,
+          "density": 5,
           "assets": ["tree1"],
           "minSpacing": 12,
           "clustering": true,
@@ -96,6 +96,18 @@
           "noiseScale": 0.03,
           "noiseThreshold": 0.6,
           "avoidWater": true
+        },
+        {
+          "category": "mushroom",
+          "density": 12,
+          "assets": ["mushroom"],
+          "minSpacing": 6,
+          "clustering": true,
+          "clusterSize": 4,
+          "noiseScale": 0.04,
+          "noiseThreshold": 0.45,
+          "avoidWater": true,
+          "minHeight": 8
         }
       ]
     }
@@ -166,6 +178,18 @@
           "noiseScale": 0.025,
           "noiseThreshold": 0.5,
           "avoidWater": true
+        },
+        {
+          "category": "mushroom",
+          "density": 25,
+          "assets": ["mushroom"],
+          "minSpacing": 4,
+          "clustering": true,
+          "clusterSize": 6,
+          "noiseScale": 0.03,
+          "noiseThreshold": 0.35,
+          "avoidWater": true,
+          "minHeight": 10
         }
       ]
     }
@@ -252,6 +276,18 @@
           "noiseScale": 0.02,
           "noiseThreshold": 0.65,
           "avoidWater": true
+        },
+        {
+          "category": "mushroom",
+          "density": 18,
+          "assets": ["mushroom"],
+          "minSpacing": 5,
+          "clustering": true,
+          "clusterSize": 5,
+          "noiseScale": 0.04,
+          "noiseThreshold": 0.4,
+          "avoidWater": true,
+          "minHeight": 8
         }
       ]
     }
@@ -338,6 +374,18 @@
           "noiseThreshold": 0.5,
           "avoidWater": true,
           "maxHeight": 35
+        },
+        {
+          "category": "mushroom",
+          "density": 6,
+          "assets": ["mushroom"],
+          "minSpacing": 12,
+          "clustering": true,
+          "clusterSize": 3,
+          "noiseScale": 0.03,
+          "noiseThreshold": 0.6,
+          "avoidWater": true,
+          "maxHeight": 40
         }
       ]
     }
@@ -397,6 +445,16 @@
           "clustering": false,
           "noiseScale": 0.02,
           "noiseThreshold": 0.75,
+          "avoidWater": true
+        },
+        {
+          "category": "mushroom",
+          "density": 2,
+          "assets": ["mushroom"],
+          "minSpacing": 25,
+          "clustering": false,
+          "noiseScale": 0.02,
+          "noiseThreshold": 0.8,
           "avoidWater": true
         }
       ]
@@ -477,6 +535,16 @@
           "noiseScale": 0.03,
           "noiseThreshold": 0.7,
           "avoidWater": true
+        },
+        {
+          "category": "mushroom",
+          "density": 3,
+          "assets": ["mushroom"],
+          "minSpacing": 20,
+          "clustering": false,
+          "noiseScale": 0.025,
+          "noiseThreshold": 0.75,
+          "avoidWater": true
         }
       ]
     }
@@ -525,6 +593,17 @@
           "clustering": false,
           "noiseScale": 0.03,
           "noiseThreshold": 0.55,
+          "avoidWater": false
+        },
+        {
+          "category": "mushroom",
+          "density": 10,
+          "assets": ["mushroom"],
+          "minSpacing": 8,
+          "clustering": true,
+          "clusterSize": 4,
+          "noiseScale": 0.04,
+          "noiseThreshold": 0.5,
           "avoidWater": false
         }
       ]
@@ -592,6 +671,17 @@
           "clustering": false,
           "noiseScale": 0.03,
           "noiseThreshold": 0.55,
+          "avoidWater": false
+        },
+        {
+          "category": "mushroom",
+          "density": 30,
+          "assets": ["mushroom"],
+          "minSpacing": 3,
+          "clustering": true,
+          "clusterSize": 8,
+          "noiseScale": 0.025,
+          "noiseThreshold": 0.25,
           "avoidWater": false
         }
       ]
