@@ -4,7 +4,7 @@
     "name": "Central General Store",
     "buyback": true,
     "buybackRate": 0.5,
-    "description": "General supplies and tools for adventurers starting their journey.",
+    "description": "General supplies and equipment for adventurers. We stock everything!",
     "items": [
       {
         "id": "bronze_sword",
@@ -14,6 +14,16 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "A basic sword made of bronze",
+        "category": "weapons"
+      },
+      {
+        "id": "iron_sword",
+        "itemId": "iron_sword",
+        "name": "Iron Sword",
+        "price": 200,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A sword made of iron",
         "category": "weapons"
       },
       {
@@ -37,6 +47,26 @@
         "category": "weapons"
       },
       {
+        "id": "adamant_sword",
+        "itemId": "adamant_sword",
+        "name": "Adamant Sword",
+        "price": 4000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A powerful sword made of adamantite",
+        "category": "weapons"
+      },
+      {
+        "id": "rune_sword",
+        "itemId": "rune_sword",
+        "name": "Rune Sword",
+        "price": 12000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A formidable sword made of runite",
+        "category": "weapons"
+      },
+      {
         "id": "bronze_hatchet",
         "itemId": "bronze_hatchet",
         "name": "Bronze Hatchet",
@@ -44,6 +74,56 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "A basic bronze hatchet for woodcutting",
+        "category": "tools"
+      },
+      {
+        "id": "iron_hatchet",
+        "itemId": "iron_hatchet",
+        "name": "Iron Hatchet",
+        "price": 100,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A hatchet made of iron",
+        "category": "tools"
+      },
+      {
+        "id": "steel_hatchet",
+        "itemId": "steel_hatchet",
+        "name": "Steel Hatchet",
+        "price": 300,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A hatchet made of steel",
+        "category": "tools"
+      },
+      {
+        "id": "mithril_hatchet",
+        "itemId": "mithril_hatchet",
+        "name": "Mithril Hatchet",
+        "price": 800,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A hatchet made of mithril",
+        "category": "tools"
+      },
+      {
+        "id": "adamant_hatchet",
+        "itemId": "adamant_hatchet",
+        "name": "Adamant Hatchet",
+        "price": 2000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A hatchet made of adamantite",
+        "category": "tools"
+      },
+      {
+        "id": "rune_hatchet",
+        "itemId": "rune_hatchet",
+        "name": "Rune Hatchet",
+        "price": 8000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A hatchet made of runite",
         "category": "tools"
       },
       {
@@ -57,13 +137,73 @@
         "category": "tools"
       },
       {
-        "id": "small_fishing_net",
-        "itemId": "small_fishing_net",
-        "name": "Small Fishing Net",
-        "price": 5,
+        "id": "iron_pickaxe",
+        "itemId": "iron_pickaxe",
+        "name": "Iron Pickaxe",
+        "price": 100,
         "stockQuantity": -1,
         "restockTime": 0,
-        "description": "A small net for catching shrimp and anchovies",
+        "description": "A pickaxe made of iron",
+        "category": "tools"
+      },
+      {
+        "id": "steel_pickaxe",
+        "itemId": "steel_pickaxe",
+        "name": "Steel Pickaxe",
+        "price": 400,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pickaxe made of steel",
+        "category": "tools"
+      },
+      {
+        "id": "mithril_pickaxe",
+        "itemId": "mithril_pickaxe",
+        "name": "Mithril Pickaxe",
+        "price": 1000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pickaxe made of mithril",
+        "category": "tools"
+      },
+      {
+        "id": "adamant_pickaxe",
+        "itemId": "adamant_pickaxe",
+        "name": "Adamant Pickaxe",
+        "price": 3200,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pickaxe made of adamantite",
+        "category": "tools"
+      },
+      {
+        "id": "rune_pickaxe",
+        "itemId": "rune_pickaxe",
+        "name": "Rune Pickaxe",
+        "price": 12800,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pickaxe made of runite",
+        "category": "tools"
+      },
+      {
+        "id": "hammer",
+        "itemId": "hammer",
+        "name": "Hammer",
+        "price": 13,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A hammer used for smithing at anvils",
+        "category": "tools"
+      },
+      {
+        "id": "tinderbox",
+        "itemId": "tinderbox",
+        "name": "Tinderbox",
+        "price": 10,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Used to light fires",
         "category": "tools"
       },
       {
@@ -87,6 +227,16 @@
         "category": "tools"
       },
       {
+        "id": "small_fishing_net",
+        "itemId": "small_fishing_net",
+        "name": "Small Fishing Net",
+        "price": 5,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A small net for catching shrimp and anchovies",
+        "category": "tools"
+      },
+      {
         "id": "fishing_bait",
         "itemId": "fishing_bait",
         "name": "Fishing Bait",
@@ -107,14 +257,134 @@
         "category": "supplies"
       },
       {
-        "id": "tinderbox",
-        "itemId": "tinderbox",
-        "name": "Tinderbox",
-        "price": 10,
+        "id": "copper_ore",
+        "itemId": "copper_ore",
+        "name": "Copper Ore",
+        "price": 5,
         "stockQuantity": -1,
         "restockTime": 0,
-        "description": "Used to light fires",
-        "category": "tools"
+        "description": "Ore containing copper",
+        "category": "ores"
+      },
+      {
+        "id": "tin_ore",
+        "itemId": "tin_ore",
+        "name": "Tin Ore",
+        "price": 5,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Ore containing tin",
+        "category": "ores"
+      },
+      {
+        "id": "iron_ore",
+        "itemId": "iron_ore",
+        "name": "Iron Ore",
+        "price": 17,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Ore containing iron",
+        "category": "ores"
+      },
+      {
+        "id": "coal",
+        "itemId": "coal",
+        "name": "Coal",
+        "price": 45,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Coal used in smelting",
+        "category": "ores"
+      },
+      {
+        "id": "mithril_ore",
+        "itemId": "mithril_ore",
+        "name": "Mithril Ore",
+        "price": 162,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Ore containing mithril",
+        "category": "ores"
+      },
+      {
+        "id": "adamantite_ore",
+        "itemId": "adamantite_ore",
+        "name": "Adamantite Ore",
+        "price": 400,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Ore containing adamantite",
+        "category": "ores"
+      },
+      {
+        "id": "runite_ore",
+        "itemId": "runite_ore",
+        "name": "Runite Ore",
+        "price": 2400,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Ore containing runite",
+        "category": "ores"
+      },
+      {
+        "id": "bronze_bar",
+        "itemId": "bronze_bar",
+        "name": "Bronze Bar",
+        "price": 12,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A bar of bronze metal",
+        "category": "bars"
+      },
+      {
+        "id": "iron_bar",
+        "itemId": "iron_bar",
+        "name": "Iron Bar",
+        "price": 56,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A bar of iron metal",
+        "category": "bars"
+      },
+      {
+        "id": "steel_bar",
+        "itemId": "steel_bar",
+        "name": "Steel Bar",
+        "price": 150,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A bar of steel metal",
+        "category": "bars"
+      },
+      {
+        "id": "mithril_bar",
+        "itemId": "mithril_bar",
+        "name": "Mithril Bar",
+        "price": 500,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A bar of mithril metal",
+        "category": "bars"
+      },
+      {
+        "id": "adamant_bar",
+        "itemId": "adamant_bar",
+        "name": "Adamant Bar",
+        "price": 1600,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A bar of adamantite metal",
+        "category": "bars"
+      },
+      {
+        "id": "rune_bar",
+        "itemId": "rune_bar",
+        "name": "Rune Bar",
+        "price": 6400,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A bar of runite metal",
+        "category": "bars"
       },
       {
         "id": "logs",
@@ -124,7 +394,77 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "Wood logs from trees",
-        "category": "resources"
+        "category": "logs"
+      },
+      {
+        "id": "oak_logs",
+        "itemId": "oak_logs",
+        "name": "Oak Logs",
+        "price": 15,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Logs from an oak tree",
+        "category": "logs"
+      },
+      {
+        "id": "willow_logs",
+        "itemId": "willow_logs",
+        "name": "Willow Logs",
+        "price": 15,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Logs from a willow tree",
+        "category": "logs"
+      },
+      {
+        "id": "teak_logs",
+        "itemId": "teak_logs",
+        "name": "Teak Logs",
+        "price": 20,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Logs from a teak tree",
+        "category": "logs"
+      },
+      {
+        "id": "maple_logs",
+        "itemId": "maple_logs",
+        "name": "Maple Logs",
+        "price": 25,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Logs from a maple tree",
+        "category": "logs"
+      },
+      {
+        "id": "mahogany_logs",
+        "itemId": "mahogany_logs",
+        "name": "Mahogany Logs",
+        "price": 40,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Logs from a mahogany tree",
+        "category": "logs"
+      },
+      {
+        "id": "yew_logs",
+        "itemId": "yew_logs",
+        "name": "Yew Logs",
+        "price": 50,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Logs from a yew tree",
+        "category": "logs"
+      },
+      {
+        "id": "magic_logs",
+        "itemId": "magic_logs",
+        "name": "Magic Logs",
+        "price": 150,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Logs from a magic tree",
+        "category": "logs"
       },
       {
         "id": "raw_shrimp",
@@ -134,7 +474,7 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "A small, raw shrimp",
-        "category": "food"
+        "category": "raw_food"
       },
       {
         "id": "raw_anchovies",
@@ -144,7 +484,7 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "A small, raw anchovy",
-        "category": "food"
+        "category": "raw_food"
       },
       {
         "id": "raw_sardine",
@@ -154,7 +494,7 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "A small, raw sardine",
-        "category": "food"
+        "category": "raw_food"
       },
       {
         "id": "raw_herring",
@@ -164,7 +504,7 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "A raw herring",
-        "category": "food"
+        "category": "raw_food"
       },
       {
         "id": "raw_trout",
@@ -174,7 +514,7 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "A raw trout",
-        "category": "food"
+        "category": "raw_food"
       },
       {
         "id": "raw_pike",
@@ -184,7 +524,7 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "A large, raw pike",
-        "category": "food"
+        "category": "raw_food"
       },
       {
         "id": "raw_salmon",
@@ -194,7 +534,157 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "A raw salmon",
-        "category": "food"
+        "category": "raw_food"
+      },
+      {
+        "id": "raw_lobster",
+        "itemId": "raw_lobster",
+        "name": "Raw Lobster",
+        "price": 100,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A raw lobster",
+        "category": "raw_food"
+      },
+      {
+        "id": "raw_swordfish",
+        "itemId": "raw_swordfish",
+        "name": "Raw Swordfish",
+        "price": 150,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A raw swordfish",
+        "category": "raw_food"
+      },
+      {
+        "id": "raw_monkfish",
+        "itemId": "raw_monkfish",
+        "name": "Raw Monkfish",
+        "price": 200,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A raw monkfish",
+        "category": "raw_food"
+      },
+      {
+        "id": "raw_shark",
+        "itemId": "raw_shark",
+        "name": "Raw Shark",
+        "price": 300,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A raw shark",
+        "category": "raw_food"
+      },
+      {
+        "id": "shrimp",
+        "itemId": "shrimp",
+        "name": "Shrimp",
+        "price": 10,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Cooked shrimp, heals 3 HP",
+        "category": "cooked_food"
+      },
+      {
+        "id": "anchovies",
+        "itemId": "anchovies",
+        "name": "Anchovies",
+        "price": 15,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Cooked anchovies, heals 1 HP",
+        "category": "cooked_food"
+      },
+      {
+        "id": "sardine",
+        "itemId": "sardine",
+        "name": "Sardine",
+        "price": 20,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Cooked sardine, heals 4 HP",
+        "category": "cooked_food"
+      },
+      {
+        "id": "herring",
+        "itemId": "herring",
+        "name": "Herring",
+        "price": 25,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Cooked herring, heals 5 HP",
+        "category": "cooked_food"
+      },
+      {
+        "id": "trout",
+        "itemId": "trout",
+        "name": "Trout",
+        "price": 35,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Cooked trout, heals 7 HP",
+        "category": "cooked_food"
+      },
+      {
+        "id": "pike",
+        "itemId": "pike",
+        "name": "Pike",
+        "price": 45,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Cooked pike, heals 8 HP",
+        "category": "cooked_food"
+      },
+      {
+        "id": "salmon",
+        "itemId": "salmon",
+        "name": "Salmon",
+        "price": 50,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Cooked salmon, heals 9 HP",
+        "category": "cooked_food"
+      },
+      {
+        "id": "lobster",
+        "itemId": "lobster",
+        "name": "Lobster",
+        "price": 150,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Cooked lobster, heals 12 HP",
+        "category": "cooked_food"
+      },
+      {
+        "id": "swordfish",
+        "itemId": "swordfish",
+        "name": "Swordfish",
+        "price": 200,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Cooked swordfish, heals 14 HP",
+        "category": "cooked_food"
+      },
+      {
+        "id": "monkfish",
+        "itemId": "monkfish",
+        "name": "Monkfish",
+        "price": 300,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Cooked monkfish, heals 16 HP",
+        "category": "cooked_food"
+      },
+      {
+        "id": "shark",
+        "itemId": "shark",
+        "name": "Shark",
+        "price": 500,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Cooked shark, heals 20 HP",
+        "category": "cooked_food"
       }
     ]
   }

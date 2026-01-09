@@ -47,29 +47,65 @@
         {
           "type": "tree",
           "position": {
-            "x": 20,
+            "x": 22,
             "y": 0,
-            "z": -10
+            "z": -12
           },
           "resourceId": "tree_oak"
         },
         {
           "type": "tree",
           "position": {
-            "x": 28,
+            "x": 29,
             "y": 0,
-            "z": -18
+            "z": -14
           },
-          "resourceId": "tree_normal"
+          "resourceId": "tree_willow"
         },
         {
           "type": "tree",
           "position": {
             "x": 36,
             "y": 0,
-            "z": -28
+            "z": -16
           },
-          "resourceId": "tree_normal"
+          "resourceId": "tree_teak"
+        },
+        {
+          "type": "tree",
+          "position": {
+            "x": 43,
+            "y": 0,
+            "z": -18
+          },
+          "resourceId": "tree_maple"
+        },
+        {
+          "type": "tree",
+          "position": {
+            "x": 50,
+            "y": 0,
+            "z": -20
+          },
+          "resourceId": "tree_mahogany"
+        },
+        {
+          "type": "tree",
+          "position": {
+            "x": 57,
+            "y": 0,
+            "z": -22
+          },
+          "resourceId": "tree_yew"
+        },
+        {
+          "type": "tree",
+          "position": {
+            "x": 64,
+            "y": 0,
+            "z": -24
+          },
+          "resourceId": "tree_magic"
         },
         {
           "type": "ore",
@@ -106,6 +142,51 @@
             "z": 10
           },
           "resourceId": "ore_tin"
+        },
+        {
+          "type": "ore",
+          "position": {
+            "x": -2,
+            "y": 0,
+            "z": 10
+          },
+          "resourceId": "ore_iron"
+        },
+        {
+          "type": "ore",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "z": 10
+          },
+          "resourceId": "ore_iron"
+        },
+        {
+          "type": "ore",
+          "position": {
+            "x": 6,
+            "y": 0,
+            "z": 10
+          },
+          "resourceId": "ore_coal"
+        },
+        {
+          "type": "ore",
+          "position": {
+            "x": 10,
+            "y": 0,
+            "z": 10
+          },
+          "resourceId": "ore_coal"
+        },
+        {
+          "type": "ore",
+          "position": {
+            "x": 14,
+            "y": 0,
+            "z": 10
+          },
+          "resourceId": "ore_mithril"
         }
       ],
       "mobSpawns": [
