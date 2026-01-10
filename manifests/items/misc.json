@@ -11,7 +11,8 @@
     "tradeable": false,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/burnt-fish.png"
+    "iconPath": "asset://icons/burnt-fish.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
     "id": "burnt_anchovies",
@@ -25,7 +26,8 @@
     "tradeable": false,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/burnt-fish.png"
+    "iconPath": "asset://icons/burnt-fish.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
     "id": "burnt_sardine",
@@ -39,7 +41,8 @@
     "tradeable": false,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/burnt-fish.png"
+    "iconPath": "asset://icons/burnt-fish.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
     "id": "burnt_herring",
@@ -53,7 +56,8 @@
     "tradeable": false,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/burnt-fish.png"
+    "iconPath": "asset://icons/burnt-fish.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
     "id": "burnt_trout",
@@ -67,7 +71,8 @@
     "tradeable": false,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/burnt-fish.png"
+    "iconPath": "asset://icons/burnt-fish.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
     "id": "burnt_pike",
@@ -81,7 +86,8 @@
     "tradeable": false,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/burnt-fish.png"
+    "iconPath": "asset://icons/burnt-fish.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
     "id": "burnt_salmon",
@@ -95,7 +101,8 @@
     "tradeable": false,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/burnt-fish.png"
+    "iconPath": "asset://icons/burnt-fish.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
     "id": "burnt_lobster",
@@ -109,7 +116,8 @@
     "tradeable": false,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/burnt-fish.png"
+    "iconPath": "asset://icons/burnt-fish.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
     "id": "burnt_swordfish",
@@ -123,7 +131,8 @@
     "tradeable": false,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/burnt-fish.png"
+    "iconPath": "asset://icons/burnt-fish.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
     "id": "burnt_monkfish",
@@ -137,7 +146,8 @@
     "tradeable": false,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/burnt-fish.png"
+    "iconPath": "asset://icons/burnt-fish.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
     "id": "burnt_shark",
@@ -151,7 +161,8 @@
     "tradeable": false,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/burnt-fish.png"
+    "iconPath": "asset://icons/burnt-fish.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
     "id": "ashes",
@@ -166,7 +177,8 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/ashes.png"
+    "iconPath": "asset://icons/ashes.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
     "id": "coins",
@@ -181,6 +193,7 @@
     "tradeable": true,
     "rarity": "always",
     "modelPath": null,
-    "iconPath": "asset://icons/coins.png"
+    "iconPath": "asset://icons/coins.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   }
 ]

@@ -23,7 +23,8 @@
       "strength": 3,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
   {
     "id": "iron_sword",
@@ -49,7 +50,8 @@
       "strength": 7,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
   {
     "id": "steel_sword",
@@ -75,7 +77,8 @@
       "strength": 10,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
   {
     "id": "mithril_sword",
@@ -101,7 +104,8 @@
       "strength": 22,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
   {
     "id": "adamant_sword",
@@ -127,7 +131,8 @@
       "strength": 28,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
   {
     "id": "rune_sword",
@@ -153,6 +158,7 @@
       "strength": 39,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   }
 ]

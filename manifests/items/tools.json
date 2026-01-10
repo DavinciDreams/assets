@@ -27,7 +27,8 @@
       "strength": 3,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
   {
     "id": "iron_hatchet",
@@ -57,7 +58,8 @@
       "strength": 5,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
   {
     "id": "steel_hatchet",
@@ -87,7 +89,8 @@
       "strength": 8,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
   {
     "id": "mithril_hatchet",
@@ -117,7 +120,8 @@
       "strength": 12,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
   {
     "id": "adamant_hatchet",
@@ -147,7 +151,8 @@
       "strength": 16,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
   {
     "id": "rune_hatchet",
@@ -177,7 +182,8 @@
       "strength": 21,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
   {
     "id": "bronze_pickaxe",
@@ -208,7 +214,8 @@
       "strength": 2,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
   {
     "id": "iron_pickaxe",
@@ -239,7 +246,8 @@
       "strength": 4,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
   {
     "id": "steel_pickaxe",
@@ -270,7 +278,8 @@
       "strength": 6,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
   {
     "id": "mithril_pickaxe",
@@ -301,7 +310,8 @@
       "strength": 9,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
   {
     "id": "adamant_pickaxe",
@@ -332,7 +342,8 @@
       "strength": 12,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
   {
     "id": "rune_pickaxe",
@@ -363,7 +374,8 @@
       "strength": 15,
       "defense": 0,
       "ranged": 0
-    }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   },
   {
     "id": "hammer",
@@ -376,7 +388,8 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/hammer.png"
+    "iconPath": "asset://icons/hammer.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
     "id": "tinderbox",
@@ -389,7 +402,8 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/tools.png"
+    "iconPath": "asset://icons/tools.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
     "id": "fishing_rod",
@@ -406,7 +420,8 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": "asset://models/fishing-rod-standard/fishing-rod-standard.glb",
-    "iconPath": "asset://models/fishing-rod-standard/concept-art.png"
+    "iconPath": "asset://models/fishing-rod-standard/concept-art.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
     "id": "fly_fishing_rod",
@@ -419,7 +434,8 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": "asset://models/fishing-rod-standard/fishing-rod-standard.glb",
-    "iconPath": "asset://models/fishing-rod-standard/concept-art.png"
+    "iconPath": "asset://models/fishing-rod-standard/concept-art.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
     "id": "small_fishing_net",
@@ -432,6 +448,7 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
-    "iconPath": "asset://icons/small-fishing-net.png"
+    "iconPath": "asset://icons/small-fishing-net.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   }
 ]

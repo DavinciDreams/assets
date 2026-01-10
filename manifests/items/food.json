@@ -12,7 +12,8 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/shrimp.png",
-    "healAmount": 3
+    "healAmount": 3,
+    "inventoryActions": ["Eat", "Use", "Drop", "Examine"]
   },
   {
     "id": "anchovies",
@@ -27,7 +28,8 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/anchovies.png",
-    "healAmount": 1
+    "healAmount": 1,
+    "inventoryActions": ["Eat", "Use", "Drop", "Examine"]
   },
   {
     "id": "sardine",
@@ -42,7 +44,8 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/sardine.png",
-    "healAmount": 4
+    "healAmount": 4,
+    "inventoryActions": ["Eat", "Use", "Drop", "Examine"]
   },
   {
     "id": "herring",
@@ -57,7 +60,8 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/herring.png",
-    "healAmount": 5
+    "healAmount": 5,
+    "inventoryActions": ["Eat", "Use", "Drop", "Examine"]
   },
   {
     "id": "trout",
@@ -72,7 +76,8 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/trout.png",
-    "healAmount": 7
+    "healAmount": 7,
+    "inventoryActions": ["Eat", "Use", "Drop", "Examine"]
   },
   {
     "id": "pike",
@@ -87,7 +92,8 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/pike.png",
-    "healAmount": 8
+    "healAmount": 8,
+    "inventoryActions": ["Eat", "Use", "Drop", "Examine"]
   },
   {
     "id": "salmon",
@@ -102,7 +108,8 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/salmon.png",
-    "healAmount": 9
+    "healAmount": 9,
+    "inventoryActions": ["Eat", "Use", "Drop", "Examine"]
   },
   {
     "id": "lobster",
@@ -117,7 +124,8 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/lobster.png",
-    "healAmount": 12
+    "healAmount": 12,
+    "inventoryActions": ["Eat", "Use", "Drop", "Examine"]
   },
   {
     "id": "swordfish",
@@ -132,7 +140,8 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/swordfish.png",
-    "healAmount": 14
+    "healAmount": 14,
+    "inventoryActions": ["Eat", "Use", "Drop", "Examine"]
   },
   {
     "id": "monkfish",
@@ -147,7 +156,8 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/monkfish.png",
-    "healAmount": 16
+    "healAmount": 16,
+    "inventoryActions": ["Eat", "Use", "Drop", "Examine"]
   },
   {
     "id": "shark",
@@ -162,6 +172,7 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/shark.png",
-    "healAmount": 20
+    "healAmount": 20,
+    "inventoryActions": ["Eat", "Use", "Drop", "Examine"]
   }
 ]
