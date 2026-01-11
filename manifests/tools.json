@@ -109,6 +109,8 @@
     "tier": "dragon",
     "levelRequired": 61,
     "rollTicks": 3,
+    "bonusTickChance": 0.167,
+    "bonusRollTicks": 2,
     "priority": 2
   },
   {
@@ -117,6 +119,8 @@
     "tier": "crystal",
     "levelRequired": 71,
     "rollTicks": 3,
+    "bonusTickChance": 0.25,
+    "bonusRollTicks": 2,
     "priority": 1
   },
   {

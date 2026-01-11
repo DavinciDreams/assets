@@ -110,7 +110,7 @@
         {
           "type": "ore",
           "position": {
-            "x": -18,
+            "x": -12,
             "y": 0,
             "z": 10
           },
@@ -119,16 +119,7 @@
         {
           "type": "ore",
           "position": {
-            "x": -14,
-            "y": 0,
-            "z": 10
-          },
-          "resourceId": "ore_copper"
-        },
-        {
-          "type": "ore",
-          "position": {
-            "x": -10,
+            "x": -8,
             "y": 0,
             "z": 10
           },
@@ -137,16 +128,7 @@
         {
           "type": "ore",
           "position": {
-            "x": -6,
-            "y": 0,
-            "z": 10
-          },
-          "resourceId": "ore_tin"
-        },
-        {
-          "type": "ore",
-          "position": {
-            "x": -2,
+            "x": -4,
             "y": 0,
             "z": 10
           },
@@ -155,16 +137,7 @@
         {
           "type": "ore",
           "position": {
-            "x": 2,
-            "y": 0,
-            "z": 10
-          },
-          "resourceId": "ore_iron"
-        },
-        {
-          "type": "ore",
-          "position": {
-            "x": 6,
+            "x": 0,
             "y": 0,
             "z": 10
           },
@@ -173,20 +146,29 @@
         {
           "type": "ore",
           "position": {
-            "x": 10,
-            "y": 0,
-            "z": 10
-          },
-          "resourceId": "ore_coal"
-        },
-        {
-          "type": "ore",
-          "position": {
-            "x": 14,
+            "x": 4,
             "y": 0,
             "z": 10
           },
           "resourceId": "ore_mithril"
+        },
+        {
+          "type": "ore",
+          "position": {
+            "x": 8,
+            "y": 0,
+            "z": 10
+          },
+          "resourceId": "ore_adamant"
+        },
+        {
+          "type": "ore",
+          "position": {
+            "x": 12,
+            "y": 0,
+            "z": 10
+          },
+          "resourceId": "ore_runite"
         }
       ],
       "mobSpawns": [
