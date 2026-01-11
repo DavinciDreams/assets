@@ -112,6 +112,22 @@
     "inventoryActions": ["Eat", "Use", "Drop", "Examine"]
   },
   {
+    "id": "tuna",
+    "name": "Tuna",
+    "type": "consumable",
+    "stackable": false,
+    "value": 100,
+    "weight": 0.4,
+    "description": "A nicely cooked tuna",
+    "examine": "A nicely cooked tuna.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/tuna.png",
+    "healAmount": 10,
+    "inventoryActions": ["Eat", "Use", "Drop", "Examine"]
+  },
+  {
     "id": "lobster",
     "name": "Lobster",
     "type": "consumable",

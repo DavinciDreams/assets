@@ -450,5 +450,41 @@
     "modelPath": null,
     "iconPath": "asset://icons/small-fishing-net.png",
     "inventoryActions": ["Use", "Drop", "Examine"]
+  },
+  {
+    "id": "harpoon",
+    "name": "Harpoon",
+    "type": "tool",
+    "tool": {
+      "skill": "fishing",
+      "priority": 3
+    },
+    "value": 45,
+    "weight": 1.5,
+    "description": "A harpoon for catching tuna and swordfish",
+    "examine": "A sharp harpoon for spearing large fish.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/harpoon.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
+  },
+  {
+    "id": "lobster_pot",
+    "name": "Lobster Pot",
+    "type": "tool",
+    "tool": {
+      "skill": "fishing",
+      "priority": 3
+    },
+    "value": 20,
+    "weight": 2,
+    "description": "A pot for catching lobsters",
+    "examine": "A cage used to trap lobsters.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/lobster-pot.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   }
 ]

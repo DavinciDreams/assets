@@ -320,6 +320,22 @@
     "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
+    "id": "raw_tuna",
+    "name": "Raw Tuna",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 50,
+    "weight": 0.4,
+    "description": "A raw tuna",
+    "examine": "I should cook this before eating it.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/raw-tuna.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
+  },
+  {
     "id": "fishing_bait",
     "name": "Fishing Bait",
     "type": "resource",

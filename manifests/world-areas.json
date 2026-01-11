@@ -185,8 +185,8 @@
       ],
       "fishing": {
         "enabled": true,
-        "spotCount": 6,
-        "spotTypes": ["fishing_spot_net", "fishing_spot_bait", "fishing_spot_fly"]
+        "spotCount": 8,
+        "spotTypes": ["fishing_spot_net", "fishing_spot_bait", "fishing_spot_fly", "fishing_spot_cage", "fishing_spot_harpoon"]
       }
     }
   },

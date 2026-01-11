@@ -134,6 +134,133 @@
           "stackable": false
         }
       ]
+    },
+    {
+      "id": "fishing_spot_cage",
+      "name": "Cage Fishing Spot",
+      "type": "fishing_spot",
+      "examine": "A spot to catch lobsters with a cage.",
+      "modelPath": null,
+      "depletedModelPath": null,
+      "scale": 1.0,
+      "depletedScale": 1.0,
+      "harvestSkill": "fishing",
+      "toolRequired": "lobster_pot",
+      "levelRequired": 40,
+      "baseCycleTicks": 4,
+      "depleteChance": 0.0,
+      "respawnTicks": 200,
+      "harvestYield": [
+        {
+          "itemId": "raw_lobster",
+          "itemName": "Raw Lobster",
+          "quantity": 1,
+          "chance": 1.0,
+          "xpAmount": 90,
+          "levelRequired": 40,
+          "catchLow": 16,
+          "catchHigh": 95,
+          "stackable": false
+        }
+      ]
+    },
+    {
+      "id": "fishing_spot_harpoon",
+      "name": "Harpoon Fishing Spot",
+      "type": "fishing_spot",
+      "examine": "A spot to catch tuna and swordfish with a harpoon.",
+      "modelPath": null,
+      "depletedModelPath": null,
+      "scale": 1.0,
+      "depletedScale": 1.0,
+      "harvestSkill": "fishing",
+      "toolRequired": "harpoon",
+      "levelRequired": 35,
+      "baseCycleTicks": 4,
+      "depleteChance": 0.0,
+      "respawnTicks": 200,
+      "harvestYield": [
+        {
+          "itemId": "raw_swordfish",
+          "itemName": "Raw Swordfish",
+          "quantity": 1,
+          "chance": 1.0,
+          "xpAmount": 100,
+          "levelRequired": 50,
+          "catchLow": 16,
+          "catchHigh": 90,
+          "stackable": false
+        },
+        {
+          "itemId": "raw_tuna",
+          "itemName": "Raw Tuna",
+          "quantity": 1,
+          "chance": 1.0,
+          "xpAmount": 80,
+          "levelRequired": 35,
+          "catchLow": 24,
+          "catchHigh": 105,
+          "stackable": false
+        }
+      ]
+    },
+    {
+      "id": "fishing_spot_monkfish",
+      "name": "Net Fishing Spot",
+      "type": "fishing_spot",
+      "examine": "A fishing colony net spot for catching monkfish.",
+      "modelPath": null,
+      "depletedModelPath": null,
+      "scale": 1.0,
+      "depletedScale": 1.0,
+      "harvestSkill": "fishing",
+      "toolRequired": "small_fishing_net",
+      "levelRequired": 62,
+      "baseCycleTicks": 4,
+      "depleteChance": 0.0,
+      "respawnTicks": 200,
+      "harvestYield": [
+        {
+          "itemId": "raw_monkfish",
+          "itemName": "Raw Monkfish",
+          "quantity": 1,
+          "chance": 1.0,
+          "xpAmount": 120,
+          "levelRequired": 62,
+          "catchLow": 16,
+          "catchHigh": 100,
+          "stackable": false
+        }
+      ]
+    },
+    {
+      "id": "fishing_spot_shark",
+      "name": "Harpoon Fishing Spot",
+      "type": "fishing_spot",
+      "examine": "A deep water spot for harpooning sharks.",
+      "modelPath": null,
+      "depletedModelPath": null,
+      "scale": 1.0,
+      "depletedScale": 1.0,
+      "harvestSkill": "fishing",
+      "toolRequired": "harpoon",
+      "levelRequired": 76,
+      "baseCycleTicks": 4,
+      "depleteChance": 0.0,
+      "respawnTicks": 200,
+      "harvestYield": [
+        {
+          "itemId": "raw_shark",
+          "itemName": "Raw Shark",
+          "quantity": 1,
+          "chance": 1.0,
+          "xpAmount": 110,
+          "levelRequired": 76,
+          "catchLow": 8,
+          "catchHigh": 75,
+          "stackable": false
+        }
+      ]
     }
   ]
 }

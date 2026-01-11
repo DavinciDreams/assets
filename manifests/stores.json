@@ -237,6 +237,26 @@
         "category": "tools"
       },
       {
+        "id": "harpoon",
+        "itemId": "harpoon",
+        "name": "Harpoon",
+        "price": 45,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A harpoon for catching tuna and swordfish",
+        "category": "tools"
+      },
+      {
+        "id": "lobster_pot",
+        "itemId": "lobster_pot",
+        "name": "Lobster Pot",
+        "price": 20,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A cage for catching lobsters",
+        "category": "tools"
+      },
+      {
         "id": "fishing_bait",
         "itemId": "fishing_bait",
         "name": "Fishing Bait",
@@ -537,6 +557,16 @@
         "category": "raw_food"
       },
       {
+        "id": "raw_tuna",
+        "itemId": "raw_tuna",
+        "name": "Raw Tuna",
+        "price": 50,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A raw tuna",
+        "category": "raw_food"
+      },
+      {
         "id": "raw_lobster",
         "itemId": "raw_lobster",
         "name": "Raw Lobster",
@@ -644,6 +674,16 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "Cooked salmon, heals 9 HP",
+        "category": "cooked_food"
+      },
+      {
+        "id": "tuna",
+        "itemId": "tuna",
+        "name": "Tuna",
+        "price": 100,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Cooked tuna, heals 10 HP",
         "category": "cooked_food"
       },
       {

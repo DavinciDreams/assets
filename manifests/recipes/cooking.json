@@ -87,6 +87,18 @@
       }
     },
     {
+      "raw": "raw_tuna",
+      "cooked": "tuna",
+      "burnt": "burnt_tuna",
+      "level": 30,
+      "xp": 100,
+      "ticks": 4,
+      "stopBurnLevel": {
+        "fire": 63,
+        "range": 59
+      }
+    },
+    {
       "raw": "raw_lobster",
       "cooked": "lobster",
       "burnt": "burnt_lobster",
