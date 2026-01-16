@@ -31,6 +31,14 @@
       "modelScale": 1.0,
       "modelYOffset": 0,
       "examine": "A bank booth for storing items."
+    },
+    {
+      "type": "altar",
+      "name": "Altar",
+      "model": null,
+      "modelScale": 1.0,
+      "modelYOffset": 0,
+      "examine": "An altar to the gods. Pray here to restore prayer points."
     }
   ]
 }
