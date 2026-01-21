@@ -17,7 +17,7 @@
     },
     "combat": {
       "attackable": true,
-      "aggressive": true,
+      "aggressive": false,
       "retaliates": true,
       "aggroRange": 4,
       "combatRange": 1,
