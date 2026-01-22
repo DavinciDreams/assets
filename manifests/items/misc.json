@@ -195,5 +195,25 @@
     "modelPath": null,
     "iconPath": "asset://icons/coins.png",
     "inventoryActions": ["Use", "Drop", "Examine"]
+  },
+  {
+    "id": "xp_lamp_100",
+    "name": "XP Lamp (100)",
+    "type": "consumable",
+    "stackable": false,
+    "value": 0,
+    "weight": 0.5,
+    "description": "A magical lamp that grants 100 experience to a skill of your choice",
+    "examine": "Rub the lamp to receive 100 XP in any skill.",
+    "tradeable": false,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/xp-lamp.png",
+    "inventoryActions": ["Rub", "Drop", "Examine"],
+    "useEffect": {
+      "type": "xp_lamp",
+      "xpAmount": 100,
+      "consumeOnUse": true
+    }
   }
 ]
