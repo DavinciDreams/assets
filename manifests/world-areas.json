@@ -32,6 +32,15 @@
             "y": 0,
             "z": -5
           }
+        },
+        {
+          "id": "captain_rowan",
+          "type": "quest_giver",
+          "position": {
+            "x": 10,
+            "y": 0,
+            "z": 0
+          }
         }
       ],
       "resources": [
