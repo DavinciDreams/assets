@@ -21,7 +21,7 @@
       "name": "Cooking Range",
       "model": "asset://models/cooking-range/cooking-range.glb",
       "modelScale": 1.0,
-      "modelYOffset": 0.5,
+      "modelYOffset": 0.3,
       "examine": "A range for cooking food. Reduces burn chance."
     },
     {
@@ -29,7 +29,7 @@
       "name": "Bank Chest",
       "model": "asset://models/bank-chest/bank-chest.glb",
       "modelScale": 0.5,
-      "modelYOffset": 0.75,
+      "modelYOffset": 0.10,
       "examine": "A bank chest for storing items."
     },
     {
