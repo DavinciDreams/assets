@@ -223,7 +223,35 @@
         "enabled": true,
         "spotCount": 8,
         "spotTypes": ["fishing_spot_net", "fishing_spot_bait", "fishing_spot_fly", "fishing_spot_cage", "fishing_spot_harpoon"]
-      }
+      },
+      "stations": [
+        {
+          "id": "bank_spawn",
+          "type": "bank",
+          "position": { "x": 0, "y": 0, "z": -25 },
+          "bankId": "spawn_bank"
+        },
+        {
+          "id": "furnace_spawn",
+          "type": "furnace",
+          "position": { "x": -15, "y": 0, "z": 15 }
+        },
+        {
+          "id": "anvil_spawn",
+          "type": "anvil",
+          "position": { "x": -12, "y": 0, "z": 15 }
+        },
+        {
+          "id": "altar_spawn",
+          "type": "altar",
+          "position": { "x": 3, "y": 0, "z": -25 }
+        },
+        {
+          "id": "range_spawn",
+          "type": "range",
+          "position": { "x": -17, "y": 0, "z": -13 }
+        }
+      ]
     }
   },
   "level1Areas": {

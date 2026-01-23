@@ -19,25 +19,25 @@
     {
       "type": "range",
       "name": "Cooking Range",
-      "model": null,
+      "model": "asset://models/cooking-range/cooking-range.glb",
       "modelScale": 1.0,
-      "modelYOffset": 0,
+      "modelYOffset": 0.5,
       "examine": "A range for cooking food. Reduces burn chance."
     },
     {
       "type": "bank",
-      "name": "Bank Booth",
-      "model": null,
-      "modelScale": 1.0,
-      "modelYOffset": 0,
-      "examine": "A bank booth for storing items."
+      "name": "Bank Chest",
+      "model": "asset://models/bank-chest/bank-chest.glb",
+      "modelScale": 0.5,
+      "modelYOffset": -0.75,
+      "examine": "A bank chest for storing items."
     },
     {
       "type": "altar",
       "name": "Altar",
-      "model": null,
+      "model": "asset://models/prayer-alter/prayer-alter.glb",
       "modelScale": 1.0,
-      "modelYOffset": 0,
+      "modelYOffset": 0.25,
       "examine": "An altar to the gods. Pray here to restore prayer points."
     }
   ]
