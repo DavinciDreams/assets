@@ -41,6 +41,33 @@
             "y": 0,
             "z": 0
           }
+        },
+        {
+          "id": "forester_wilma",
+          "type": "quest_giver",
+          "position": {
+            "x": 20,
+            "y": 0,
+            "z": -8
+          }
+        },
+        {
+          "id": "fisherman_pete",
+          "type": "quest_giver",
+          "position": {
+            "x": -15,
+            "y": 0,
+            "z": -15
+          }
+        },
+        {
+          "id": "torvin",
+          "type": "quest_giver",
+          "position": {
+            "x": -10,
+            "y": 0,
+            "z": 15
+          }
         }
       ],
       "resources": [
