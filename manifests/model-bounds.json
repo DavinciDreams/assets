@@ -1,4 +1,5 @@
 {
+  "generatedAt": "2026-01-22T00:16:26.843Z",
   "generatedAt": "2026-01-22T01:51:29.317Z",
   "tileSize": 1,
   "models": [
@@ -329,6 +330,31 @@
     },
     {
       "id": "pickaxe-mithril",
+      "assetPath": "asset://models/pickaxe-mithril/pickaxe-mithril-aligned.glb",
+      "bounds": {
+        "min": {
+          "x": -0.7968260049819946,
+          "y": -1.001062035560608,
+          "z": -0.11521700024604797
+        },
+        "max": {
+          "x": 0.7863540053367615,
+          "y": 1.0001300573349,
+          "z": 0.11183899641036987
+        }
+      },
+      "dimensions": {
+        "x": 1.583180010318756,
+        "y": 2.001192092895508,
+        "z": 0.22705599665641785
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "id": "pickaxe-mithril",
       "assetPath": "asset://models/pickaxe-mithril/pickaxe-mithril.glb",
       "bounds": {
         "min": {
@@ -475,6 +501,31 @@
       "footprint": {
         "width": 1,
         "depth": 2
+      }
+    },
+    {
+      "id": "pickaxe-steel",
+      "assetPath": "asset://models/pickaxe-steel/pickaxe-steel-aligned.glb",
+      "bounds": {
+        "min": {
+          "x": -0.7968260049819946,
+          "y": -1.001062035560608,
+          "z": -0.11521700024604797
+        },
+        "max": {
+          "x": 0.7863540053367615,
+          "y": 1.0001300573349,
+          "z": 0.11183899641036987
+        }
+      },
+      "dimensions": {
+        "x": 1.583180010318756,
+        "y": 2.001192092895508,
+        "z": 0.22705599665641785
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 1
       }
     },
     {
@@ -703,6 +754,31 @@
       }
     },
     {
+      "id": "pickaxe-bronze",
+      "assetPath": "asset://models/pickaxe-bronze/pickaxe-bronze-aligned.glb",
+      "bounds": {
+        "min": {
+          "x": -0.7968260049819946,
+          "y": -1.001062035560608,
+          "z": -0.11521700024604797
+        },
+        "max": {
+          "x": 0.7863540053367615,
+          "y": 1.0001300573349,
+          "z": 0.11183899641036987
+        }
+      },
+      "dimensions": {
+        "x": 1.583180010318756,
+        "y": 2.001192092895508,
+        "z": 0.22705599665641785
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
       "id": "chainbody-dragon",
       "assetPath": "asset://models/chainbody-dragon/chainbody-dragon.glb",
       "bounds": {
@@ -896,6 +972,56 @@
         "x": 1.9189030528068542,
         "y": 1.9303969740867615,
         "z": 0.48635800182819366
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "id": "bait-fishing-rod",
+      "assetPath": "asset://models/bait-fishing-rod/bait-fishing-rod.glb",
+      "bounds": {
+        "min": {
+          "x": -1.004196047782898,
+          "y": -0.9951509833335876,
+          "z": -0.10381200164556503
+        },
+        "max": {
+          "x": 1.0059659481048584,
+          "y": 0.9835739731788635,
+          "z": 0.10127300024032593
+        }
+      },
+      "dimensions": {
+        "x": 2.0101619958877563,
+        "y": 1.9787249565124512,
+        "z": 0.20508500188589096
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "id": "bait-fishing-rod",
+      "assetPath": "asset://models/bait-fishing-rod/bait-fishing-rod-aligned.glb",
+      "bounds": {
+        "min": {
+          "x": -1.004196047782898,
+          "y": -0.9951509833335876,
+          "z": -0.10381200164556503
+        },
+        "max": {
+          "x": 1.0059659481048584,
+          "y": 0.9835739731788635,
+          "z": 0.10127300024032593
+        }
+      },
+      "dimensions": {
+        "x": 2.0101619958877563,
+        "y": 1.9787249565124512,
+        "z": 0.20508500188589096
       },
       "footprint": {
         "width": 2,
@@ -1250,6 +1376,31 @@
       "footprint": {
         "width": 4,
         "depth": 4
+      }
+    },
+    {
+      "id": "fishing-rod-base",
+      "assetPath": "asset://models/fishing-rod-base/fishing-rod-base-aligned.glb",
+      "bounds": {
+        "min": {
+          "x": -0.08576600253582001,
+          "y": -1.0010720491409302,
+          "z": -0.2900179922580719
+        },
+        "max": {
+          "x": 0.08392000198364258,
+          "y": 0.9996809959411621,
+          "z": 0.2879190146923065
+        }
+      },
+      "dimensions": {
+        "x": 0.16968600451946259,
+        "y": 2.0007530450820923,
+        "z": 0.5779370069503784
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
       }
     },
     {

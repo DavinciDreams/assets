@@ -20,7 +20,7 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": "asset://models/hatchet-bronze/hatchet-bronze.glb",
-    "equippedModelPath": "asset://models/hatchet-bronze/hatchet-bronze.glb",
+    "equippedModelPath": "asset://models/hatchet-bronze/hatchet-bronze-aligned.glb",
     "iconPath": "asset://models/hatchet-bronze/concept-art.png",
     "bonuses": {
       "attack": 4,
@@ -207,7 +207,7 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": "asset://models/pickaxe-bronze/pickaxe-bronze.glb",
-    "equippedModelPath": "asset://models/pickaxe-bronze/pickaxe-bronze.glb",
+    "equippedModelPath": "asset://models/pickaxe-bronze/pickaxe-bronze-aligned.glb",
     "iconPath": "asset://models/pickaxe-bronze/concept-art.png",
     "bonuses": {
       "attack": 4,
@@ -270,8 +270,8 @@
     "examine": "A pickaxe made of steel",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/pickaxe-steel/pickaxe-steel.glb",
+    "equippedModelPath": "asset://models/pickaxe-steel/pickaxe-steel-aligned.glb",
     "iconPath": "asset://icons/pickaxe-steel.png",
     "bonuses": {
       "attack": 9,
@@ -302,8 +302,8 @@
     "examine": "A pickaxe made of mithril",
     "tradeable": true,
     "rarity": "uncommon",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/pickaxe-mithril/pickaxe-mithril.glb",
+    "equippedModelPath": "asset://models/pickaxe-mithril/pickaxe-mithril-aligned.glb",
     "iconPath": "asset://icons/pickaxe-mithril.png",
     "bonuses": {
       "attack": 13,
@@ -419,8 +419,9 @@
     "examine": "A basic fishing rod for catching fish",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/fishing-rod-standard/fishing-rod-standard.glb",
-    "iconPath": "asset://models/fishing-rod-standard/concept-art.png",
+    "modelPath": "asset://models/bait-fishing-rod/bait-fishing-rod.glb",
+    "equippedModelPath": "asset://models/bait-fishing-rod/bait-fishing-rod-aligned.glb",
+    "iconPath": "asset://models/bait-fishing-rod/concept-art.png",
     "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {
