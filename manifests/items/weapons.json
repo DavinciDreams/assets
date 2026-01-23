@@ -16,7 +16,7 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": "asset://models/sword-bronze/sword-bronze.glb",
-    "equippedModelPath": "asset://models/sword-steel/sword-steel-aligned.glb",
+    "equippedModelPath": "asset://models/sword-bronze/sword-bronze-aligned.glb",
     "iconPath": "asset://models/sword-bronze/concept-art.png",
     "bonuses": {
       "attack": 4,
@@ -97,7 +97,7 @@
     "tradeable": true,
     "rarity": "rare",
     "modelPath": "asset://models/sword-mithril/sword-mithril.glb",
-    "equippedModelPath": "asset://models/sword-steel/sword-steel-aligned.glb",
+    "equippedModelPath": "asset://models/sword-mithril/sword-mithril-aligned.glb",
     "iconPath": "asset://models/sword-mithril/concept-art.png",
     "bonuses": {
       "attack": 25,
