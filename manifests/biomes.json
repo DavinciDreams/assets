@@ -48,7 +48,7 @@
           "noiseThreshold": 0.4,
           "avoidWater": true,
           "avoidSteepSlopes": true,
-          "minHeight": 12
+          "minHeight": 6
         },
         {
           "category": "bush",
@@ -60,7 +60,7 @@
           "noiseScale": 0.05,
           "noiseThreshold": 0.3,
           "avoidWater": true,
-          "minHeight": 12
+          "minHeight": 6
         },
         {
           "category": "grass",
@@ -72,7 +72,7 @@
           "noiseThreshold": 0.05,
           "avoidWater": true,
           "avoidSteepSlopes": true,
-          "minHeight": 10
+          "minHeight": 6
         },
         {
           "category": "flower",
@@ -84,7 +84,7 @@
           "noiseScale": 0.08,
           "noiseThreshold": 0.5,
           "avoidWater": true,
-          "minHeight": 8
+          "minHeight": 6
         },
         {
           "category": "rock",
@@ -92,7 +92,7 @@
           "assets": ["pathway_rock_1", "pathway_rock_2", "round_rock_1", "round_rock_2"],
           "minSpacing": 15,
           "clustering": false,
-          "minHeight": 8,
+          "minHeight": 6,
           "noiseScale": 0.03,
           "noiseThreshold": 0.6,
           "avoidWater": true
@@ -107,7 +107,7 @@
           "noiseScale": 0.04,
           "noiseThreshold": 0.45,
           "avoidWater": true,
-          "minHeight": 8
+          "minHeight": 6
         }
       ]
     }
@@ -167,7 +167,7 @@
           "noiseThreshold": 0.2,
           "avoidWater": true,
           "avoidSteepSlopes": true,
-          "minHeight": 12
+          "minHeight": 6
         },
         {
           "category": "rock",
@@ -189,7 +189,7 @@
           "noiseScale": 0.03,
           "noiseThreshold": 0.35,
           "avoidWater": true,
-          "minHeight": 10
+          "minHeight": 6
         }
       ]
     }
@@ -243,7 +243,7 @@
           "noiseThreshold": 0.35,
           "avoidWater": true,
           "avoidSteepSlopes": true,
-          "minHeight": 12
+          "minHeight": 6
         },
         {
           "category": "bush",
@@ -287,7 +287,7 @@
           "noiseScale": 0.04,
           "noiseThreshold": 0.4,
           "avoidWater": true,
-          "minHeight": 8
+          "minHeight": 6
         }
       ]
     }
