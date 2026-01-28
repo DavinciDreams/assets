@@ -244,7 +244,7 @@
         {
           "id": "duel_arena_bank",
           "type": "bank",
-          "position": { "x": 115, "y": 0, "z": 65 },
+          "position": { "x": 135, "y": 0, "z": 65 },
           "bankId": "duel_arena_bank"
         }
       ],
@@ -271,7 +271,81 @@
           "arenaSize": { "width": 20, "length": 24 },
           "arenaGap": 4
         }
-      }
+      },
+      "flatZones": [
+        {
+          "id": "duel_arena_1",
+          "centerX": 70,
+          "centerZ": 92,
+          "width": 22,
+          "depth": 26,
+          "heightOffset": 0.4,
+          "blendRadius": 0.5
+        },
+        {
+          "id": "duel_arena_2",
+          "centerX": 94,
+          "centerZ": 92,
+          "width": 22,
+          "depth": 26,
+          "heightOffset": 0.4,
+          "blendRadius": 0.5
+        },
+        {
+          "id": "duel_arena_3",
+          "centerX": 70,
+          "centerZ": 120,
+          "width": 22,
+          "depth": 26,
+          "heightOffset": 0.4,
+          "blendRadius": 0.5
+        },
+        {
+          "id": "duel_arena_4",
+          "centerX": 94,
+          "centerZ": 120,
+          "width": 22,
+          "depth": 26,
+          "heightOffset": 0.4,
+          "blendRadius": 0.5
+        },
+        {
+          "id": "duel_arena_5",
+          "centerX": 70,
+          "centerZ": 148,
+          "width": 22,
+          "depth": 26,
+          "heightOffset": 0.4,
+          "blendRadius": 0.5
+        },
+        {
+          "id": "duel_arena_6",
+          "centerX": 94,
+          "centerZ": 148,
+          "width": 22,
+          "depth": 26,
+          "heightOffset": 0.4,
+          "blendRadius": 0.5
+        },
+        {
+          "id": "duel_arena_lobby",
+          "centerX": 105,
+          "centerZ": 62,
+          "width": 40,
+          "depth": 25,
+          "heightOffset": 0.4,
+          "blendRadius": 1.0
+        },
+        {
+          "id": "duel_arena_hospital",
+          "centerX": 65,
+          "centerZ": 62,
+          "width": 30,
+          "depth": 25,
+          "heightOffset": 0.4,
+          "blendRadius": 1.0
+        }
+      ]
     }
   }
 }
