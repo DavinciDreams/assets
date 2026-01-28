@@ -160,5 +160,289 @@
       "ranged": 0
     },
     "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+
+  {
+    "_comment": "=== RANGED WEAPONS (Standard Bows) ===",
+    "id": "shortbow",
+    "name": "Shortbow",
+    "type": "weapon",
+    "tier": "normal",
+    "value": 50,
+    "weight": 0.9,
+    "equipSlot": "2h",
+    "weaponType": "BOW",
+    "attackType": "RANGED",
+    "attackSpeed": 4,
+    "attackRange": 7,
+    "description": "A simple short bow",
+    "examine": "Short but effective.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/shortbow.png",
+    "bonuses": {
+      "attackRanged": 8
+    },
+    "requirements": {
+      "level": 1,
+      "skills": { "ranged": 1 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "oak_shortbow",
+    "name": "Oak shortbow",
+    "type": "weapon",
+    "tier": "oak",
+    "value": 100,
+    "weight": 0.9,
+    "equipSlot": "2h",
+    "weaponType": "BOW",
+    "attackType": "RANGED",
+    "attackSpeed": 4,
+    "attackRange": 7,
+    "description": "A shortbow made of oak",
+    "examine": "A shortbow made of oak.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/oak-shortbow.png",
+    "bonuses": {
+      "attackRanged": 14
+    },
+    "requirements": {
+      "level": 5,
+      "skills": { "ranged": 5 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "willow_shortbow",
+    "name": "Willow shortbow",
+    "type": "weapon",
+    "tier": "willow",
+    "value": 200,
+    "weight": 0.9,
+    "equipSlot": "2h",
+    "weaponType": "BOW",
+    "attackType": "RANGED",
+    "attackSpeed": 4,
+    "attackRange": 7,
+    "description": "A shortbow made of willow",
+    "examine": "A shortbow made of willow.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/willow-shortbow.png",
+    "bonuses": {
+      "attackRanged": 20
+    },
+    "requirements": {
+      "level": 20,
+      "skills": { "ranged": 20 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "maple_shortbow",
+    "name": "Maple shortbow",
+    "type": "weapon",
+    "tier": "maple",
+    "value": 400,
+    "weight": 0.9,
+    "equipSlot": "2h",
+    "weaponType": "BOW",
+    "attackType": "RANGED",
+    "attackSpeed": 4,
+    "attackRange": 7,
+    "description": "A shortbow made of maple",
+    "examine": "A shortbow made of maple.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/maple-shortbow.png",
+    "bonuses": {
+      "attackRanged": 29
+    },
+    "requirements": {
+      "level": 30,
+      "skills": { "ranged": 30 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+
+  {
+    "_comment": "=== MAGIC WEAPONS (Staves) ===",
+    "id": "staff",
+    "name": "Staff",
+    "type": "weapon",
+    "tier": "normal",
+    "value": 15,
+    "weight": 2,
+    "equipSlot": "weapon",
+    "weaponType": "STAFF",
+    "attackType": "MAGIC",
+    "attackSpeed": 5,
+    "attackRange": 10,
+    "description": "A basic wooden staff",
+    "examine": "It's a stick.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/staff.png",
+    "bonuses": {
+      "attackMagic": 4
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "magic_staff",
+    "name": "Magic staff",
+    "type": "weapon",
+    "tier": "magic",
+    "value": 200,
+    "weight": 2,
+    "equipSlot": "weapon",
+    "weaponType": "STAFF",
+    "attackType": "MAGIC",
+    "attackSpeed": 5,
+    "attackRange": 10,
+    "description": "A staff imbued with magical energy",
+    "examine": "A staff for the magically inclined.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/magic-staff.png",
+    "bonuses": {
+      "attackMagic": 10
+    },
+    "requirements": {
+      "level": 1,
+      "skills": { "magic": 1 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "staff_of_air",
+    "name": "Staff of air",
+    "type": "weapon",
+    "tier": "elemental",
+    "value": 1500,
+    "weight": 2,
+    "equipSlot": "weapon",
+    "weaponType": "STAFF",
+    "attackType": "MAGIC",
+    "attackSpeed": 5,
+    "attackRange": 10,
+    "description": "A staff charged with the power of air",
+    "examine": "A magical staff providing infinite air runes.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/staff-of-air.png",
+    "bonuses": {
+      "attackMagic": 10
+    },
+    "providesInfiniteRunes": ["air_rune"],
+    "requirements": {
+      "level": 1,
+      "skills": { "magic": 1 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "staff_of_water",
+    "name": "Staff of water",
+    "type": "weapon",
+    "tier": "elemental",
+    "value": 1500,
+    "weight": 2,
+    "equipSlot": "weapon",
+    "weaponType": "STAFF",
+    "attackType": "MAGIC",
+    "attackSpeed": 5,
+    "attackRange": 10,
+    "description": "A staff charged with the power of water",
+    "examine": "A magical staff providing infinite water runes.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/staff-of-water.png",
+    "bonuses": {
+      "attackMagic": 10
+    },
+    "providesInfiniteRunes": ["water_rune"],
+    "requirements": {
+      "level": 1,
+      "skills": { "magic": 1 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "staff_of_earth",
+    "name": "Staff of earth",
+    "type": "weapon",
+    "tier": "elemental",
+    "value": 1500,
+    "weight": 2,
+    "equipSlot": "weapon",
+    "weaponType": "STAFF",
+    "attackType": "MAGIC",
+    "attackSpeed": 5,
+    "attackRange": 10,
+    "description": "A staff charged with the power of earth",
+    "examine": "A magical staff providing infinite earth runes.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/staff-of-earth.png",
+    "bonuses": {
+      "attackMagic": 10
+    },
+    "providesInfiniteRunes": ["earth_rune"],
+    "requirements": {
+      "level": 1,
+      "skills": { "magic": 1 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "staff_of_fire",
+    "name": "Staff of fire",
+    "type": "weapon",
+    "tier": "elemental",
+    "value": 1500,
+    "weight": 2,
+    "equipSlot": "weapon",
+    "weaponType": "STAFF",
+    "attackType": "MAGIC",
+    "attackSpeed": 5,
+    "attackRange": 10,
+    "description": "A staff charged with the power of fire",
+    "examine": "A magical staff providing infinite fire runes.",
+    "tradeable": true,
+    "rarity": "uncommon",
+    "modelPath": null,
+    "equippedModelPath": null,
+    "iconPath": "asset://icons/staff-of-fire.png",
+    "bonuses": {
+      "attackMagic": 10
+    },
+    "providesInfiniteRunes": ["fire_rune"],
+    "requirements": {
+      "level": 1,
+      "skills": { "magic": 1 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   }
 ]
