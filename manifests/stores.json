@@ -877,6 +877,26 @@
         "category": "runes"
       },
       {
+        "id": "rune_essence",
+        "itemId": "rune_essence",
+        "name": "Rune Essence",
+        "price": 4,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Used to craft basic runes at runecrafting altars",
+        "category": "runes"
+      },
+      {
+        "id": "pure_essence",
+        "itemId": "pure_essence",
+        "name": "Pure Essence",
+        "price": 12,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Used to craft any type of rune at runecrafting altars",
+        "category": "runes"
+      },
+      {
         "id": "staff_of_air",
         "itemId": "staff_of_air",
         "name": "Staff of Air",

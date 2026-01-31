@@ -1043,5 +1043,38 @@
     "modelPath": null,
     "iconPath": "asset://icons/rune-arrowtips.png",
     "inventoryActions": ["Use", "Drop", "Examine"]
+  },
+  {
+    "_comment": "=== RUNECRAFTING RESOURCES ===",
+    "id": "rune_essence",
+    "name": "Rune essence",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 4,
+    "weight": 0,
+    "description": "An essence for crafting basic runes",
+    "examine": "A blank rune stone. Can be crafted into basic runes at a runecrafting altar.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/rune-essence.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
+  },
+  {
+    "id": "pure_essence",
+    "name": "Pure essence",
+    "type": "resource",
+    "stackable": false,
+    "maxStackSize": 100,
+    "value": 6,
+    "weight": 0,
+    "description": "A pure essence for crafting any rune",
+    "examine": "A concentrated rune stone. Can be crafted into any rune at a runecrafting altar.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/pure-essence.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   }
 ]

@@ -173,6 +173,42 @@
           "id": "range_spawn",
           "type": "range",
           "position": { "x": -26, "y": 0, "z": -4 }
+        },
+        {
+          "id": "air_altar_spawn",
+          "type": "runecrafting_altar",
+          "runeType": "air",
+          "position": { "x": 35, "y": 0, "z": -53 }
+        },
+        {
+          "id": "mind_altar_spawn",
+          "type": "runecrafting_altar",
+          "runeType": "mind",
+          "position": { "x": 42, "y": 0, "z": -49 }
+        },
+        {
+          "id": "water_altar_spawn",
+          "type": "runecrafting_altar",
+          "runeType": "water",
+          "position": { "x": 42, "y": 0, "z": -41 }
+        },
+        {
+          "id": "earth_altar_spawn",
+          "type": "runecrafting_altar",
+          "runeType": "earth",
+          "position": { "x": 35, "y": 0, "z": -37 }
+        },
+        {
+          "id": "fire_altar_spawn",
+          "type": "runecrafting_altar",
+          "runeType": "fire",
+          "position": { "x": 28, "y": 0, "z": -41 }
+        },
+        {
+          "id": "chaos_altar_spawn",
+          "type": "runecrafting_altar",
+          "runeType": "chaos",
+          "position": { "x": 28, "y": 0, "z": -49 }
         }
       ]
     }
