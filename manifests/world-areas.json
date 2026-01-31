@@ -44,6 +44,11 @@
           "id": "torvin",
           "type": "quest_giver",
           "position": { "x": -28, "y": 0, "z": 24 }
+        },
+        {
+          "id": "tanner",
+          "type": "tanner",
+          "position": { "x": -22, "y": 0, "z": 22 }
         }
       ],
       "resources": [
@@ -129,6 +134,12 @@
           "position": { "x": 25, "y": 0, "z": 18 },
           "spawnRadius": 6,
           "maxCount": 3
+        },
+        {
+          "mobId": "cow",
+          "position": { "x": -35, "y": 0, "z": 18 },
+          "spawnRadius": 5,
+          "maxCount": 4
         }
       ],
       "fishing": {

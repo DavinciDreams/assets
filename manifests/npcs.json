@@ -53,6 +53,41 @@
           "maxQuantity": 1,
           "chance": 0.1,
           "rarity": "uncommon"
+        },
+        {
+          "itemId": "bronze_full_helm",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.08,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "bronze_platelegs",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.05,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "bronze_kiteshield",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.06,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "leather_boots",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.08,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "leather_gloves",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.08,
+          "rarity": "uncommon"
         }
       ],
       "rare": [
@@ -62,11 +97,88 @@
           "maxQuantity": 1,
           "chance": 0.02,
           "rarity": "rare"
+        },
+        {
+          "itemId": "iron_full_helm",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.015,
+          "rarity": "rare"
+        },
+        {
+          "itemId": "iron_platebody",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.01,
+          "rarity": "rare"
+        },
+        {
+          "itemId": "iron_kiteshield",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.012,
+          "rarity": "rare"
+        },
+        {
+          "itemId": "cape",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.02,
+          "rarity": "rare"
+        },
+        {
+          "itemId": "gold_ring",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.015,
+          "rarity": "rare"
+        },
+        {
+          "itemId": "amulet_of_accuracy",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.01,
+          "rarity": "rare"
+        },
+        {
+          "itemId": "uncut_sapphire",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.02,
+          "rarity": "rare"
+        },
+        {
+          "itemId": "uncut_emerald",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.01,
+          "rarity": "rare"
         }
       ],
       "veryRare": [
         {
           "itemId": "mithril_sword",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.002,
+          "rarity": "very_rare"
+        },
+        {
+          "itemId": "steel_platebody",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.003,
+          "rarity": "very_rare"
+        },
+        {
+          "itemId": "uncut_ruby",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.005,
+          "rarity": "very_rare"
+        },
+        {
+          "itemId": "uncut_diamond",
           "minQuantity": 1,
           "maxQuantity": 1,
           "chance": 0.002,
@@ -538,5 +650,114 @@
       "iconPath": "asset://icons/npcs/smith.png",
       "scale": 0.9
     }
+  },
+  {
+    "id": "tanner",
+    "name": "Ellis",
+    "description": "A tanner who can turn hides into leather",
+    "category": "neutral",
+    "faction": "town",
+    "combat": {
+      "attackable": false
+    },
+    "movement": {
+      "type": "stationary",
+      "speed": 0,
+      "wanderRadius": 0
+    },
+    "dialogue": {
+      "entryNodeId": "greeting",
+      "nodes": [
+        {
+          "id": "greeting",
+          "text": "Greetings, friend. I'm a tanner — I can tan any hides you bring me.",
+          "responses": [
+            {
+              "text": "I'd like some leather, please.",
+              "nextNodeId": "tanning",
+              "effect": "openTanner"
+            },
+            {
+              "text": "No thanks.",
+              "nextNodeId": "farewell"
+            }
+          ]
+        },
+        {
+          "id": "tanning",
+          "text": "Let me see what you've got."
+        },
+        {
+          "id": "farewell",
+          "text": "Come back if you need any leather."
+        }
+      ]
+    },
+    "appearance": {
+      "modelPath": "asset://avatars/avatar-male-01.vrm",
+      "iconPath": "asset://icons/npcs/tanner.png",
+      "scale": 1.0
+    }
+  },
+  {
+    "id": "cow",
+    "name": "Cow",
+    "description": "A docile cow grazing in the field",
+    "category": "mob",
+    "faction": "animal",
+    "stats": {
+      "level": 2,
+      "health": 8,
+      "attack": 1,
+      "strength": 1,
+      "defense": 1,
+      "defenseBonus": 0,
+      "ranged": 1,
+      "magic": 1
+    },
+    "combat": {
+      "attackable": true,
+      "aggressive": false,
+      "retaliates": true,
+      "aggroRange": 0,
+      "combatRange": 1,
+      "leashRange": 6,
+      "attackSpeedTicks": 4,
+      "respawnTicks": 25
+    },
+    "movement": {
+      "type": "wander",
+      "speed": 2.5,
+      "wanderRadius": 4
+    },
+    "drops": {
+      "defaultDrop": {
+        "enabled": true,
+        "itemId": "bones",
+        "quantity": 1
+      },
+      "always": [
+        {
+          "itemId": "cowhide",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 1.0,
+          "rarity": "always"
+        }
+      ],
+      "common": [],
+      "uncommon": [],
+      "rare": [],
+      "veryRare": []
+    },
+    "appearance": {
+      "modelPath": "asset://models/cow/cow.vrm",
+      "iconPath": "asset://icons/npcs/cow.png",
+      "scale": 1.0
+    },
+    "spawnBiomes": [
+      "plains",
+      "forest"
+    ]
   }
 ]

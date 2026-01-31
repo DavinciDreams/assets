@@ -25,6 +25,14 @@
           "chance": 1.0,
           "xpAmount": 17.5,
           "stackable": true
+        },
+        {
+          "itemId": "uncut_sapphire",
+          "itemName": "Uncut Sapphire",
+          "quantity": 1,
+          "chance": 0.004,
+          "xpAmount": 0,
+          "stackable": false
         }
       ]
     },
@@ -51,6 +59,14 @@
           "chance": 1.0,
           "xpAmount": 17.5,
           "stackable": true
+        },
+        {
+          "itemId": "uncut_sapphire",
+          "itemName": "Uncut Sapphire",
+          "quantity": 1,
+          "chance": 0.004,
+          "xpAmount": 0,
+          "stackable": false
         }
       ]
     },
@@ -77,6 +93,14 @@
           "chance": 1.0,
           "xpAmount": 35,
           "stackable": true
+        },
+        {
+          "itemId": "uncut_sapphire",
+          "itemName": "Uncut Sapphire",
+          "quantity": 1,
+          "chance": 0.004,
+          "xpAmount": 0,
+          "stackable": false
         }
       ]
     },
@@ -103,6 +127,14 @@
           "chance": 1.0,
           "xpAmount": 50,
           "stackable": true
+        },
+        {
+          "itemId": "uncut_emerald",
+          "itemName": "Uncut Emerald",
+          "quantity": 1,
+          "chance": 0.004,
+          "xpAmount": 0,
+          "stackable": false
         }
       ]
     },
@@ -129,6 +161,14 @@
           "chance": 1.0,
           "xpAmount": 80,
           "stackable": true
+        },
+        {
+          "itemId": "uncut_emerald",
+          "itemName": "Uncut Emerald",
+          "quantity": 1,
+          "chance": 0.004,
+          "xpAmount": 0,
+          "stackable": false
         }
       ]
     },
@@ -155,6 +195,14 @@
           "chance": 1.0,
           "xpAmount": 95,
           "stackable": true
+        },
+        {
+          "itemId": "uncut_ruby",
+          "itemName": "Uncut Ruby",
+          "quantity": 1,
+          "chance": 0.004,
+          "xpAmount": 0,
+          "stackable": false
         }
       ]
     },
@@ -181,6 +229,14 @@
           "chance": 1.0,
           "xpAmount": 125,
           "stackable": true
+        },
+        {
+          "itemId": "uncut_diamond",
+          "itemName": "Uncut Diamond",
+          "quantity": 1,
+          "chance": 0.004,
+          "xpAmount": 0,
+          "stackable": false
         }
       ]
     }

@@ -915,6 +915,776 @@
         "restockTime": 0,
         "description": "Provides unlimited fire runes",
         "category": "magic_weapons"
+      },
+      {
+        "id": "bronze_full_helm",
+        "itemId": "bronze_full_helm",
+        "name": "Bronze Full Helm",
+        "price": 44,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A full face helmet made of bronze",
+        "category": "armor"
+      },
+      {
+        "id": "bronze_platebody",
+        "itemId": "bronze_platebody",
+        "name": "Bronze Platebody",
+        "price": 160,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A body made of bronze",
+        "category": "armor"
+      },
+      {
+        "id": "bronze_platelegs",
+        "itemId": "bronze_platelegs",
+        "name": "Bronze Platelegs",
+        "price": 80,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Platelegs made of bronze",
+        "category": "armor"
+      },
+      {
+        "id": "iron_full_helm",
+        "itemId": "iron_full_helm",
+        "name": "Iron Full Helm",
+        "price": 154,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A full face helmet made of iron",
+        "category": "armor"
+      },
+      {
+        "id": "iron_platebody",
+        "itemId": "iron_platebody",
+        "name": "Iron Platebody",
+        "price": 560,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A body made of iron",
+        "category": "armor"
+      },
+      {
+        "id": "iron_platelegs",
+        "itemId": "iron_platelegs",
+        "name": "Iron Platelegs",
+        "price": 280,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Platelegs made of iron",
+        "category": "armor"
+      },
+      {
+        "id": "steel_full_helm",
+        "itemId": "steel_full_helm",
+        "name": "Steel Full Helm",
+        "price": 440,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A full face helmet made of steel",
+        "category": "armor"
+      },
+      {
+        "id": "steel_platebody",
+        "itemId": "steel_platebody",
+        "name": "Steel Platebody",
+        "price": 1600,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A body made of steel",
+        "category": "armor"
+      },
+      {
+        "id": "steel_platelegs",
+        "itemId": "steel_platelegs",
+        "name": "Steel Platelegs",
+        "price": 800,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Platelegs made of steel",
+        "category": "armor"
+      },
+      {
+        "id": "mithril_full_helm",
+        "itemId": "mithril_full_helm",
+        "name": "Mithril Full Helm",
+        "price": 1100,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A full face helmet made of mithril",
+        "category": "armor"
+      },
+      {
+        "id": "mithril_platebody",
+        "itemId": "mithril_platebody",
+        "name": "Mithril Platebody",
+        "price": 3900,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A body made of mithril",
+        "category": "armor"
+      },
+      {
+        "id": "mithril_platelegs",
+        "itemId": "mithril_platelegs",
+        "name": "Mithril Platelegs",
+        "price": 2000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Platelegs made of mithril",
+        "category": "armor"
+      },
+      {
+        "id": "adamant_full_helm",
+        "itemId": "adamant_full_helm",
+        "name": "Adamant Full Helm",
+        "price": 3520,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A full face helmet made of adamantite",
+        "category": "armor"
+      },
+      {
+        "id": "adamant_platebody",
+        "itemId": "adamant_platebody",
+        "name": "Adamant Platebody",
+        "price": 10000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A body made of adamantite",
+        "category": "armor"
+      },
+      {
+        "id": "adamant_platelegs",
+        "itemId": "adamant_platelegs",
+        "name": "Adamant Platelegs",
+        "price": 6400,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Platelegs made of adamantite",
+        "category": "armor"
+      },
+      {
+        "id": "rune_full_helm",
+        "itemId": "rune_full_helm",
+        "name": "Rune Full Helm",
+        "price": 11000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A full face helmet made of runite",
+        "category": "armor"
+      },
+      {
+        "id": "rune_platebody",
+        "itemId": "rune_platebody",
+        "name": "Rune Platebody",
+        "price": 39000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A body made of runite",
+        "category": "armor"
+      },
+      {
+        "id": "rune_platelegs",
+        "itemId": "rune_platelegs",
+        "name": "Rune Platelegs",
+        "price": 38000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Platelegs made of runite",
+        "category": "armor"
+      },
+      {
+        "id": "bronze_kiteshield",
+        "itemId": "bronze_kiteshield",
+        "name": "Bronze Kiteshield",
+        "price": 68,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A large shield made of bronze",
+        "category": "armor"
+      },
+      {
+        "id": "iron_kiteshield",
+        "itemId": "iron_kiteshield",
+        "name": "Iron Kiteshield",
+        "price": 238,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A large shield made of iron",
+        "category": "armor"
+      },
+      {
+        "id": "steel_kiteshield",
+        "itemId": "steel_kiteshield",
+        "name": "Steel Kiteshield",
+        "price": 680,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A large shield made of steel",
+        "category": "armor"
+      },
+      {
+        "id": "mithril_kiteshield",
+        "itemId": "mithril_kiteshield",
+        "name": "Mithril Kiteshield",
+        "price": 1690,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A large shield made of mithril",
+        "category": "armor"
+      },
+      {
+        "id": "adamant_kiteshield",
+        "itemId": "adamant_kiteshield",
+        "name": "Adamant Kiteshield",
+        "price": 5408,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A large shield made of adamantite",
+        "category": "armor"
+      },
+      {
+        "id": "rune_kiteshield",
+        "itemId": "rune_kiteshield",
+        "name": "Rune Kiteshield",
+        "price": 54400,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A large shield made of runite",
+        "category": "armor"
+      },
+      {
+        "id": "leather_boots",
+        "itemId": "leather_boots",
+        "name": "Leather Boots",
+        "price": 10,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pair of leather boots",
+        "category": "armor"
+      },
+      {
+        "id": "bronze_boots",
+        "itemId": "bronze_boots",
+        "name": "Bronze Boots",
+        "price": 26,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pair of bronze boots",
+        "category": "armor"
+      },
+      {
+        "id": "iron_boots",
+        "itemId": "iron_boots",
+        "name": "Iron Boots",
+        "price": 91,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pair of iron boots",
+        "category": "armor"
+      },
+      {
+        "id": "steel_boots",
+        "itemId": "steel_boots",
+        "name": "Steel Boots",
+        "price": 260,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pair of steel boots",
+        "category": "armor"
+      },
+      {
+        "id": "mithril_boots",
+        "itemId": "mithril_boots",
+        "name": "Mithril Boots",
+        "price": 650,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pair of mithril boots",
+        "category": "armor"
+      },
+      {
+        "id": "adamant_boots",
+        "itemId": "adamant_boots",
+        "name": "Adamant Boots",
+        "price": 2080,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pair of adamant boots",
+        "category": "armor"
+      },
+      {
+        "id": "rune_boots",
+        "itemId": "rune_boots",
+        "name": "Rune Boots",
+        "price": 6500,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pair of rune boots",
+        "category": "armor"
+      },
+      {
+        "id": "wizard_boots",
+        "itemId": "wizard_boots",
+        "name": "Wizard Boots",
+        "price": 20,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Boots imbued with magical energy",
+        "category": "armor"
+      },
+      {
+        "id": "leather_gloves",
+        "itemId": "leather_gloves",
+        "name": "Leather Gloves",
+        "price": 6,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pair of leather gloves",
+        "category": "armor"
+      },
+      {
+        "id": "bronze_gloves",
+        "itemId": "bronze_gloves",
+        "name": "Bronze Gloves",
+        "price": 26,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pair of bronze gloves",
+        "category": "armor"
+      },
+      {
+        "id": "iron_gloves",
+        "itemId": "iron_gloves",
+        "name": "Iron Gloves",
+        "price": 91,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pair of iron gloves",
+        "category": "armor"
+      },
+      {
+        "id": "steel_gloves",
+        "itemId": "steel_gloves",
+        "name": "Steel Gloves",
+        "price": 260,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pair of steel gloves",
+        "category": "armor"
+      },
+      {
+        "id": "mithril_gloves",
+        "itemId": "mithril_gloves",
+        "name": "Mithril Gloves",
+        "price": 650,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pair of mithril gloves",
+        "category": "armor"
+      },
+      {
+        "id": "adamant_gloves",
+        "itemId": "adamant_gloves",
+        "name": "Adamant Gloves",
+        "price": 2080,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pair of adamant gloves",
+        "category": "armor"
+      },
+      {
+        "id": "rune_gloves",
+        "itemId": "rune_gloves",
+        "name": "Rune Gloves",
+        "price": 6500,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pair of rune gloves",
+        "category": "armor"
+      },
+      {
+        "id": "leather_vambraces",
+        "itemId": "leather_vambraces",
+        "name": "Leather Vambraces",
+        "price": 15,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Vambraces made of leather",
+        "category": "armor"
+      },
+      {
+        "id": "green_dhide_vambraces",
+        "itemId": "green_dhide_vambraces",
+        "name": "Green D'hide Vambraces",
+        "price": 3000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Vambraces made of green dragonhide",
+        "category": "armor"
+      },
+      {
+        "id": "mystic_gloves",
+        "itemId": "mystic_gloves",
+        "name": "Mystic Gloves",
+        "price": 10000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Gloves imbued with mystic energy",
+        "category": "armor"
+      },
+      {
+        "id": "cape",
+        "itemId": "cape",
+        "name": "Cape",
+        "price": 30,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A simple cape",
+        "category": "armor"
+      },
+      {
+        "id": "black_cape",
+        "itemId": "black_cape",
+        "name": "Black Cape",
+        "price": 100,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A stylish black cape",
+        "category": "armor"
+      },
+      {
+        "id": "amulet_of_accuracy",
+        "itemId": "amulet_of_accuracy",
+        "name": "Amulet of Accuracy",
+        "price": 1000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "An amulet that improves accuracy",
+        "category": "armor"
+      },
+      {
+        "id": "amulet_of_strength",
+        "itemId": "amulet_of_strength",
+        "name": "Amulet of Strength",
+        "price": 2500,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "An amulet that improves strength",
+        "category": "armor"
+      },
+      {
+        "id": "amulet_of_power",
+        "itemId": "amulet_of_power",
+        "name": "Amulet of Power",
+        "price": 5000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "An amulet of all-round power",
+        "category": "armor"
+      },
+      {
+        "id": "gold_ring",
+        "itemId": "gold_ring",
+        "name": "Gold Ring",
+        "price": 500,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A simple gold ring",
+        "category": "armor"
+      },
+      {
+        "id": "leather_cowl",
+        "itemId": "leather_cowl",
+        "name": "Leather Cowl",
+        "price": 25,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A leather cowl",
+        "category": "armor"
+      },
+      {
+        "id": "leather_body",
+        "itemId": "leather_body",
+        "name": "Leather Body",
+        "price": 35,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A body made of leather",
+        "category": "armor"
+      },
+      {
+        "id": "leather_chaps",
+        "itemId": "leather_chaps",
+        "name": "Leather Chaps",
+        "price": 20,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Chaps made of leather",
+        "category": "armor"
+      },
+      {
+        "id": "coif",
+        "itemId": "coif",
+        "name": "Coif",
+        "price": 200,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A coif made of leather and chain",
+        "category": "armor"
+      },
+      {
+        "id": "studded_body",
+        "itemId": "studded_body",
+        "name": "Studded Body",
+        "price": 850,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A studded leather body",
+        "category": "armor"
+      },
+      {
+        "id": "studded_chaps",
+        "itemId": "studded_chaps",
+        "name": "Studded Chaps",
+        "price": 750,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Studded leather chaps",
+        "category": "armor"
+      },
+      {
+        "id": "green_dhide_body",
+        "itemId": "green_dhide_body",
+        "name": "Green D'hide Body",
+        "price": 7800,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Made from 100% real dragonhide",
+        "category": "armor"
+      },
+      {
+        "id": "green_dhide_chaps",
+        "itemId": "green_dhide_chaps",
+        "name": "Green D'hide Chaps",
+        "price": 4300,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Chaps made from green dragonhide",
+        "category": "armor"
+      },
+      {
+        "id": "wizard_hat",
+        "itemId": "wizard_hat",
+        "name": "Wizard Hat",
+        "price": 2,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pointed wizard hat",
+        "category": "armor"
+      },
+      {
+        "id": "wizard_robe_top",
+        "itemId": "wizard_robe_top",
+        "name": "Blue Wizard Robe",
+        "price": 12,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A blue wizard robe top",
+        "category": "armor"
+      },
+      {
+        "id": "wizard_robe_bottom",
+        "itemId": "wizard_robe_bottom",
+        "name": "Blue Wizard Skirt",
+        "price": 6,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A blue wizard robe skirt",
+        "category": "armor"
+      },
+      {
+        "id": "mystic_hat",
+        "itemId": "mystic_hat",
+        "name": "Mystic Hat",
+        "price": 15000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A hat imbued with mystic energy",
+        "category": "armor"
+      },
+      {
+        "id": "mystic_robe_top",
+        "itemId": "mystic_robe_top",
+        "name": "Mystic Robe Top",
+        "price": 120000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A robe imbued with mystic energy",
+        "category": "armor"
+      },
+      {
+        "id": "mystic_robe_bottom",
+        "itemId": "mystic_robe_bottom",
+        "name": "Mystic Robe Bottom",
+        "price": 80000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A robe bottom imbued with mystic energy",
+        "category": "armor"
+      },
+      {
+        "id": "needle",
+        "itemId": "needle",
+        "name": "Needle",
+        "price": 5,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A needle for crafting leather armor",
+        "category": "tools"
+      },
+      {
+        "id": "thread",
+        "itemId": "thread",
+        "name": "Thread",
+        "price": 4,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Thread for sewing leather armor (5 uses)",
+        "category": "tools"
+      },
+      {
+        "id": "chisel",
+        "itemId": "chisel",
+        "name": "Chisel",
+        "price": 10,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A chisel for cutting gems",
+        "category": "tools"
+      },
+      {
+        "id": "ring_mould",
+        "itemId": "ring_mould",
+        "name": "Ring mould",
+        "price": 15,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A mould for crafting rings at a furnace",
+        "category": "tools"
+      },
+      {
+        "id": "amulet_mould",
+        "itemId": "amulet_mould",
+        "name": "Amulet mould",
+        "price": 15,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A mould for crafting amulets at a furnace",
+        "category": "tools"
+      },
+      {
+        "id": "leather",
+        "itemId": "leather",
+        "name": "Leather",
+        "price": 5,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Tanned leather for crafting armor",
+        "category": "crafting"
+      },
+      {
+        "id": "steel_studs",
+        "itemId": "steel_studs",
+        "name": "Steel studs",
+        "price": 20,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Steel studs for reinforcing leather armor",
+        "category": "crafting"
+      },
+      {
+        "id": "green_dragonhide",
+        "itemId": "green_dragonhide",
+        "name": "Green dragonhide",
+        "price": 2500,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "The hide of a green dragon",
+        "category": "crafting"
+      },
+      {
+        "id": "gold_bar",
+        "itemId": "gold_bar",
+        "name": "Gold bar",
+        "price": 300,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A bar of gold for crafting jewelry",
+        "category": "crafting"
+      },
+      {
+        "id": "uncut_sapphire",
+        "itemId": "uncut_sapphire",
+        "name": "Uncut sapphire",
+        "price": 250,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "An uncut sapphire gemstone",
+        "category": "crafting"
+      },
+      {
+        "id": "uncut_emerald",
+        "itemId": "uncut_emerald",
+        "name": "Uncut emerald",
+        "price": 500,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "An uncut emerald gemstone",
+        "category": "crafting"
+      },
+      {
+        "id": "uncut_ruby",
+        "itemId": "uncut_ruby",
+        "name": "Uncut ruby",
+        "price": 1000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "An uncut ruby gemstone",
+        "category": "crafting"
+      },
+      {
+        "id": "uncut_diamond",
+        "itemId": "uncut_diamond",
+        "name": "Uncut diamond",
+        "price": 3000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "An uncut diamond gemstone",
+        "category": "crafting"
+      },
+      {
+        "id": "uncut_dragonstone",
+        "itemId": "uncut_dragonstone",
+        "name": "Uncut dragonstone",
+        "price": 15000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "An uncut dragonstone gemstone",
+        "category": "crafting"
+      },
+      {
+        "id": "uncut_onyx",
+        "itemId": "uncut_onyx",
+        "name": "Uncut onyx",
+        "price": 75000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "An uncut onyx gemstone",
+        "category": "crafting"
       }
     ]
   }
