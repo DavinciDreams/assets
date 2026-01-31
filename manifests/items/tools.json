@@ -558,5 +558,19 @@
     "modelPath": null,
     "iconPath": "asset://icons/amulet-mould.png",
     "inventoryActions": ["Use", "Drop", "Examine"]
+  },
+  {
+    "id": "knife",
+    "name": "Knife",
+    "type": "tool",
+    "value": 6,
+    "weight": 0.1,
+    "description": "A knife for cutting and fletching",
+    "examine": "A small knife. Useful for whittling wood.",
+    "tradeable": true,
+    "rarity": "common",
+    "modelPath": null,
+    "iconPath": "asset://icons/knife.png",
+    "inventoryActions": ["Use", "Drop", "Examine"]
   }
 ]

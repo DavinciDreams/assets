@@ -119,5 +119,29 @@
       "skills": { "ranged": 30 }
     },
     "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+  },
+  {
+    "id": "rune_arrow",
+    "name": "Rune arrow",
+    "type": "ammunition",
+    "stackable": true,
+    "maxStackSize": 10000,
+    "value": 80,
+    "weight": 0,
+    "equipSlot": "arrows",
+    "description": "Arrows with runite heads",
+    "examine": "Arrows with runite heads.",
+    "tradeable": true,
+    "rarity": "rare",
+    "modelPath": null,
+    "iconPath": "asset://icons/rune-arrow.png",
+    "bonuses": {
+      "rangedStrength": 49
+    },
+    "requirements": {
+      "level": 40,
+      "skills": { "ranged": 40 }
+    },
+    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
   }
 ]

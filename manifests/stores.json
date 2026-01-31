@@ -1685,6 +1685,106 @@
         "restockTime": 0,
         "description": "An uncut onyx gemstone",
         "category": "crafting"
+      },
+      {
+        "id": "knife",
+        "itemId": "knife",
+        "name": "Knife",
+        "price": 6,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A knife for cutting and fletching",
+        "category": "tools"
+      },
+      {
+        "id": "bowstring",
+        "itemId": "bowstring",
+        "name": "Bowstring",
+        "price": 10,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A string for stringing bows",
+        "category": "fletching"
+      },
+      {
+        "id": "arrow_shaft",
+        "itemId": "arrow_shaft",
+        "name": "Arrow shaft",
+        "price": 1,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A wooden shaft for making arrows",
+        "category": "fletching"
+      },
+      {
+        "id": "headless_arrow",
+        "itemId": "headless_arrow",
+        "name": "Headless arrow",
+        "price": 2,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A feathered arrow shaft without a tip",
+        "category": "fletching"
+      },
+      {
+        "id": "bronze_arrowtips",
+        "itemId": "bronze_arrowtips",
+        "name": "Bronze arrowtips",
+        "price": 1,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Arrowtips made of bronze",
+        "category": "fletching"
+      },
+      {
+        "id": "iron_arrowtips",
+        "itemId": "iron_arrowtips",
+        "name": "Iron arrowtips",
+        "price": 4,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Arrowtips made of iron",
+        "category": "fletching"
+      },
+      {
+        "id": "steel_arrowtips",
+        "itemId": "steel_arrowtips",
+        "name": "Steel arrowtips",
+        "price": 12,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Arrowtips made of steel",
+        "category": "fletching"
+      },
+      {
+        "id": "mithril_arrowtips",
+        "itemId": "mithril_arrowtips",
+        "name": "Mithril arrowtips",
+        "price": 40,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Arrowtips made of mithril",
+        "category": "fletching"
+      },
+      {
+        "id": "adamant_arrowtips",
+        "itemId": "adamant_arrowtips",
+        "name": "Adamant arrowtips",
+        "price": 80,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Arrowtips made of adamantite",
+        "category": "fletching"
+      },
+      {
+        "id": "rune_arrowtips",
+        "itemId": "rune_arrowtips",
+        "name": "Rune arrowtips",
+        "price": 200,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Arrowtips made of runite",
+        "category": "fletching"
       }
     ]
   }
