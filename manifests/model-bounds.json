@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-31T22:37:17.208Z",
+  "generatedAt": "2026-02-01T03:48:14.648Z",
   "tileSize": 1,
   "models": [
     {
@@ -1425,6 +1425,31 @@
       "footprint": {
         "width": 1,
         "depth": 1
+      }
+    },
+    {
+      "id": "firemaking-fire",
+      "assetPath": "asset://models/firemaking-fire/firemaking-fire.glb",
+      "bounds": {
+        "min": {
+          "x": -1,
+          "y": -0.17993983626365662,
+          "z": -0.9769845008850098
+        },
+        "max": {
+          "x": 1,
+          "y": 0.17993983626365662,
+          "z": 0.9769845008850098
+        }
+      },
+      "dimensions": {
+        "x": 2,
+        "y": 0.35987967252731323,
+        "z": 1.9539690017700195
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
       }
     },
     {
