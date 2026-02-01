@@ -741,8 +741,8 @@
     "examine": "A magical staff providing infinite air runes.",
     "tradeable": true,
     "rarity": "uncommon",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/magic-staffs/air-staff/air-staff.glb",
+    "equippedModelPath": "asset://models/magic-staffs/air-staff/air-staff-aligned.glb",
     "iconPath": "asset://icons/staff-of-air.png",
     "bonuses": {
       "attackMagic": 10
@@ -770,8 +770,8 @@
     "examine": "A magical staff providing infinite water runes.",
     "tradeable": true,
     "rarity": "uncommon",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/magic-staffs/water-staff/water-staff.glb",
+    "equippedModelPath": "asset://models/magic-staffs/water-staff/water-staff-aligned.glb",
     "iconPath": "asset://icons/staff-of-water.png",
     "bonuses": {
       "attackMagic": 10
@@ -799,8 +799,8 @@
     "examine": "A magical staff providing infinite earth runes.",
     "tradeable": true,
     "rarity": "uncommon",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/magic-staffs/earth-staff/earth-staff.glb",
+    "equippedModelPath": "asset://models/magic-staffs/earth-staff/earth-staff-aligned.glb",
     "iconPath": "asset://icons/staff-of-earth.png",
     "bonuses": {
       "attackMagic": 10
@@ -828,8 +828,8 @@
     "examine": "A magical staff providing infinite fire runes.",
     "tradeable": true,
     "rarity": "uncommon",
-    "modelPath": null,
-    "equippedModelPath": null,
+    "modelPath": "asset://models/magic-staffs/fire-staff/fire-staff.glb",
+    "equippedModelPath": "asset://models/magic-staffs/fire-staff/fire-staff-aligned.glb",
     "iconPath": "asset://icons/staff-of-fire.png",
     "bonuses": {
       "attackMagic": 10
