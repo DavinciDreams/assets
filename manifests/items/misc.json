@@ -176,8 +176,10 @@
     "examine": "A pile of ashes.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
+    "modelPath": "asset://models/ashes/ashes.glb",
     "iconPath": "asset://icons/ashes.png",
+    "modelScale": 0.12,
+    "groundOffset": 0,
     "inventoryActions": ["Use", "Drop", "Examine"]
   },
   {

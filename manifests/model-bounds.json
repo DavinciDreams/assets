@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-01T03:48:14.648Z",
+  "generatedAt": "2026-02-01T18:28:07.875Z",
   "tileSize": 1,
   "models": [
     {
@@ -628,6 +628,31 @@
       }
     },
     {
+      "id": "bow-wood",
+      "assetPath": "asset://models/bow-wood/bow-wood-aligned.glb",
+      "bounds": {
+        "min": {
+          "x": -0.06709200143814087,
+          "y": -1.0020740032196045,
+          "z": -0.30796000361442566
+        },
+        "max": {
+          "x": 0.06343100219964981,
+          "y": 1.0011390447616577,
+          "z": 0.30486100912094116
+        }
+      },
+      "dimensions": {
+        "x": 0.13052300363779068,
+        "y": 2.003213047981262,
+        "z": 0.6128210127353668
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
       "id": "mace",
       "assetPath": "asset://models/mace/mace.glb",
       "bounds": {
@@ -928,6 +953,31 @@
       }
     },
     {
+      "id": "ashes",
+      "assetPath": "asset://models/ashes/ashes.glb",
+      "bounds": {
+        "min": {
+          "x": -0.9544950127601624,
+          "y": -0.8136230111122131,
+          "z": -0.2958639860153198
+        },
+        "max": {
+          "x": 0.9543619751930237,
+          "y": 0.8105319738388062,
+          "z": 0.29365599155426025
+        }
+      },
+      "dimensions": {
+        "x": 1.908856987953186,
+        "y": 1.6241549849510193,
+        "z": 0.5895199775695801
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
       "id": "bank-chest",
       "assetPath": "asset://models/bank-chest/bank-chest.glb",
       "bounds": {
@@ -1105,6 +1155,31 @@
     {
       "id": "bow-oak",
       "assetPath": "asset://models/bow-oak/bow-oak.glb",
+      "bounds": {
+        "min": {
+          "x": -0.06709200143814087,
+          "y": -1.0020740032196045,
+          "z": -0.30796000361442566
+        },
+        "max": {
+          "x": 0.06343100219964981,
+          "y": 1.0011390447616577,
+          "z": 0.30486100912094116
+        }
+      },
+      "dimensions": {
+        "x": 0.13052300363779068,
+        "y": 2.003213047981262,
+        "z": 0.6128210127353668
+      },
+      "footprint": {
+        "width": 1,
+        "depth": 1
+      }
+    },
+    {
+      "id": "bow-oak",
+      "assetPath": "asset://models/bow-oak/bow-oak-aligned.glb",
       "bounds": {
         "min": {
           "x": -0.06709200143814087,
