@@ -21,14 +21,19 @@
     "rarity": "common",
     "modelPath": "asset://models/hatchet-bronze/hatchet-bronze.glb",
     "equippedModelPath": "asset://models/hatchet-bronze/hatchet-bronze-aligned.glb",
-    "iconPath": "asset://models/hatchet-bronze/concept-art.png",
+    "iconPath": "asset://icons/hatchet-bronze.png",
     "bonuses": {
       "attack": 4,
       "strength": 3,
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_hatchet",
@@ -59,7 +64,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_hatchet",
@@ -90,7 +100,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_hatchet",
@@ -121,7 +136,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_hatchet",
@@ -152,7 +172,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_hatchet",
@@ -183,7 +208,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "bronze_pickaxe",
@@ -208,14 +238,19 @@
     "rarity": "common",
     "modelPath": "asset://models/pickaxe-bronze/pickaxe-bronze.glb",
     "equippedModelPath": "asset://models/pickaxe-bronze/pickaxe-bronze-aligned.glb",
-    "iconPath": "asset://models/pickaxe-bronze/concept-art.png",
+    "iconPath": "asset://icons/pickaxe-bronze.png",
     "bonuses": {
       "attack": 4,
       "strength": 2,
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_pickaxe",
@@ -247,7 +282,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_pickaxe",
@@ -279,7 +319,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_pickaxe",
@@ -311,7 +356,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_pickaxe",
@@ -343,7 +393,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_pickaxe",
@@ -375,7 +430,12 @@
       "defense": 0,
       "ranged": 0
     },
-    "inventoryActions": ["Wield", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Wield",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "hammer",
@@ -389,7 +449,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/hammer.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "tinderbox",
@@ -403,7 +467,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/tools.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "fishing_rod",
@@ -421,8 +489,12 @@
     "rarity": "common",
     "modelPath": "asset://models/bait-fishing-rod/bait-fishing-rod.glb",
     "equippedModelPath": "asset://models/bait-fishing-rod/bait-fishing-rod-aligned.glb",
-    "iconPath": "asset://models/bait-fishing-rod/concept-art.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "iconPath": "asset://icons/bait-fishing-rod.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "fly_fishing_rod",
@@ -435,8 +507,12 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": "asset://models/fishing-rod-standard/fishing-rod-standard.glb",
-    "iconPath": "asset://models/fishing-rod-standard/concept-art.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "iconPath": "asset://icons/fishing-rod-standard.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "small_fishing_net",
@@ -450,7 +526,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/small-fishing-net.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "harpoon",
@@ -468,7 +548,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/harpoon.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "lobster_pot",
@@ -486,7 +570,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/lobster-pot.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "needle",
@@ -500,7 +588,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/needle.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "thread",
@@ -515,7 +607,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/thread.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "chisel",
@@ -529,7 +625,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/chisel.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "ring_mould",
@@ -543,7 +643,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/ring-mould.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "amulet_mould",
@@ -557,7 +661,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/amulet-mould.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "knife",
@@ -571,6 +679,10 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/knife.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   }
 ]

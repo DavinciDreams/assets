@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-28T21:44:00.387Z",
+  "generatedAt": "2026-01-31T22:37:17.208Z",
   "tileSize": 1,
   "models": [
     {
@@ -21,6 +21,31 @@
         "x": 2.0020559440000003,
         "y": 0.8432989719999999,
         "z": 0.872826994
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "id": "headstone",
+      "assetPath": "asset://models/headstone/headstone.glb",
+      "bounds": {
+        "min": {
+          "x": -0.9461829662322998,
+          "y": -1,
+          "z": -0.7282379865646362
+        },
+        "max": {
+          "x": 0.9461829662322998,
+          "y": 1,
+          "z": 0.7282379865646362
+        }
+      },
+      "dimensions": {
+        "x": 1.8923659324645996,
+        "y": 2,
+        "z": 1.4564759731292725
       },
       "footprint": {
         "width": 2,
@@ -628,6 +653,231 @@
       }
     },
     {
+      "id": "mining-rocks/adamant-rock",
+      "assetPath": "asset://models/mining-rocks/adamant-rock/adamant-rock.glb",
+      "bounds": {
+        "min": {
+          "x": -1,
+          "y": -0.6271040439605713,
+          "z": -0.5885710716247559
+        },
+        "max": {
+          "x": 1,
+          "y": 0.6271040439605713,
+          "z": 0.5885710716247559
+        }
+      },
+      "dimensions": {
+        "x": 2,
+        "y": 1.2542080879211426,
+        "z": 1.1771421432495117
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "id": "mining-rocks/gold-rock",
+      "assetPath": "asset://models/mining-rocks/gold-rock/gold-rock.glb",
+      "bounds": {
+        "min": {
+          "x": -1,
+          "y": -0.6271040439605713,
+          "z": -0.5885710716247559
+        },
+        "max": {
+          "x": 1,
+          "y": 0.6271040439605713,
+          "z": 0.5885710716247559
+        }
+      },
+      "dimensions": {
+        "x": 2,
+        "y": 1.2542080879211426,
+        "z": 1.1771421432495117
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "id": "mining-rocks/depleted-rock",
+      "assetPath": "asset://models/mining-rocks/depleted-rock/depleted-rock.glb",
+      "bounds": {
+        "min": {
+          "x": -1,
+          "y": -0.6271040439605713,
+          "z": -0.5885710716247559
+        },
+        "max": {
+          "x": 1,
+          "y": 0.6271040439605713,
+          "z": 0.5885710716247559
+        }
+      },
+      "dimensions": {
+        "x": 2,
+        "y": 1.2542080879211426,
+        "z": 1.1771421432495117
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "id": "mining-rocks/iron-rock",
+      "assetPath": "asset://models/mining-rocks/iron-rock/iron-rock.glb",
+      "bounds": {
+        "min": {
+          "x": -1,
+          "y": -0.6271040439605713,
+          "z": -0.5885710716247559
+        },
+        "max": {
+          "x": 1,
+          "y": 0.6271040439605713,
+          "z": 0.5885710716247559
+        }
+      },
+      "dimensions": {
+        "x": 2,
+        "y": 1.2542080879211426,
+        "z": 1.1771421432495117
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "id": "mining-rocks/runite-rock",
+      "assetPath": "asset://models/mining-rocks/runite-rock/runite-rock.glb",
+      "bounds": {
+        "min": {
+          "x": -1,
+          "y": -0.6271040439605713,
+          "z": -0.5885710716247559
+        },
+        "max": {
+          "x": 1,
+          "y": 0.6271040439605713,
+          "z": 0.5885710716247559
+        }
+      },
+      "dimensions": {
+        "x": 2,
+        "y": 1.2542080879211426,
+        "z": 1.1771421432495117
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "id": "mining-rocks/coal-rock",
+      "assetPath": "asset://models/mining-rocks/coal-rock/coal-rock.glb",
+      "bounds": {
+        "min": {
+          "x": -1,
+          "y": -0.6271040439605713,
+          "z": -0.5885710716247559
+        },
+        "max": {
+          "x": 1,
+          "y": 0.6271040439605713,
+          "z": 0.5885710716247559
+        }
+      },
+      "dimensions": {
+        "x": 2,
+        "y": 1.2542080879211426,
+        "z": 1.1771421432495117
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "id": "mining-rocks/copper-rock",
+      "assetPath": "asset://models/mining-rocks/copper-rock/copper-rock.glb",
+      "bounds": {
+        "min": {
+          "x": -1,
+          "y": -0.6271035075187683,
+          "z": -0.588570773601532
+        },
+        "max": {
+          "x": 1,
+          "y": 0.6271035075187683,
+          "z": 0.588570773601532
+        }
+      },
+      "dimensions": {
+        "x": 2,
+        "y": 1.2542070150375366,
+        "z": 1.177141547203064
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "id": "mining-rocks/tin-rock",
+      "assetPath": "asset://models/mining-rocks/tin-rock/tin-rock.glb",
+      "bounds": {
+        "min": {
+          "x": -1,
+          "y": -0.6271040439605713,
+          "z": -0.5885710716247559
+        },
+        "max": {
+          "x": 1,
+          "y": 0.6271040439605713,
+          "z": 0.5885710716247559
+        }
+      },
+      "dimensions": {
+        "x": 2,
+        "y": 1.2542080879211426,
+        "z": 1.1771421432495117
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
+      "id": "mining-rocks/mithril-rock",
+      "assetPath": "asset://models/mining-rocks/mithril-rock/mithril-rock.glb",
+      "bounds": {
+        "min": {
+          "x": -1,
+          "y": -0.6271040439605713,
+          "z": -0.5885710716247559
+        },
+        "max": {
+          "x": 1,
+          "y": 0.6271040439605713,
+          "z": 0.5885710716247559
+        }
+      },
+      "dimensions": {
+        "x": 2,
+        "y": 1.2542080879211426,
+        "z": 1.1771421432495117
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 1
+      }
+    },
+    {
       "id": "resources",
       "assetPath": "asset://models/resources/tree-stump.glb",
       "bounds": {
@@ -724,56 +974,6 @@
       },
       "footprint": {
         "width": 2,
-        "depth": 1
-      }
-    },
-    {
-      "id": "runite-rock",
-      "assetPath": "asset://models/runite-rock/runite-rock-depleted.glb",
-      "bounds": {
-        "min": {
-          "x": -0.47828206419944763,
-          "y": -0.042047157883644104,
-          "z": -0.4168680012226105
-        },
-        "max": {
-          "x": 0.43627896904945374,
-          "y": 0.38662368059158325,
-          "z": 0.449070543050766
-        }
-      },
-      "dimensions": {
-        "x": 0.9145610332489014,
-        "y": 0.42867083847522736,
-        "z": 0.8659385442733765
-      },
-      "footprint": {
-        "width": 1,
-        "depth": 1
-      }
-    },
-    {
-      "id": "runite-rock",
-      "assetPath": "asset://models/runite-rock/runite-rock.glb",
-      "bounds": {
-        "min": {
-          "x": -0.5433009266853333,
-          "y": -0.019828975200653076,
-          "z": -0.4711579978466034
-        },
-        "max": {
-          "x": 0.38270604610443115,
-          "y": 0.5305987596511841,
-          "z": 0.471125990152359
-        }
-      },
-      "dimensions": {
-        "x": 0.9260069727897644,
-        "y": 0.5504277348518372,
-        "z": 0.9422839879989624
-      },
-      "footprint": {
-        "width": 1,
         "depth": 1
       }
     },
@@ -928,52 +1128,27 @@
       }
     },
     {
-      "id": "ore-copper",
-      "assetPath": "asset://models/ore-copper/copper.glb",
+      "id": "runecrafting-alter",
+      "assetPath": "asset://models/runecrafting-alter/runecrafting-alter.glb",
       "bounds": {
         "min": {
-          "x": -0.743543803691864,
-          "y": 0,
-          "z": -0.7127975821495056
+          "x": -0.8874838948249817,
+          "y": -1,
+          "z": -0.5998479723930359
         },
         "max": {
-          "x": 0.744902491569519,
+          "x": 0.8874838948249817,
           "y": 1,
-          "z": 0.7124122381210327
+          "z": 0.5998479723930359
         }
       },
       "dimensions": {
-        "x": 1.488446295261383,
-        "y": 1,
-        "z": 1.4252098202705383
+        "x": 1.7749677896499634,
+        "y": 2,
+        "z": 1.1996959447860718
       },
       "footprint": {
-        "width": 1,
-        "depth": 1
-      }
-    },
-    {
-      "id": "ore-tin",
-      "assetPath": "asset://models/ore-tin/tin.glb",
-      "bounds": {
-        "min": {
-          "x": -0.743543803691864,
-          "y": 0,
-          "z": -0.7127975821495056
-        },
-        "max": {
-          "x": 0.744902491569519,
-          "y": 1,
-          "z": 0.7124122381210327
-        }
-      },
-      "dimensions": {
-        "x": 1.488446295261383,
-        "y": 1,
-        "z": 1.4252098202705383
-      },
-      "footprint": {
-        "width": 1,
+        "width": 2,
         "depth": 1
       }
     },
@@ -1503,56 +1678,6 @@
       }
     },
     {
-      "id": "copper-rock",
-      "assetPath": "asset://models/copper-rock/copper-rock-depleted.glb",
-      "bounds": {
-        "min": {
-          "x": -0.4406309127807617,
-          "y": -0.0338575541973114,
-          "z": -0.4168680012226105
-        },
-        "max": {
-          "x": 0.4739300608634949,
-          "y": 0.39481326937675476,
-          "z": 0.4490704834461212
-        }
-      },
-      "dimensions": {
-        "x": 0.9145609736442566,
-        "y": 0.42867082357406616,
-        "z": 0.8659384846687317
-      },
-      "footprint": {
-        "width": 1,
-        "depth": 1
-      }
-    },
-    {
-      "id": "copper-rock",
-      "assetPath": "asset://models/copper-rock/copper-rock.glb",
-      "bounds": {
-        "min": {
-          "x": -0.48292362689971924,
-          "y": -0.02220657467842102,
-          "z": -0.4711579978466034
-        },
-        "max": {
-          "x": 0.44308334589004517,
-          "y": 0.5282211303710938,
-          "z": 0.471125990152359
-        }
-      },
-      "dimensions": {
-        "x": 0.9260069727897644,
-        "y": 0.5504277050495148,
-        "z": 0.9422839879989624
-      },
-      "footprint": {
-        "width": 1,
-        "depth": 1
-      }
-    },
-    {
       "id": "anvil",
       "assetPath": "asset://models/anvil/anvil.glb",
       "bounds": {
@@ -1624,31 +1749,6 @@
       },
       "footprint": {
         "width": 2,
-        "depth": 1
-      }
-    },
-    {
-      "id": "mithril-rock",
-      "assetPath": "asset://models/mithril-rock/mithril-rock.glb",
-      "bounds": {
-        "min": {
-          "x": -0.4906221628189087,
-          "y": -0.086798295378685,
-          "z": -0.4711579978466034
-        },
-        "max": {
-          "x": 0.4353848099708557,
-          "y": 0.46362942457199097,
-          "z": 0.471125990152359
-        }
-      },
-      "dimensions": {
-        "x": 0.9260069727897644,
-        "y": 0.550427719950676,
-        "z": 0.9422839879989624
-      },
-      "footprint": {
-        "width": 1,
         "depth": 1
       }
     },

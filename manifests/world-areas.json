@@ -109,22 +109,27 @@
         },
         {
           "type": "ore",
-          "position": { "x": -6, "y": 0, "z": 36 },
+          "position": { "x": -6, "y": 0, "z": 35 },
+          "resourceId": "ore_gold"
+        },
+        {
+          "type": "ore",
+          "position": { "x": -2, "y": 0, "z": 36 },
           "resourceId": "ore_coal"
         },
         {
           "type": "ore",
-          "position": { "x": -2, "y": 0, "z": 33 },
+          "position": { "x": 2, "y": 0, "z": 33 },
           "resourceId": "ore_mithril"
         },
         {
           "type": "ore",
-          "position": { "x": 2, "y": 0, "z": 38 },
+          "position": { "x": 6, "y": 0, "z": 38 },
           "resourceId": "ore_adamant"
         },
         {
           "type": "ore",
-          "position": { "x": 6, "y": 0, "z": 35 },
+          "position": { "x": 10, "y": 0, "z": 35 },
           "resourceId": "ore_runite"
         }
       ],

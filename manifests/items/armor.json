@@ -144,7 +144,9 @@
     "tradeable": true,
     "rarity": "common",
     "requirements": {
-      "skills": { "defence": 5 }
+      "skills": {
+        "defence": 5
+      }
     },
     "bonuses": {
       "defenseStab": 9,
@@ -169,7 +171,9 @@
     "tradeable": true,
     "rarity": "common",
     "requirements": {
-      "skills": { "defence": 5 }
+      "skills": {
+        "defence": 5
+      }
     },
     "bonuses": {
       "defenseStab": 32,
@@ -194,7 +198,9 @@
     "tradeable": true,
     "rarity": "common",
     "requirements": {
-      "skills": { "defence": 5 }
+      "skills": {
+        "defence": 5
+      }
     },
     "bonuses": {
       "defenseStab": 17,
@@ -219,7 +225,9 @@
     "tradeable": true,
     "rarity": "uncommon",
     "requirements": {
-      "skills": { "defence": 20 }
+      "skills": {
+        "defence": 20
+      }
     },
     "bonuses": {
       "defenseStab": 13,
@@ -244,7 +252,9 @@
     "tradeable": true,
     "rarity": "uncommon",
     "requirements": {
-      "skills": { "defence": 20 }
+      "skills": {
+        "defence": 20
+      }
     },
     "bonuses": {
       "defenseStab": 46,
@@ -269,7 +279,9 @@
     "tradeable": true,
     "rarity": "uncommon",
     "requirements": {
-      "skills": { "defence": 20 }
+      "skills": {
+        "defence": 20
+      }
     },
     "bonuses": {
       "defenseStab": 24,
@@ -294,7 +306,9 @@
     "tradeable": true,
     "rarity": "uncommon",
     "requirements": {
-      "skills": { "defence": 30 }
+      "skills": {
+        "defence": 30
+      }
     },
     "bonuses": {
       "defenseStab": 19,
@@ -319,7 +333,9 @@
     "tradeable": true,
     "rarity": "uncommon",
     "requirements": {
-      "skills": { "defence": 30 }
+      "skills": {
+        "defence": 30
+      }
     },
     "bonuses": {
       "defenseStab": 65,
@@ -344,7 +360,9 @@
     "tradeable": true,
     "rarity": "uncommon",
     "requirements": {
-      "skills": { "defence": 30 }
+      "skills": {
+        "defence": 30
+      }
     },
     "bonuses": {
       "defenseStab": 33,
@@ -369,7 +387,9 @@
     "tradeable": true,
     "rarity": "rare",
     "requirements": {
-      "skills": { "defence": 40 }
+      "skills": {
+        "defence": 40
+      }
     },
     "bonuses": {
       "defenseStab": 30,
@@ -394,7 +414,9 @@
     "tradeable": true,
     "rarity": "rare",
     "requirements": {
-      "skills": { "defence": 40 }
+      "skills": {
+        "defence": 40
+      }
     },
     "bonuses": {
       "defenseStab": 82,
@@ -419,7 +441,9 @@
     "tradeable": true,
     "rarity": "rare",
     "requirements": {
-      "skills": { "defence": 40 }
+      "skills": {
+        "defence": 40
+      }
     },
     "bonuses": {
       "defenseStab": 51,
@@ -451,7 +475,8 @@
       "defenseRanged": 8,
       "attackMagic": -8,
       "attackRanged": -3
-    }
+    },
+    "iconPath": "asset://icons/shield-bronze.png"
   },
   {
     "id": "iron_kiteshield",
@@ -488,7 +513,9 @@
     "tradeable": true,
     "rarity": "common",
     "requirements": {
-      "skills": { "defence": 5 }
+      "skills": {
+        "defence": 5
+      }
     },
     "bonuses": {
       "defenseStab": 14,
@@ -498,7 +525,8 @@
       "defenseRanged": 15,
       "attackMagic": -8,
       "attackRanged": -3
-    }
+    },
+    "iconPath": "asset://icons/shield-steel.png"
   },
   {
     "id": "mithril_kiteshield",
@@ -513,7 +541,9 @@
     "tradeable": true,
     "rarity": "uncommon",
     "requirements": {
-      "skills": { "defence": 20 }
+      "skills": {
+        "defence": 20
+      }
     },
     "bonuses": {
       "defenseStab": 20,
@@ -523,7 +553,8 @@
       "defenseRanged": 21,
       "attackMagic": -8,
       "attackRanged": -3
-    }
+    },
+    "iconPath": "asset://icons/shield-mithril.png"
   },
   {
     "id": "adamant_kiteshield",
@@ -538,7 +569,9 @@
     "tradeable": true,
     "rarity": "uncommon",
     "requirements": {
-      "skills": { "defence": 30 }
+      "skills": {
+        "defence": 30
+      }
     },
     "bonuses": {
       "defenseStab": 27,
@@ -563,7 +596,9 @@
     "tradeable": true,
     "rarity": "rare",
     "requirements": {
-      "skills": { "defence": 40 }
+      "skills": {
+        "defence": 40
+      }
     },
     "bonuses": {
       "defenseStab": 44,
@@ -652,7 +687,9 @@
     "tradeable": true,
     "rarity": "common",
     "requirements": {
-      "skills": { "ranged": 20 }
+      "skills": {
+        "ranged": 20
+      }
     },
     "bonuses": {
       "defenseStab": 4,
@@ -676,7 +713,10 @@
     "tradeable": true,
     "rarity": "common",
     "requirements": {
-      "skills": { "ranged": 20, "defence": 20 }
+      "skills": {
+        "ranged": 20,
+        "defence": 20
+      }
     },
     "bonuses": {
       "defenseStab": 18,
@@ -701,7 +741,9 @@
     "tradeable": true,
     "rarity": "common",
     "requirements": {
-      "skills": { "ranged": 20 }
+      "skills": {
+        "ranged": 20
+      }
     },
     "bonuses": {
       "defenseStab": 15,
@@ -726,7 +768,10 @@
     "tradeable": true,
     "rarity": "uncommon",
     "requirements": {
-      "skills": { "ranged": 40, "defence": 40 }
+      "skills": {
+        "ranged": 40,
+        "defence": 40
+      }
     },
     "bonuses": {
       "defenseStab": 18,
@@ -751,7 +796,9 @@
     "tradeable": true,
     "rarity": "uncommon",
     "requirements": {
-      "skills": { "ranged": 40 }
+      "skills": {
+        "ranged": 40
+      }
     },
     "bonuses": {
       "defenseStab": 12,
@@ -827,7 +874,10 @@
     "tradeable": true,
     "rarity": "rare",
     "requirements": {
-      "skills": { "magic": 40, "defence": 20 }
+      "skills": {
+        "magic": 40,
+        "defence": 20
+      }
     },
     "bonuses": {
       "attackMagic": 4,
@@ -847,7 +897,10 @@
     "tradeable": true,
     "rarity": "rare",
     "requirements": {
-      "skills": { "magic": 40, "defence": 20 }
+      "skills": {
+        "magic": 40,
+        "defence": 20
+      }
     },
     "bonuses": {
       "attackMagic": 20,
@@ -867,7 +920,10 @@
     "tradeable": true,
     "rarity": "rare",
     "requirements": {
-      "skills": { "magic": 40, "defence": 20 }
+      "skills": {
+        "magic": 40,
+        "defence": 20
+      }
     },
     "bonuses": {
       "attackMagic": 15,
@@ -944,7 +1000,9 @@
     "tradeable": true,
     "rarity": "common",
     "requirements": {
-      "skills": { "defence": 5 }
+      "skills": {
+        "defence": 5
+      }
     },
     "bonuses": {
       "defenseStab": 4,
@@ -967,7 +1025,9 @@
     "tradeable": true,
     "rarity": "uncommon",
     "requirements": {
-      "skills": { "defence": 20 }
+      "skills": {
+        "defence": 20
+      }
     },
     "bonuses": {
       "defenseStab": 6,
@@ -990,7 +1050,9 @@
     "tradeable": true,
     "rarity": "uncommon",
     "requirements": {
-      "skills": { "defence": 30 }
+      "skills": {
+        "defence": 30
+      }
     },
     "bonuses": {
       "defenseStab": 8,
@@ -1013,7 +1075,9 @@
     "tradeable": true,
     "rarity": "rare",
     "requirements": {
-      "skills": { "defence": 40 }
+      "skills": {
+        "defence": 40
+      }
     },
     "bonuses": {
       "defenseStab": 12,
@@ -1036,7 +1100,9 @@
     "tradeable": true,
     "rarity": "uncommon",
     "requirements": {
-      "skills": { "magic": 20 }
+      "skills": {
+        "magic": 20
+      }
     },
     "bonuses": {
       "attackMagic": 4,
@@ -1118,7 +1184,9 @@
     "tradeable": true,
     "rarity": "common",
     "requirements": {
-      "skills": { "defence": 5 }
+      "skills": {
+        "defence": 5
+      }
     },
     "bonuses": {
       "attackStab": 4,
@@ -1143,7 +1211,9 @@
     "tradeable": true,
     "rarity": "uncommon",
     "requirements": {
-      "skills": { "defence": 20 }
+      "skills": {
+        "defence": 20
+      }
     },
     "bonuses": {
       "attackStab": 5,
@@ -1168,7 +1238,9 @@
     "tradeable": true,
     "rarity": "uncommon",
     "requirements": {
-      "skills": { "defence": 30 }
+      "skills": {
+        "defence": 30
+      }
     },
     "bonuses": {
       "attackStab": 6,
@@ -1193,7 +1265,9 @@
     "tradeable": true,
     "rarity": "rare",
     "requirements": {
-      "skills": { "defence": 40 }
+      "skills": {
+        "defence": 40
+      }
     },
     "bonuses": {
       "attackStab": 8,
@@ -1237,7 +1311,9 @@
     "tradeable": true,
     "rarity": "uncommon",
     "requirements": {
-      "skills": { "ranged": 40 }
+      "skills": {
+        "ranged": 40
+      }
     },
     "bonuses": {
       "attackMagic": -10,
@@ -1261,7 +1337,10 @@
     "tradeable": true,
     "rarity": "rare",
     "requirements": {
-      "skills": { "magic": 40, "defence": 20 }
+      "skills": {
+        "magic": 40,
+        "defence": 20
+      }
     },
     "bonuses": {
       "attackMagic": 3,

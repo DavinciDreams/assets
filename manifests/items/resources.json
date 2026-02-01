@@ -14,7 +14,12 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/bones.png",
-    "inventoryActions": ["Bury", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Bury",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "big_bones",
@@ -31,7 +36,12 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/big-bones.png",
-    "inventoryActions": ["Bury", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Bury",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "dragon_bones",
@@ -48,7 +58,12 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/dragon-bones.png",
-    "inventoryActions": ["Bury", "Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Bury",
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "logs",
@@ -63,8 +78,12 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": "asset://models/logs-wood/logs-wood.glb",
-    "iconPath": "asset://models/logs-wood/concept-art.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "iconPath": "asset://icons/logs-wood.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "oak_logs",
@@ -79,8 +98,12 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": "asset://models/logs-wood/logs-wood.glb",
-    "iconPath": "asset://models/logs-wood/concept-art.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "iconPath": "asset://icons/logs-wood.png",
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "copper_ore",
@@ -96,7 +119,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/ore-copper.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "tin_ore",
@@ -112,7 +139,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/ore-tin.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_ore",
@@ -128,7 +159,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/ore-iron.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "coal",
@@ -144,7 +179,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/coal.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_ore",
@@ -160,7 +199,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/ore-mithril.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamantite_ore",
@@ -176,7 +219,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/ore-adamant.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "runite_ore",
@@ -192,7 +239,11 @@
     "rarity": "epic",
     "modelPath": null,
     "iconPath": "asset://icons/ore-rune.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "bronze_bar",
@@ -208,7 +259,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/bar-bronze.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_bar",
@@ -224,7 +279,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/bar-iron.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_bar",
@@ -240,7 +299,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/bar-steel.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_bar",
@@ -256,7 +319,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/bar-mithril.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_bar",
@@ -272,7 +339,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/bar-adamant.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_bar",
@@ -288,7 +359,11 @@
     "rarity": "epic",
     "modelPath": null,
     "iconPath": "asset://icons/bar-rune.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_shrimp",
@@ -304,7 +379,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/raw-shrimp.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_anchovies",
@@ -320,7 +399,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/raw-anchovies.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_trout",
@@ -336,7 +419,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/raw-trout.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_salmon",
@@ -352,7 +439,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/raw-salmon.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_tuna",
@@ -368,7 +459,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/raw-tuna.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "fishing_bait",
@@ -384,7 +479,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/fishing-bait.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "feathers",
@@ -400,7 +499,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/feathers.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_sardine",
@@ -416,7 +519,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/raw-sardine.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_herring",
@@ -432,7 +539,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/raw-herring.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_pike",
@@ -448,7 +559,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/raw-pike.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_lobster",
@@ -464,7 +579,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/raw-lobster.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_swordfish",
@@ -480,7 +599,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/raw-swordfish.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_monkfish",
@@ -496,7 +619,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/raw-monkfish.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "raw_shark",
@@ -512,7 +639,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/raw-shark.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "willow_logs",
@@ -528,7 +659,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/willow-logs.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "teak_logs",
@@ -544,7 +679,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/teak-logs.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "maple_logs",
@@ -560,7 +699,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/maple-logs.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mahogany_logs",
@@ -576,7 +719,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/mahogany-logs.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "yew_logs",
@@ -592,7 +739,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/yew-logs.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "magic_logs",
@@ -608,7 +759,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/magic-logs.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "cowhide",
@@ -624,7 +779,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/cowhide.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "leather",
@@ -640,7 +799,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/leather.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "green_dragonhide",
@@ -656,7 +819,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/green-dragonhide.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "green_dragon_leather",
@@ -672,7 +839,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/green-dragon-leather.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "gold_bar",
@@ -688,7 +859,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/bar-gold.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "uncut_sapphire",
@@ -704,7 +879,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/uncut-sapphire.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "uncut_emerald",
@@ -720,7 +899,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/uncut-emerald.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "uncut_ruby",
@@ -736,7 +919,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/uncut-ruby.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "uncut_diamond",
@@ -752,7 +939,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/uncut-diamond.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "uncut_dragonstone",
@@ -768,7 +959,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/uncut-dragonstone.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "uncut_onyx",
@@ -784,7 +979,11 @@
     "rarity": "epic",
     "modelPath": null,
     "iconPath": "asset://icons/uncut-onyx.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "sapphire",
@@ -800,7 +999,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/sapphire.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "emerald",
@@ -816,7 +1019,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/emerald.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "ruby",
@@ -832,7 +1039,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/ruby.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "diamond",
@@ -848,7 +1059,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/diamond.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "dragonstone",
@@ -864,7 +1079,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/dragonstone.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "onyx",
@@ -880,7 +1099,11 @@
     "rarity": "epic",
     "modelPath": null,
     "iconPath": "asset://icons/onyx.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_studs",
@@ -896,7 +1119,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/steel-studs.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "_comment": "=== FLETCHING RESOURCES ===",
@@ -913,7 +1140,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/arrow-shaft.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "headless_arrow",
@@ -929,7 +1160,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/headless-arrow.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "bowstring",
@@ -945,7 +1180,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/bowstring.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "_comment": "=== ARROWTIPS ===",
@@ -962,7 +1201,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/bronze-arrowtips.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "iron_arrowtips",
@@ -978,7 +1221,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/iron-arrowtips.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "steel_arrowtips",
@@ -994,7 +1241,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/steel-arrowtips.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "mithril_arrowtips",
@@ -1010,7 +1261,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/mithril-arrowtips.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "adamant_arrowtips",
@@ -1026,7 +1281,11 @@
     "rarity": "uncommon",
     "modelPath": null,
     "iconPath": "asset://icons/adamant-arrowtips.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "rune_arrowtips",
@@ -1042,7 +1301,11 @@
     "rarity": "rare",
     "modelPath": null,
     "iconPath": "asset://icons/rune-arrowtips.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "_comment": "=== RUNECRAFTING RESOURCES ===",
@@ -1059,7 +1322,11 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/rune-essence.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   },
   {
     "id": "pure_essence",
@@ -1075,6 +1342,10 @@
     "rarity": "common",
     "modelPath": null,
     "iconPath": "asset://icons/pure-essence.png",
-    "inventoryActions": ["Use", "Drop", "Examine"]
+    "inventoryActions": [
+      "Use",
+      "Drop",
+      "Examine"
+    ]
   }
 ]

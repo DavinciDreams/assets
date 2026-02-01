@@ -58,9 +58,9 @@
     {
       "type": "runecrafting_altar",
       "name": "Runecrafting Altar",
-      "model": "asset://models/prayer-alter/prayer-alter.glb",
-      "modelScale": 1.0,
-      "modelYOffset": 0.25,
+      "model": "asset://models/runecrafting-alter/runecrafting-alter.glb",
+      "modelScale": 1.8,
+      "modelYOffset": 1.2,
       "examine": "A mysterious altar pulsing with runic energy.",
       "flattenGround": true,
       "flattenPadding": 3.0,

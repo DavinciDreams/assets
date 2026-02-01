@@ -17,7 +17,7 @@
     "rarity": "common",
     "modelPath": "asset://models/sword-bronze/sword-bronze.glb",
     "equippedModelPath": "asset://models/sword-bronze/sword-bronze-aligned.glb",
-    "iconPath": "asset://models/sword-bronze/concept-art.png",
+    "iconPath": "asset://icons/sword-bronze.png",
     "bonuses": {
       "attack": 4,
       "strength": 3,
@@ -71,7 +71,7 @@
     "rarity": "common",
     "modelPath": "asset://models/sword-steel/sword-steel.glb",
     "equippedModelPath": "asset://models/sword-steel/sword-steel-aligned.glb",
-    "iconPath": "asset://models/sword-steel/concept-art.png",
+    "iconPath": "asset://icons/sword-steel.png",
     "bonuses": {
       "attack": 12,
       "strength": 10,
@@ -98,7 +98,7 @@
     "rarity": "rare",
     "modelPath": "asset://models/sword-mithril/sword-mithril.glb",
     "equippedModelPath": "asset://models/sword-mithril/sword-mithril-aligned.glb",
-    "iconPath": "asset://models/sword-mithril/concept-art.png",
+    "iconPath": "asset://icons/sword-mithril.png",
     "bonuses": {
       "attack": 25,
       "strength": 22,
