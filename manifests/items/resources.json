@@ -12,7 +12,9 @@
     "examine": "These bones could be buried for prayer experience.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
+    "modelPath": "asset://models/bones/bones.glb",
+    "modelScale": 0.25,
+    "groundOffset": 1.0,
     "iconPath": "asset://icons/bones.png",
     "inventoryActions": [
       "Bury",

@@ -194,7 +194,9 @@
     "examine": "Gold coins used as currency throughout the realm",
     "tradeable": true,
     "rarity": "always",
-    "modelPath": null,
+    "modelPath": "asset://models/coin-pile/coin-pile.glb",
+    "modelScale": 0.25,
+    "groundOffset": 2.5,
     "iconPath": "asset://icons/coins.png",
     "inventoryActions": ["Use", "Drop", "Examine"]
   },
