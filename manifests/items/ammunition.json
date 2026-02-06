@@ -13,7 +13,7 @@
     "examine": "Arrows with bronze heads.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": null,
+    "modelPath": "asset://models/arrows-bronze/arrows-bronze.glb",
     "iconPath": "asset://icons/arrows-bronze.png",
     "bonuses": {
       "rangedStrength": 7
