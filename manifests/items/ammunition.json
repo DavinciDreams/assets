@@ -14,6 +14,7 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": "asset://models/arrows-bronze/arrows-bronze.glb",
+    "equippedModelPath": "asset://models/arrows-bronze/arrows-bronze.glb",
     "iconPath": "asset://icons/arrows-bronze.png",
     "bonuses": {
       "rangedStrength": 7
