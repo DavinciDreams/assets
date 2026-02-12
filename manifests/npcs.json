@@ -759,5 +759,205 @@
       "plains",
       "forest"
     ]
+  },
+  {
+    "id": "dark_wizard",
+    "name": "Dark Wizard",
+    "description": "A sinister wizard who attacks with Wind Strike magic",
+    "category": "mob",
+    "faction": "zamorak",
+    "stats": {
+      "level": 22,
+      "health": 22,
+      "attack": 1,
+      "strength": 1,
+      "defense": 11,
+      "defenseBonus": 0,
+      "ranged": 1,
+      "magic": 22
+    },
+    "combat": {
+      "attackable": true,
+      "aggressive": true,
+      "retaliates": true,
+      "aggroRange": 5,
+      "combatRange": 10,
+      "leashRange": 8,
+      "attackSpeedTicks": 5,
+      "respawnTicks": 50,
+      "attackType": "magic",
+      "spellId": "wind_strike"
+    },
+    "movement": {
+      "type": "wander",
+      "speed": 2.0,
+      "wanderRadius": 4
+    },
+    "drops": {
+      "defaultDrop": {
+        "enabled": true,
+        "itemId": "bones",
+        "quantity": 1
+      },
+      "always": [],
+      "common": [
+        {
+          "itemId": "air_rune",
+          "minQuantity": 5,
+          "maxQuantity": 18,
+          "chance": 0.25,
+          "rarity": "common"
+        },
+        {
+          "itemId": "mind_rune",
+          "minQuantity": 3,
+          "maxQuantity": 12,
+          "chance": 0.2,
+          "rarity": "common"
+        },
+        {
+          "itemId": "water_rune",
+          "minQuantity": 2,
+          "maxQuantity": 9,
+          "chance": 0.15,
+          "rarity": "common"
+        },
+        {
+          "itemId": "earth_rune",
+          "minQuantity": 2,
+          "maxQuantity": 9,
+          "chance": 0.15,
+          "rarity": "common"
+        },
+        {
+          "itemId": "coins",
+          "minQuantity": 3,
+          "maxQuantity": 60,
+          "chance": 0.5,
+          "rarity": "common"
+        }
+      ],
+      "uncommon": [
+        {
+          "itemId": "wizard_hat",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.05,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "staff",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.04,
+          "rarity": "uncommon"
+        }
+      ],
+      "rare": [],
+      "veryRare": []
+    },
+    "appearance": {
+      "modelPath": "asset://models/dark-wizard/dark-wizard.vrm",
+      "iconPath": "asset://icons/npcs/dark_wizard.png",
+      "scale": 1.0,
+      "heldWeaponModel": "asset://models/magic-staffs/air-staff/air-staff-aligned.glb"
+    },
+    "spawnBiomes": [
+      "plains",
+      "forest"
+    ]
+  },
+  {
+    "id": "dark_ranger",
+    "name": "Dark Ranger",
+    "description": "A shadowy archer who fires bronze arrows from the darkness",
+    "category": "mob",
+    "faction": "zamorak",
+    "stats": {
+      "level": 15,
+      "health": 18,
+      "attack": 1,
+      "strength": 1,
+      "defense": 8,
+      "defenseBonus": 0,
+      "ranged": 15,
+      "magic": 1
+    },
+    "combat": {
+      "attackable": true,
+      "aggressive": true,
+      "retaliates": true,
+      "aggroRange": 5,
+      "combatRange": 7,
+      "leashRange": 8,
+      "attackSpeedTicks": 4,
+      "respawnTicks": 50,
+      "attackType": "ranged",
+      "arrowId": "bronze_arrow"
+    },
+    "movement": {
+      "type": "wander",
+      "speed": 2.0,
+      "wanderRadius": 4
+    },
+    "drops": {
+      "defaultDrop": {
+        "enabled": true,
+        "itemId": "bones",
+        "quantity": 1
+      },
+      "always": [],
+      "common": [
+        {
+          "itemId": "bronze_arrow",
+          "minQuantity": 5,
+          "maxQuantity": 20,
+          "chance": 0.4,
+          "rarity": "common"
+        },
+        {
+          "itemId": "coins",
+          "minQuantity": 3,
+          "maxQuantity": 40,
+          "chance": 0.5,
+          "rarity": "common"
+        }
+      ],
+      "uncommon": [
+        {
+          "itemId": "shortbow",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.05,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "leather_body",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.04,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "leather_chaps",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.04,
+          "rarity": "uncommon"
+        }
+      ],
+      "rare": [],
+      "veryRare": []
+    },
+    "appearance": {
+      "modelPath": "asset://models/dark-ranger/dark-ranger.vrm",
+      "iconPath": "asset://icons/npcs/dark_ranger.png",
+      "scale": 1.0,
+      "heldWeaponModel": "asset://models/bow-wood/bow-wood-aligned.glb"
+    },
+    "spawnBiomes": [
+      "plains",
+      "forest"
+    ]
   }
 ]

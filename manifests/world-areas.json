@@ -145,6 +145,18 @@
           "position": { "x": -35, "y": 0, "z": 18 },
           "spawnRadius": 5,
           "maxCount": 4
+        },
+        {
+          "mobId": "dark_wizard",
+          "position": { "x": 45, "y": 0, "z": -30 },
+          "spawnRadius": 5,
+          "maxCount": 3
+        },
+        {
+          "mobId": "dark_ranger",
+          "position": { "x": 38, "y": 0, "z": -25 },
+          "spawnRadius": 5,
+          "maxCount": 3
         }
       ],
       "fishing": {
