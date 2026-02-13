@@ -3,7 +3,7 @@
     {
       "type": "anvil",
       "name": "Anvil",
-      "model": "asset://models/anvil/anvil.glb",
+      "model": "asset://models/stations/anvil/anvil.glb",
       "modelScale": 0.5,
       "modelYOffset": 0.2,
       "examine": "An anvil for smithing metal bars into weapons and tools.",
@@ -14,7 +14,7 @@
     {
       "type": "furnace",
       "name": "Furnace",
-      "model": "asset://models/furnace/furnace.glb",
+      "model": "asset://models/stations/furnace/furnace.glb",
       "modelScale": 1.5,
       "modelYOffset": 1.0,
       "examine": "A furnace for smelting ores into metal bars.",
@@ -25,7 +25,7 @@
     {
       "type": "range",
       "name": "Cooking Range",
-      "model": "asset://models/cooking-range/cooking-range.glb",
+      "model": "asset://models/stations/cooking-range/cooking-range.glb",
       "modelScale": 1.0,
       "modelYOffset": 0.3,
       "examine": "A range for cooking food. Reduces burn chance.",
@@ -36,7 +36,7 @@
     {
       "type": "bank",
       "name": "Bank Chest",
-      "model": "asset://models/bank-chest/bank-chest.glb",
+      "model": "asset://models/stations/bank-chest/bank-chest.glb",
       "modelScale": 0.5,
       "modelYOffset": 0.10,
       "examine": "A bank chest for storing items.",
@@ -47,7 +47,7 @@
     {
       "type": "altar",
       "name": "Altar",
-      "model": "asset://models/prayer-alter/prayer-alter.glb",
+      "model": "asset://models/stations/prayer-alter/prayer-alter.glb",
       "modelScale": 1.0,
       "modelYOffset": 0.25,
       "examine": "An altar to the gods. Pray here to restore prayer points.",
@@ -58,7 +58,7 @@
     {
       "type": "runecrafting_altar",
       "name": "Runecrafting Altar",
-      "model": "asset://models/runecrafting-alter/runecrafting-alter.glb",
+      "model": "asset://models/stations/runecrafting-alter/runecrafting-alter.glb",
       "modelScale": 1.8,
       "modelYOffset": 1.2,
       "examine": "A mysterious altar pulsing with runic energy.",

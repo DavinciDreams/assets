@@ -187,7 +187,7 @@
       ]
     },
     "appearance": {
-      "modelPath": "asset://models/goblin/goblin.vrm",
+      "modelPath": "asset://models/mobs/goblin/goblin.vrm",
       "iconPath": "asset://icons/npcs/goblin.png",
       "scale": 0.75
     },
@@ -264,7 +264,7 @@
       ]
     },
     "appearance": {
-      "modelPath": "asset://avatars/avatar-male-01.vrm",
+      "modelPath": "asset://models/npcs/banker/banker.vrm",
       "iconPath": "asset://icons/npcs/shopkeeper.png",
       "scale": 1.0
     }
@@ -318,7 +318,7 @@
       ]
     },
     "appearance": {
-      "modelPath": "asset://avatars/avatar-male-01.vrm",
+      "modelPath": "asset://models/npcs/shopkeeper/shopkeeper.vrm",
       "iconPath": "asset://icons/npcs/shopkeeper.png",
       "scale": 1.0
     }
@@ -418,7 +418,7 @@
       ]
     },
     "appearance": {
-      "modelPath": "asset://avatars/avatar-male-01.vrm",
+      "modelPath": "asset://models/npcs/captain-rowan/captain-rowan.vrm",
       "iconPath": "asset://icons/npcs/captain.png",
       "scale": 1.0
     }
@@ -494,7 +494,7 @@
       ]
     },
     "appearance": {
-      "modelPath": "asset://avatars/avatar-female-01.vrm",
+      "modelPath": "asset://models/npcs/forester-wilma/forester-wilma.vrm",
       "iconPath": "asset://icons/npcs/forester.png",
       "scale": 1.0
     }
@@ -570,7 +570,7 @@
       ]
     },
     "appearance": {
-      "modelPath": "asset://avatars/avatar-male-01.vrm",
+      "modelPath": "asset://models/npcs/fisherman-pete/fisherman-pete.vrm",
       "iconPath": "asset://icons/npcs/fisherman.png",
       "scale": 1.0
     }
@@ -646,7 +646,7 @@
       ]
     },
     "appearance": {
-      "modelPath": "asset://avatars/avatar-male-01.vrm",
+      "modelPath": "asset://models/npcs/torvin/torvin.vrm",
       "iconPath": "asset://icons/npcs/smith.png",
       "scale": 0.9
     }
@@ -694,7 +694,7 @@
       ]
     },
     "appearance": {
-      "modelPath": "asset://avatars/avatar-male-01.vrm",
+      "modelPath": "asset://models/npcs/tanner-ellis/tanner-ellis.vrm",
       "iconPath": "asset://icons/npcs/tanner.png",
       "scale": 1.0
     }
@@ -857,7 +857,7 @@
       "veryRare": []
     },
     "appearance": {
-      "modelPath": "asset://models/dark-wizard/dark-wizard.vrm",
+      "modelPath": "asset://models/mobs/dark-wizard/dark-wizard.vrm",
       "iconPath": "asset://icons/npcs/dark_wizard.png",
       "scale": 1.0,
       "heldWeaponModel": "asset://models/magic-staffs/air-staff/air-staff-aligned.glb"
@@ -950,10 +950,10 @@
       "veryRare": []
     },
     "appearance": {
-      "modelPath": "asset://models/dark-ranger/dark-ranger.vrm",
+      "modelPath": "asset://models/mobs/dark-ranger/dark-ranger.vrm",
       "iconPath": "asset://icons/npcs/dark_ranger.png",
       "scale": 1.0,
-      "heldWeaponModel": "asset://models/bow-wood/bow-wood-aligned.glb"
+      "heldWeaponModel": "asset://models/bows/bow-wood/bow-wood-aligned.glb"
     },
     "spawnBiomes": [
       "plains",

@@ -15,8 +15,8 @@
     "examine": "A basic sword made of bronze",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/sword-bronze/sword-bronze.glb",
-    "equippedModelPath": "asset://models/sword-bronze/sword-bronze-aligned.glb",
+    "modelPath": "asset://models/swords/sword-bronze/sword-bronze.glb",
+    "equippedModelPath": "asset://models/swords/sword-bronze/sword-bronze-aligned.glb",
     "iconPath": "asset://icons/sword-bronze.png",
     "bonuses": {
       "attack": 4,
@@ -43,7 +43,7 @@
     "tradeable": true,
     "rarity": "common",
     "modelPath": null,
-    "equippedModelPath": "asset://models/sword-steel/sword-steel-aligned.glb",
+    "equippedModelPath": "asset://models/swords/sword-steel/sword-steel-aligned.glb",
     "iconPath": "asset://icons/sword-iron.png",
     "bonuses": {
       "attack": 8,
@@ -69,8 +69,8 @@
     "examine": "A sturdy sword made of steel",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/sword-steel/sword-steel.glb",
-    "equippedModelPath": "asset://models/sword-steel/sword-steel-aligned.glb",
+    "modelPath": "asset://models/swords/sword-steel/sword-steel.glb",
+    "equippedModelPath": "asset://models/swords/sword-steel/sword-steel-aligned.glb",
     "iconPath": "asset://icons/sword-steel.png",
     "bonuses": {
       "attack": 12,
@@ -96,8 +96,8 @@
     "examine": "A legendary sword made of mithril",
     "tradeable": true,
     "rarity": "rare",
-    "modelPath": "asset://models/sword-mithril/sword-mithril.glb",
-    "equippedModelPath": "asset://models/sword-mithril/sword-mithril-aligned.glb",
+    "modelPath": "asset://models/swords/sword-mithril/sword-mithril.glb",
+    "equippedModelPath": "asset://models/swords/sword-mithril/sword-mithril-aligned.glb",
     "iconPath": "asset://icons/sword-mithril.png",
     "bonuses": {
       "attack": 25,
@@ -179,8 +179,8 @@
     "examine": "Short but effective.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/bow-wood/bow-wood.glb",
-    "equippedModelPath": "asset://models/bow-wood/bow-wood-aligned.glb",
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/shortbow.png",
     "bonuses": {
       "attackRanged": 8
@@ -207,8 +207,8 @@
     "examine": "A shortbow made of oak.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/bow-wood/bow-wood.glb",
-    "equippedModelPath": "asset://models/bow-wood/bow-wood-aligned.glb",
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/oak-shortbow.png",
     "bonuses": {
       "attackRanged": 14
@@ -235,8 +235,8 @@
     "examine": "A shortbow made of willow.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/bow-wood/bow-wood.glb",
-    "equippedModelPath": "asset://models/bow-wood/bow-wood-aligned.glb",
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/willow-shortbow.png",
     "bonuses": {
       "attackRanged": 20
@@ -263,8 +263,8 @@
     "examine": "A shortbow made of maple.",
     "tradeable": true,
     "rarity": "uncommon",
-    "modelPath": "asset://models/bow-wood/bow-wood.glb",
-    "equippedModelPath": "asset://models/bow-wood/bow-wood-aligned.glb",
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/maple-shortbow.png",
     "bonuses": {
       "attackRanged": 29
@@ -291,8 +291,8 @@
     "examine": "A shortbow made of yew.",
     "tradeable": true,
     "rarity": "rare",
-    "modelPath": "asset://models/bow-wood/bow-wood.glb",
-    "equippedModelPath": "asset://models/bow-wood/bow-wood-aligned.glb",
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/yew-shortbow.png",
     "bonuses": {
       "attackRanged": 47
@@ -319,8 +319,8 @@
     "examine": "A shortbow made of magic wood.",
     "tradeable": true,
     "rarity": "rare",
-    "modelPath": "asset://models/bow-wood/bow-wood.glb",
-    "equippedModelPath": "asset://models/bow-wood/bow-wood-aligned.glb",
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/magic-shortbow.png",
     "bonuses": {
       "attackRanged": 69
@@ -349,8 +349,8 @@
     "examine": "A longbow. Slow but long range.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/bow-wood/bow-wood.glb",
-    "equippedModelPath": "asset://models/bow-wood/bow-wood-aligned.glb",
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/longbow.png",
     "bonuses": {
       "attackRanged": 8
@@ -377,8 +377,8 @@
     "examine": "A longbow made of oak.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/bow-wood/bow-wood.glb",
-    "equippedModelPath": "asset://models/bow-wood/bow-wood-aligned.glb",
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/oak-longbow.png",
     "bonuses": {
       "attackRanged": 14
@@ -405,8 +405,8 @@
     "examine": "A longbow made of willow.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/bow-wood/bow-wood.glb",
-    "equippedModelPath": "asset://models/bow-wood/bow-wood-aligned.glb",
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/willow-longbow.png",
     "bonuses": {
       "attackRanged": 20
@@ -433,8 +433,8 @@
     "examine": "A longbow made of maple.",
     "tradeable": true,
     "rarity": "uncommon",
-    "modelPath": "asset://models/bow-wood/bow-wood.glb",
-    "equippedModelPath": "asset://models/bow-wood/bow-wood-aligned.glb",
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/maple-longbow.png",
     "bonuses": {
       "attackRanged": 29
@@ -461,8 +461,8 @@
     "examine": "A longbow made of yew.",
     "tradeable": true,
     "rarity": "rare",
-    "modelPath": "asset://models/bow-wood/bow-wood.glb",
-    "equippedModelPath": "asset://models/bow-wood/bow-wood-aligned.glb",
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/yew-longbow.png",
     "bonuses": {
       "attackRanged": 47
@@ -489,8 +489,8 @@
     "examine": "A longbow made of magic wood.",
     "tradeable": true,
     "rarity": "rare",
-    "modelPath": "asset://models/bow-wood/bow-wood.glb",
-    "equippedModelPath": "asset://models/bow-wood/bow-wood-aligned.glb",
+    "modelPath": "asset://models/bows/bow-wood/bow-wood.glb",
+    "equippedModelPath": "asset://models/bows/bow-wood/bow-wood-aligned.glb",
     "iconPath": "asset://icons/magic-longbow.png",
     "bonuses": {
       "attackRanged": 69

@@ -12,7 +12,7 @@
     "examine": "These bones could be buried for prayer experience.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/bones/bones.glb",
+    "modelPath": "asset://models/misc/bones/bones.glb",
     "modelScale": 0.25,
     "groundOffset": 1.0,
     "iconPath": "asset://icons/bones.png",
@@ -79,7 +79,7 @@
     "examine": "Wood logs from trees",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/logs-wood/logs-wood.glb",
+    "modelPath": "asset://models/logs/logs-wood/logs-wood.glb",
     "iconPath": "asset://icons/logs-wood.png",
     "inventoryActions": [
       "Use",
@@ -99,7 +99,7 @@
     "examine": "Logs cut from an oak tree. More valuable than regular logs.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/logs-wood/logs-wood.glb",
+    "modelPath": "asset://models/logs/logs-wood/logs-wood.glb",
     "iconPath": "asset://icons/logs-wood.png",
     "inventoryActions": [
       "Use",

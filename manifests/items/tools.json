@@ -19,8 +19,8 @@
     "examine": "A basic hatchet for chopping trees",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/hatchet-bronze/hatchet-bronze.glb",
-    "equippedModelPath": "asset://models/hatchet-bronze/hatchet-bronze-aligned.glb",
+    "modelPath": "asset://models/hatchets/hatchet-bronze/hatchet-bronze.glb",
+    "equippedModelPath": "asset://models/hatchets/hatchet-bronze/hatchet-bronze-aligned.glb",
     "iconPath": "asset://icons/hatchet-bronze.png",
     "bonuses": {
       "attack": 4,
@@ -236,8 +236,8 @@
     "examine": "A basic pickaxe for mining",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/pickaxe-bronze/pickaxe-bronze.glb",
-    "equippedModelPath": "asset://models/pickaxe-bronze/pickaxe-bronze-aligned.glb",
+    "modelPath": "asset://models/pickaxes/pickaxe-bronze/pickaxe-bronze.glb",
+    "equippedModelPath": "asset://models/pickaxes/pickaxe-bronze/pickaxe-bronze-aligned.glb",
     "iconPath": "asset://icons/pickaxe-bronze.png",
     "bonuses": {
       "attack": 4,
@@ -310,8 +310,8 @@
     "examine": "A pickaxe made of steel",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/pickaxe-steel/pickaxe-steel.glb",
-    "equippedModelPath": "asset://models/pickaxe-steel/pickaxe-steel-aligned.glb",
+    "modelPath": "asset://models/pickaxes/pickaxe-steel/pickaxe-steel.glb",
+    "equippedModelPath": "asset://models/pickaxes/pickaxe-steel/pickaxe-steel-aligned.glb",
     "iconPath": "asset://icons/pickaxe-steel.png",
     "bonuses": {
       "attack": 9,
@@ -347,8 +347,8 @@
     "examine": "A pickaxe made of mithril",
     "tradeable": true,
     "rarity": "uncommon",
-    "modelPath": "asset://models/pickaxe-mithril/pickaxe-mithril.glb",
-    "equippedModelPath": "asset://models/pickaxe-mithril/pickaxe-mithril-aligned.glb",
+    "modelPath": "asset://models/pickaxes/pickaxe-mithril/pickaxe-mithril.glb",
+    "equippedModelPath": "asset://models/pickaxes/pickaxe-mithril/pickaxe-mithril-aligned.glb",
     "iconPath": "asset://icons/pickaxe-mithril.png",
     "bonuses": {
       "attack": 13,
@@ -487,8 +487,8 @@
     "examine": "A basic fishing rod for catching fish",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/bait-fishing-rod/bait-fishing-rod.glb",
-    "equippedModelPath": "asset://models/bait-fishing-rod/bait-fishing-rod-aligned.glb",
+    "modelPath": "asset://models/fishing-rods/bait-fishing-rod/bait-fishing-rod.glb",
+    "equippedModelPath": "asset://models/fishing-rods/bait-fishing-rod/bait-fishing-rod-aligned.glb",
     "iconPath": "asset://icons/bait-fishing-rod.png",
     "inventoryActions": [
       "Use",
@@ -506,7 +506,7 @@
     "examine": "A specialized rod for fly fishing in rivers.",
     "tradeable": true,
     "rarity": "common",
-    "modelPath": "asset://models/fishing-rod-standard/fishing-rod-standard.glb",
+    "modelPath": "asset://models/fishing-rods/bait-fishing-rod/bait-fishing-rod.glb",
     "iconPath": "asset://icons/fishing-rod-standard.png",
     "inventoryActions": [
       "Use",
