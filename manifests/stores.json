@@ -1,71 +1,11 @@
 [
   {
-    "id": "central_store",
-    "name": "Central General Store",
+    "id": "general_store",
+    "name": "General Store",
     "buyback": true,
     "buybackRate": 0.5,
-    "description": "General supplies and equipment for adventurers. We stock everything!",
+    "description": "General supplies for adventurers. Tools, ores, bars, and logs.",
     "items": [
-      {
-        "id": "bronze_sword",
-        "itemId": "bronze_sword",
-        "name": "Bronze Sword",
-        "price": 100,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A basic sword made of bronze",
-        "category": "weapons"
-      },
-      {
-        "id": "iron_sword",
-        "itemId": "iron_sword",
-        "name": "Iron Sword",
-        "price": 200,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A sword made of iron",
-        "category": "weapons"
-      },
-      {
-        "id": "steel_sword",
-        "itemId": "steel_sword",
-        "name": "Steel Sword",
-        "price": 500,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A sturdy sword made of steel",
-        "category": "weapons"
-      },
-      {
-        "id": "mithril_sword",
-        "itemId": "mithril_sword",
-        "name": "Mithril Sword",
-        "price": 2000,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A legendary sword made of mithril",
-        "category": "weapons"
-      },
-      {
-        "id": "adamant_sword",
-        "itemId": "adamant_sword",
-        "name": "Adamant Sword",
-        "price": 4000,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A powerful sword made of adamantite",
-        "category": "weapons"
-      },
-      {
-        "id": "rune_sword",
-        "itemId": "rune_sword",
-        "name": "Rune Sword",
-        "price": 12000,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A formidable sword made of runite",
-        "category": "weapons"
-      },
       {
         "id": "bronze_hatchet",
         "itemId": "bronze_hatchet",
@@ -207,74 +147,14 @@
         "category": "tools"
       },
       {
-        "id": "fishing_rod",
-        "itemId": "fishing_rod",
-        "name": "Fishing Rod",
-        "price": 30,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A fishing rod for bait fishing",
-        "category": "tools"
-      },
-      {
-        "id": "fly_fishing_rod",
-        "itemId": "fly_fishing_rod",
-        "name": "Fly Fishing Rod",
-        "price": 100,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A specialized rod for fly fishing",
-        "category": "tools"
-      },
-      {
-        "id": "small_fishing_net",
-        "itemId": "small_fishing_net",
-        "name": "Small Fishing Net",
-        "price": 5,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A small net for catching shrimp and anchovies",
-        "category": "tools"
-      },
-      {
-        "id": "harpoon",
-        "itemId": "harpoon",
-        "name": "Harpoon",
-        "price": 45,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A harpoon for catching tuna and swordfish",
-        "category": "tools"
-      },
-      {
-        "id": "lobster_pot",
-        "itemId": "lobster_pot",
-        "name": "Lobster Pot",
-        "price": 20,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A cage for catching lobsters",
-        "category": "tools"
-      },
-      {
-        "id": "fishing_bait",
-        "itemId": "fishing_bait",
-        "name": "Fishing Bait",
-        "price": 3,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Bait used with a fishing rod",
-        "category": "supplies"
-      },
-      {
-        "id": "feathers",
-        "itemId": "feathers",
-        "name": "Feathers",
+        "id": "knife",
+        "itemId": "knife",
+        "name": "Knife",
         "price": 6,
         "stockQuantity": -1,
         "restockTime": 0,
-        "description": "Feathers used for fly fishing",
-        "category": "supplies"
+        "description": "A knife for cutting and fletching",
+        "category": "tools"
       },
       {
         "id": "copper_ore",
@@ -485,6 +365,652 @@
         "restockTime": 0,
         "description": "Logs from a magic tree",
         "category": "logs"
+      }
+    ]
+  },
+  {
+    "id": "sword_store",
+    "name": "Torvin's Weaponry",
+    "buyback": true,
+    "buybackRate": 0.5,
+    "description": "Fine melee weapons forged by the dwarven smith Torvin.",
+    "items": [
+      {
+        "id": "bronze_sword",
+        "itemId": "bronze_sword",
+        "name": "Bronze Sword",
+        "price": 100,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A basic sword made of bronze",
+        "category": "weapons"
+      },
+      {
+        "id": "iron_sword",
+        "itemId": "iron_sword",
+        "name": "Iron Sword",
+        "price": 200,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A sword made of iron",
+        "category": "weapons"
+      },
+      {
+        "id": "steel_sword",
+        "itemId": "steel_sword",
+        "name": "Steel Sword",
+        "price": 500,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A sturdy sword made of steel",
+        "category": "weapons"
+      },
+      {
+        "id": "mithril_sword",
+        "itemId": "mithril_sword",
+        "name": "Mithril Sword",
+        "price": 2000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A legendary sword made of mithril",
+        "category": "weapons"
+      },
+      {
+        "id": "adamant_sword",
+        "itemId": "adamant_sword",
+        "name": "Adamant Sword",
+        "price": 4000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A powerful sword made of adamantite",
+        "category": "weapons"
+      },
+      {
+        "id": "rune_sword",
+        "itemId": "rune_sword",
+        "name": "Rune Sword",
+        "price": 12000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A formidable sword made of runite",
+        "category": "weapons"
+      }
+    ]
+  },
+  {
+    "id": "magic_store",
+    "name": "Zamorin's Magic Emporium",
+    "buyback": true,
+    "buybackRate": 0.5,
+    "description": "Runes, staves, and all manner of magical supplies.",
+    "items": [
+      {
+        "id": "air_rune",
+        "itemId": "air_rune",
+        "name": "Air Rune",
+        "price": 4,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Used for air spells",
+        "category": "runes"
+      },
+      {
+        "id": "water_rune",
+        "itemId": "water_rune",
+        "name": "Water Rune",
+        "price": 4,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Used for water spells",
+        "category": "runes"
+      },
+      {
+        "id": "earth_rune",
+        "itemId": "earth_rune",
+        "name": "Earth Rune",
+        "price": 4,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Used for earth spells",
+        "category": "runes"
+      },
+      {
+        "id": "fire_rune",
+        "itemId": "fire_rune",
+        "name": "Fire Rune",
+        "price": 4,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Used for fire spells",
+        "category": "runes"
+      },
+      {
+        "id": "mind_rune",
+        "itemId": "mind_rune",
+        "name": "Mind Rune",
+        "price": 3,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Used for strike spells",
+        "category": "runes"
+      },
+      {
+        "id": "chaos_rune",
+        "itemId": "chaos_rune",
+        "name": "Chaos Rune",
+        "price": 90,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Used for bolt spells",
+        "category": "runes"
+      },
+      {
+        "id": "rune_essence",
+        "itemId": "rune_essence",
+        "name": "Rune Essence",
+        "price": 4,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Used to craft basic runes at runecrafting altars",
+        "category": "runes"
+      },
+      {
+        "id": "pure_essence",
+        "itemId": "pure_essence",
+        "name": "Pure Essence",
+        "price": 12,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Used to craft any type of rune at runecrafting altars",
+        "category": "runes"
+      },
+      {
+        "id": "staff_of_air",
+        "itemId": "staff_of_air",
+        "name": "Staff of Air",
+        "price": 1500,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Provides unlimited air runes",
+        "category": "magic_weapons"
+      },
+      {
+        "id": "staff_of_water",
+        "itemId": "staff_of_water",
+        "name": "Staff of Water",
+        "price": 1500,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Provides unlimited water runes",
+        "category": "magic_weapons"
+      },
+      {
+        "id": "staff_of_earth",
+        "itemId": "staff_of_earth",
+        "name": "Staff of Earth",
+        "price": 1500,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Provides unlimited earth runes",
+        "category": "magic_weapons"
+      },
+      {
+        "id": "staff_of_fire",
+        "itemId": "staff_of_fire",
+        "name": "Staff of Fire",
+        "price": 1500,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Provides unlimited fire runes",
+        "category": "magic_weapons"
+      },
+      {
+        "id": "wizard_hat",
+        "itemId": "wizard_hat",
+        "name": "Wizard Hat",
+        "price": 2,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A pointed wizard hat",
+        "category": "magic_armor"
+      },
+      {
+        "id": "wizard_robe_top",
+        "itemId": "wizard_robe_top",
+        "name": "Blue Wizard Robe",
+        "price": 12,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A blue wizard robe top",
+        "category": "magic_armor"
+      },
+      {
+        "id": "wizard_robe_bottom",
+        "itemId": "wizard_robe_bottom",
+        "name": "Blue Wizard Skirt",
+        "price": 6,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A blue wizard robe skirt",
+        "category": "magic_armor"
+      },
+      {
+        "id": "wizard_boots",
+        "itemId": "wizard_boots",
+        "name": "Wizard Boots",
+        "price": 20,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Boots imbued with magical energy",
+        "category": "magic_armor"
+      },
+      {
+        "id": "mystic_hat",
+        "itemId": "mystic_hat",
+        "name": "Mystic Hat",
+        "price": 15000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A hat imbued with mystic energy",
+        "category": "magic_armor"
+      },
+      {
+        "id": "mystic_robe_top",
+        "itemId": "mystic_robe_top",
+        "name": "Mystic Robe Top",
+        "price": 120000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A robe imbued with mystic energy",
+        "category": "magic_armor"
+      },
+      {
+        "id": "mystic_robe_bottom",
+        "itemId": "mystic_robe_bottom",
+        "name": "Mystic Robe Bottom",
+        "price": 80000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A robe bottom imbued with mystic energy",
+        "category": "magic_armor"
+      },
+      {
+        "id": "mystic_gloves",
+        "itemId": "mystic_gloves",
+        "name": "Mystic Gloves",
+        "price": 10000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Gloves imbued with mystic energy",
+        "category": "magic_armor"
+      }
+    ]
+  },
+  {
+    "id": "range_store",
+    "name": "Archer's Armoury",
+    "buyback": true,
+    "buybackRate": 0.5,
+    "description": "Bows, arrows, and fletching supplies for rangers.",
+    "items": [
+      {
+        "id": "shortbow",
+        "itemId": "shortbow",
+        "name": "Shortbow",
+        "price": 50,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A basic shortbow for ranged combat",
+        "category": "ranged_weapons"
+      },
+      {
+        "id": "oak_shortbow",
+        "itemId": "oak_shortbow",
+        "name": "Oak Shortbow",
+        "price": 100,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A shortbow made of oak",
+        "category": "ranged_weapons"
+      },
+      {
+        "id": "willow_shortbow",
+        "itemId": "willow_shortbow",
+        "name": "Willow Shortbow",
+        "price": 300,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A shortbow made of willow",
+        "category": "ranged_weapons"
+      },
+      {
+        "id": "maple_shortbow",
+        "itemId": "maple_shortbow",
+        "name": "Maple Shortbow",
+        "price": 800,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A shortbow made of maple",
+        "category": "ranged_weapons"
+      },
+      {
+        "id": "bronze_arrow",
+        "itemId": "bronze_arrow",
+        "name": "Bronze Arrow",
+        "price": 7,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Arrows with bronze heads",
+        "category": "ammunition"
+      },
+      {
+        "id": "iron_arrow",
+        "itemId": "iron_arrow",
+        "name": "Iron Arrow",
+        "price": 15,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Arrows with iron heads",
+        "category": "ammunition"
+      },
+      {
+        "id": "steel_arrow",
+        "itemId": "steel_arrow",
+        "name": "Steel Arrow",
+        "price": 40,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Arrows with steel heads",
+        "category": "ammunition"
+      },
+      {
+        "id": "mithril_arrow",
+        "itemId": "mithril_arrow",
+        "name": "Mithril Arrow",
+        "price": 80,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Arrows with mithril heads",
+        "category": "ammunition"
+      },
+      {
+        "id": "adamant_arrow",
+        "itemId": "adamant_arrow",
+        "name": "Adamant Arrow",
+        "price": 160,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Arrows with adamant heads",
+        "category": "ammunition"
+      },
+      {
+        "id": "leather_cowl",
+        "itemId": "leather_cowl",
+        "name": "Leather Cowl",
+        "price": 25,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A leather cowl",
+        "category": "ranged_armor"
+      },
+      {
+        "id": "leather_body",
+        "itemId": "leather_body",
+        "name": "Leather Body",
+        "price": 35,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A body made of leather",
+        "category": "ranged_armor"
+      },
+      {
+        "id": "leather_chaps",
+        "itemId": "leather_chaps",
+        "name": "Leather Chaps",
+        "price": 20,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Chaps made of leather",
+        "category": "ranged_armor"
+      },
+      {
+        "id": "leather_vambraces",
+        "itemId": "leather_vambraces",
+        "name": "Leather Vambraces",
+        "price": 15,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Vambraces made of leather",
+        "category": "ranged_armor"
+      },
+      {
+        "id": "coif",
+        "itemId": "coif",
+        "name": "Coif",
+        "price": 200,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A coif made of leather and chain",
+        "category": "ranged_armor"
+      },
+      {
+        "id": "studded_body",
+        "itemId": "studded_body",
+        "name": "Studded Body",
+        "price": 850,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A studded leather body",
+        "category": "ranged_armor"
+      },
+      {
+        "id": "studded_chaps",
+        "itemId": "studded_chaps",
+        "name": "Studded Chaps",
+        "price": 750,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Studded leather chaps",
+        "category": "ranged_armor"
+      },
+      {
+        "id": "green_dhide_body",
+        "itemId": "green_dhide_body",
+        "name": "Green D'hide Body",
+        "price": 7800,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Made from 100% real dragonhide",
+        "category": "ranged_armor"
+      },
+      {
+        "id": "green_dhide_chaps",
+        "itemId": "green_dhide_chaps",
+        "name": "Green D'hide Chaps",
+        "price": 4300,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Chaps made from green dragonhide",
+        "category": "ranged_armor"
+      },
+      {
+        "id": "green_dhide_vambraces",
+        "itemId": "green_dhide_vambraces",
+        "name": "Green D'hide Vambraces",
+        "price": 3000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Vambraces made of green dragonhide",
+        "category": "ranged_armor"
+      },
+      {
+        "id": "bowstring",
+        "itemId": "bowstring",
+        "name": "Bowstring",
+        "price": 10,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A string for stringing bows",
+        "category": "fletching"
+      },
+      {
+        "id": "arrow_shaft",
+        "itemId": "arrow_shaft",
+        "name": "Arrow shaft",
+        "price": 1,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A wooden shaft for making arrows",
+        "category": "fletching"
+      },
+      {
+        "id": "headless_arrow",
+        "itemId": "headless_arrow",
+        "name": "Headless arrow",
+        "price": 2,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A feathered arrow shaft without a tip",
+        "category": "fletching"
+      },
+      {
+        "id": "bronze_arrowtips",
+        "itemId": "bronze_arrowtips",
+        "name": "Bronze arrowtips",
+        "price": 1,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Arrowtips made of bronze",
+        "category": "fletching"
+      },
+      {
+        "id": "iron_arrowtips",
+        "itemId": "iron_arrowtips",
+        "name": "Iron arrowtips",
+        "price": 4,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Arrowtips made of iron",
+        "category": "fletching"
+      },
+      {
+        "id": "steel_arrowtips",
+        "itemId": "steel_arrowtips",
+        "name": "Steel arrowtips",
+        "price": 12,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Arrowtips made of steel",
+        "category": "fletching"
+      },
+      {
+        "id": "mithril_arrowtips",
+        "itemId": "mithril_arrowtips",
+        "name": "Mithril arrowtips",
+        "price": 40,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Arrowtips made of mithril",
+        "category": "fletching"
+      },
+      {
+        "id": "adamant_arrowtips",
+        "itemId": "adamant_arrowtips",
+        "name": "Adamant arrowtips",
+        "price": 80,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Arrowtips made of adamantite",
+        "category": "fletching"
+      },
+      {
+        "id": "rune_arrowtips",
+        "itemId": "rune_arrowtips",
+        "name": "Rune arrowtips",
+        "price": 200,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Arrowtips made of runite",
+        "category": "fletching"
+      },
+      {
+        "id": "feathers",
+        "itemId": "feathers",
+        "name": "Feathers",
+        "price": 6,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Feathers used for fletching and fly fishing",
+        "category": "fletching"
+      }
+    ]
+  },
+  {
+    "id": "fishing_store",
+    "name": "Pete's Fishing Supplies",
+    "buyback": true,
+    "buybackRate": 0.5,
+    "description": "Everything a fisherman needs - rods, nets, bait, and fresh fish.",
+    "items": [
+      {
+        "id": "fishing_rod",
+        "itemId": "fishing_rod",
+        "name": "Fishing Rod",
+        "price": 30,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A fishing rod for bait fishing",
+        "category": "tools"
+      },
+      {
+        "id": "fly_fishing_rod",
+        "itemId": "fly_fishing_rod",
+        "name": "Fly Fishing Rod",
+        "price": 100,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A specialized rod for fly fishing",
+        "category": "tools"
+      },
+      {
+        "id": "small_fishing_net",
+        "itemId": "small_fishing_net",
+        "name": "Small Fishing Net",
+        "price": 5,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A small net for catching shrimp and anchovies",
+        "category": "tools"
+      },
+      {
+        "id": "harpoon",
+        "itemId": "harpoon",
+        "name": "Harpoon",
+        "price": 45,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A harpoon for catching tuna and swordfish",
+        "category": "tools"
+      },
+      {
+        "id": "lobster_pot",
+        "itemId": "lobster_pot",
+        "name": "Lobster Pot",
+        "price": 20,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A cage for catching lobsters",
+        "category": "tools"
+      },
+      {
+        "id": "fishing_bait",
+        "itemId": "fishing_bait",
+        "name": "Fishing Bait",
+        "price": 3,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "Bait used with a fishing rod",
+        "category": "supplies"
       },
       {
         "id": "raw_shrimp",
@@ -725,217 +1251,16 @@
         "restockTime": 0,
         "description": "Cooked shark, heals 20 HP",
         "category": "cooked_food"
-      },
-      {
-        "id": "shortbow",
-        "itemId": "shortbow",
-        "name": "Shortbow",
-        "price": 50,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A basic shortbow for ranged combat",
-        "category": "ranged_weapons"
-      },
-      {
-        "id": "oak_shortbow",
-        "itemId": "oak_shortbow",
-        "name": "Oak Shortbow",
-        "price": 100,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A shortbow made of oak",
-        "category": "ranged_weapons"
-      },
-      {
-        "id": "willow_shortbow",
-        "itemId": "willow_shortbow",
-        "name": "Willow Shortbow",
-        "price": 300,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A shortbow made of willow",
-        "category": "ranged_weapons"
-      },
-      {
-        "id": "maple_shortbow",
-        "itemId": "maple_shortbow",
-        "name": "Maple Shortbow",
-        "price": 800,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A shortbow made of maple",
-        "category": "ranged_weapons"
-      },
-      {
-        "id": "bronze_arrow",
-        "itemId": "bronze_arrow",
-        "name": "Bronze Arrow",
-        "price": 7,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Arrows with bronze heads",
-        "category": "ammunition"
-      },
-      {
-        "id": "iron_arrow",
-        "itemId": "iron_arrow",
-        "name": "Iron Arrow",
-        "price": 15,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Arrows with iron heads",
-        "category": "ammunition"
-      },
-      {
-        "id": "steel_arrow",
-        "itemId": "steel_arrow",
-        "name": "Steel Arrow",
-        "price": 40,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Arrows with steel heads",
-        "category": "ammunition"
-      },
-      {
-        "id": "mithril_arrow",
-        "itemId": "mithril_arrow",
-        "name": "Mithril Arrow",
-        "price": 80,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Arrows with mithril heads",
-        "category": "ammunition"
-      },
-      {
-        "id": "adamant_arrow",
-        "itemId": "adamant_arrow",
-        "name": "Adamant Arrow",
-        "price": 160,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Arrows with adamant heads",
-        "category": "ammunition"
-      },
-      {
-        "id": "air_rune",
-        "itemId": "air_rune",
-        "name": "Air Rune",
-        "price": 4,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Used for air spells",
-        "category": "runes"
-      },
-      {
-        "id": "water_rune",
-        "itemId": "water_rune",
-        "name": "Water Rune",
-        "price": 4,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Used for water spells",
-        "category": "runes"
-      },
-      {
-        "id": "earth_rune",
-        "itemId": "earth_rune",
-        "name": "Earth Rune",
-        "price": 4,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Used for earth spells",
-        "category": "runes"
-      },
-      {
-        "id": "fire_rune",
-        "itemId": "fire_rune",
-        "name": "Fire Rune",
-        "price": 4,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Used for fire spells",
-        "category": "runes"
-      },
-      {
-        "id": "mind_rune",
-        "itemId": "mind_rune",
-        "name": "Mind Rune",
-        "price": 3,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Used for strike spells",
-        "category": "runes"
-      },
-      {
-        "id": "chaos_rune",
-        "itemId": "chaos_rune",
-        "name": "Chaos Rune",
-        "price": 90,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Used for bolt spells",
-        "category": "runes"
-      },
-      {
-        "id": "rune_essence",
-        "itemId": "rune_essence",
-        "name": "Rune Essence",
-        "price": 4,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Used to craft basic runes at runecrafting altars",
-        "category": "runes"
-      },
-      {
-        "id": "pure_essence",
-        "itemId": "pure_essence",
-        "name": "Pure Essence",
-        "price": 12,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Used to craft any type of rune at runecrafting altars",
-        "category": "runes"
-      },
-      {
-        "id": "staff_of_air",
-        "itemId": "staff_of_air",
-        "name": "Staff of Air",
-        "price": 1500,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Provides unlimited air runes",
-        "category": "magic_weapons"
-      },
-      {
-        "id": "staff_of_water",
-        "itemId": "staff_of_water",
-        "name": "Staff of Water",
-        "price": 1500,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Provides unlimited water runes",
-        "category": "magic_weapons"
-      },
-      {
-        "id": "staff_of_earth",
-        "itemId": "staff_of_earth",
-        "name": "Staff of Earth",
-        "price": 1500,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Provides unlimited earth runes",
-        "category": "magic_weapons"
-      },
-      {
-        "id": "staff_of_fire",
-        "itemId": "staff_of_fire",
-        "name": "Staff of Fire",
-        "price": 1500,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Provides unlimited fire runes",
-        "category": "magic_weapons"
-      },
+      }
+    ]
+  },
+  {
+    "id": "armor_store",
+    "name": "Armor Emporium",
+    "buyback": true,
+    "buybackRate": 0.5,
+    "description": "Helms, platebodies, shields, boots, gloves, and more for melee warriors.",
+    "items": [
       {
         "id": "bronze_full_helm",
         "itemId": "bronze_full_helm",
@@ -1247,16 +1572,6 @@
         "category": "armor"
       },
       {
-        "id": "wizard_boots",
-        "itemId": "wizard_boots",
-        "name": "Wizard Boots",
-        "price": 20,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Boots imbued with magical energy",
-        "category": "armor"
-      },
-      {
         "id": "leather_gloves",
         "itemId": "leather_gloves",
         "name": "Leather Gloves",
@@ -1327,36 +1642,6 @@
         "category": "armor"
       },
       {
-        "id": "leather_vambraces",
-        "itemId": "leather_vambraces",
-        "name": "Leather Vambraces",
-        "price": 15,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Vambraces made of leather",
-        "category": "armor"
-      },
-      {
-        "id": "green_dhide_vambraces",
-        "itemId": "green_dhide_vambraces",
-        "name": "Green D'hide Vambraces",
-        "price": 3000,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Vambraces made of green dragonhide",
-        "category": "armor"
-      },
-      {
-        "id": "mystic_gloves",
-        "itemId": "mystic_gloves",
-        "name": "Mystic Gloves",
-        "price": 10000,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Gloves imbued with mystic energy",
-        "category": "armor"
-      },
-      {
         "id": "cape",
         "itemId": "cape",
         "name": "Cape",
@@ -1384,7 +1669,7 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "An amulet that improves accuracy",
-        "category": "armor"
+        "category": "jewelry"
       },
       {
         "id": "amulet_of_strength",
@@ -1394,7 +1679,7 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "An amulet that improves strength",
-        "category": "armor"
+        "category": "jewelry"
       },
       {
         "id": "amulet_of_power",
@@ -1404,7 +1689,7 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "An amulet of all-round power",
-        "category": "armor"
+        "category": "jewelry"
       },
       {
         "id": "gold_ring",
@@ -1414,148 +1699,17 @@
         "stockQuantity": -1,
         "restockTime": 0,
         "description": "A simple gold ring",
-        "category": "armor"
-      },
-      {
-        "id": "leather_cowl",
-        "itemId": "leather_cowl",
-        "name": "Leather Cowl",
-        "price": 25,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A leather cowl",
-        "category": "armor"
-      },
-      {
-        "id": "leather_body",
-        "itemId": "leather_body",
-        "name": "Leather Body",
-        "price": 35,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A body made of leather",
-        "category": "armor"
-      },
-      {
-        "id": "leather_chaps",
-        "itemId": "leather_chaps",
-        "name": "Leather Chaps",
-        "price": 20,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Chaps made of leather",
-        "category": "armor"
-      },
-      {
-        "id": "coif",
-        "itemId": "coif",
-        "name": "Coif",
-        "price": 200,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A coif made of leather and chain",
-        "category": "armor"
-      },
-      {
-        "id": "studded_body",
-        "itemId": "studded_body",
-        "name": "Studded Body",
-        "price": 850,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A studded leather body",
-        "category": "armor"
-      },
-      {
-        "id": "studded_chaps",
-        "itemId": "studded_chaps",
-        "name": "Studded Chaps",
-        "price": 750,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Studded leather chaps",
-        "category": "armor"
-      },
-      {
-        "id": "green_dhide_body",
-        "itemId": "green_dhide_body",
-        "name": "Green D'hide Body",
-        "price": 7800,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Made from 100% real dragonhide",
-        "category": "armor"
-      },
-      {
-        "id": "green_dhide_chaps",
-        "itemId": "green_dhide_chaps",
-        "name": "Green D'hide Chaps",
-        "price": 4300,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Chaps made from green dragonhide",
-        "category": "armor"
-      },
-      {
-        "id": "wizard_hat",
-        "itemId": "wizard_hat",
-        "name": "Wizard Hat",
-        "price": 2,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A pointed wizard hat",
-        "category": "armor"
-      },
-      {
-        "id": "wizard_robe_top",
-        "itemId": "wizard_robe_top",
-        "name": "Blue Wizard Robe",
-        "price": 12,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A blue wizard robe top",
-        "category": "armor"
-      },
-      {
-        "id": "wizard_robe_bottom",
-        "itemId": "wizard_robe_bottom",
-        "name": "Blue Wizard Skirt",
-        "price": 6,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A blue wizard robe skirt",
-        "category": "armor"
-      },
-      {
-        "id": "mystic_hat",
-        "itemId": "mystic_hat",
-        "name": "Mystic Hat",
-        "price": 15000,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A hat imbued with mystic energy",
-        "category": "armor"
-      },
-      {
-        "id": "mystic_robe_top",
-        "itemId": "mystic_robe_top",
-        "name": "Mystic Robe Top",
-        "price": 120000,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A robe imbued with mystic energy",
-        "category": "armor"
-      },
-      {
-        "id": "mystic_robe_bottom",
-        "itemId": "mystic_robe_bottom",
-        "name": "Mystic Robe Bottom",
-        "price": 80000,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A robe bottom imbued with mystic energy",
-        "category": "armor"
-      },
+        "category": "jewelry"
+      }
+    ]
+  },
+  {
+    "id": "crafting_store",
+    "name": "Crafting Supplies",
+    "buyback": true,
+    "buybackRate": 0.5,
+    "description": "Leather, gems, moulds, and everything else for crafting.",
+    "items": [
       {
         "id": "needle",
         "itemId": "needle",
@@ -1705,106 +1859,6 @@
         "restockTime": 0,
         "description": "An uncut onyx gemstone",
         "category": "crafting"
-      },
-      {
-        "id": "knife",
-        "itemId": "knife",
-        "name": "Knife",
-        "price": 6,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A knife for cutting and fletching",
-        "category": "tools"
-      },
-      {
-        "id": "bowstring",
-        "itemId": "bowstring",
-        "name": "Bowstring",
-        "price": 10,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A string for stringing bows",
-        "category": "fletching"
-      },
-      {
-        "id": "arrow_shaft",
-        "itemId": "arrow_shaft",
-        "name": "Arrow shaft",
-        "price": 1,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A wooden shaft for making arrows",
-        "category": "fletching"
-      },
-      {
-        "id": "headless_arrow",
-        "itemId": "headless_arrow",
-        "name": "Headless arrow",
-        "price": 2,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "A feathered arrow shaft without a tip",
-        "category": "fletching"
-      },
-      {
-        "id": "bronze_arrowtips",
-        "itemId": "bronze_arrowtips",
-        "name": "Bronze arrowtips",
-        "price": 1,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Arrowtips made of bronze",
-        "category": "fletching"
-      },
-      {
-        "id": "iron_arrowtips",
-        "itemId": "iron_arrowtips",
-        "name": "Iron arrowtips",
-        "price": 4,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Arrowtips made of iron",
-        "category": "fletching"
-      },
-      {
-        "id": "steel_arrowtips",
-        "itemId": "steel_arrowtips",
-        "name": "Steel arrowtips",
-        "price": 12,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Arrowtips made of steel",
-        "category": "fletching"
-      },
-      {
-        "id": "mithril_arrowtips",
-        "itemId": "mithril_arrowtips",
-        "name": "Mithril arrowtips",
-        "price": 40,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Arrowtips made of mithril",
-        "category": "fletching"
-      },
-      {
-        "id": "adamant_arrowtips",
-        "itemId": "adamant_arrowtips",
-        "name": "Adamant arrowtips",
-        "price": 80,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Arrowtips made of adamantite",
-        "category": "fletching"
-      },
-      {
-        "id": "rune_arrowtips",
-        "itemId": "rune_arrowtips",
-        "name": "Rune arrowtips",
-        "price": 200,
-        "stockQuantity": -1,
-        "restockTime": 0,
-        "description": "Arrowtips made of runite",
-        "category": "fletching"
       }
     ]
   }
