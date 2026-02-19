@@ -5,6 +5,10 @@
     "description": "A weak goblin creature, perfect for beginners",
     "category": "mob",
     "faction": "monster",
+    "levelRange": {
+      "min": 2,
+      "max": 2
+    },
     "stats": {
       "level": 2,
       "health": 5,
@@ -451,16 +455,29 @@
           "id": "greeting",
           "text": "Hello there! The village needs firewood, but I've hurt my back. Could you help?",
           "responses": [
-            { "text": "Sure, what do you need?", "nextNodeId": "quest_offer" },
-            { "text": "Not right now.", "nextNodeId": "farewell" }
+            {
+              "text": "Sure, what do you need?",
+              "nextNodeId": "quest_offer"
+            },
+            {
+              "text": "Not right now.",
+              "nextNodeId": "farewell"
+            }
           ]
         },
         {
           "id": "quest_offer",
           "text": "Chop 6 logs from the trees nearby, then light them on fire to prove you can do it. Here's a hatchet and tinderbox.",
           "responses": [
-            { "text": "I'll help.", "nextNodeId": "quest_accepted", "effect": "startQuest:lumberjacks_first_lesson" },
-            { "text": "Maybe later.", "nextNodeId": "farewell" }
+            {
+              "text": "I'll help.",
+              "nextNodeId": "quest_accepted",
+              "effect": "startQuest:lumberjacks_first_lesson"
+            },
+            {
+              "text": "Maybe later.",
+              "nextNodeId": "farewell"
+            }
           ]
         },
         {
@@ -471,7 +488,10 @@
           "id": "progress_check",
           "text": "How's it going? Chopped and burned those logs yet?",
           "responses": [
-            { "text": "Still working on it.", "nextNodeId": "encouragement" }
+            {
+              "text": "Still working on it.",
+              "nextNodeId": "encouragement"
+            }
           ]
         },
         {
@@ -515,7 +535,9 @@
     },
     "services": {
       "enabled": true,
-      "types": ["shop"]
+      "types": [
+        "shop"
+      ]
     },
     "dialogue": {
       "entryNodeId": "greeting",
@@ -531,17 +553,34 @@
           "id": "greeting",
           "text": "Ahoy! The tavern needs cooked shrimp. Care to help an old fisherman?",
           "responses": [
-            { "text": "What do you need?", "nextNodeId": "quest_offer" },
-            { "text": "I'd like to see your fishing supplies.", "nextNodeId": "trade", "effect": "openStore" },
-            { "text": "Not today.", "nextNodeId": "farewell" }
+            {
+              "text": "What do you need?",
+              "nextNodeId": "quest_offer"
+            },
+            {
+              "text": "I'd like to see your fishing supplies.",
+              "nextNodeId": "trade",
+              "effect": "openStore"
+            },
+            {
+              "text": "Not today.",
+              "nextNodeId": "farewell"
+            }
           ]
         },
         {
           "id": "quest_offer",
           "text": "Catch 6 shrimp from the fishing spots, then cook them on a fire or range. Here's a net.",
           "responses": [
-            { "text": "I'll do it.", "nextNodeId": "quest_accepted", "effect": "startQuest:fresh_catch" },
-            { "text": "Maybe another time.", "nextNodeId": "farewell" }
+            {
+              "text": "I'll do it.",
+              "nextNodeId": "quest_accepted",
+              "effect": "startQuest:fresh_catch"
+            },
+            {
+              "text": "Maybe another time.",
+              "nextNodeId": "farewell"
+            }
           ]
         },
         {
@@ -552,7 +591,10 @@
           "id": "progress_check",
           "text": "Any luck with the fishing and cooking?",
           "responses": [
-            { "text": "Still working on it.", "nextNodeId": "encouragement" }
+            {
+              "text": "Still working on it.",
+              "nextNodeId": "encouragement"
+            }
           ]
         },
         {
@@ -600,7 +642,9 @@
     },
     "services": {
       "enabled": true,
-      "types": ["shop"]
+      "types": [
+        "shop"
+      ]
     },
     "dialogue": {
       "entryNodeId": "greeting",
@@ -616,17 +660,34 @@
           "id": "greeting",
           "text": "Hail, traveler! I've got orders piling up and not enough hands. Care to learn the trade?",
           "responses": [
-            { "text": "What do you need?", "nextNodeId": "quest_offer" },
-            { "text": "I'd like to buy some weapons.", "nextNodeId": "trade", "effect": "openStore" },
-            { "text": "Not right now.", "nextNodeId": "farewell" }
+            {
+              "text": "What do you need?",
+              "nextNodeId": "quest_offer"
+            },
+            {
+              "text": "I'd like to buy some weapons.",
+              "nextNodeId": "trade",
+              "effect": "openStore"
+            },
+            {
+              "text": "Not right now.",
+              "nextNodeId": "farewell"
+            }
           ]
         },
         {
           "id": "quest_offer",
           "text": "I need a full set of bronze tools - a sword, hatchet, and pickaxe. Mine the ore, smelt the bars, and forge them yourself. Here's a pickaxe and hammer to get started.",
           "responses": [
-            { "text": "I'll do it.", "nextNodeId": "quest_accepted", "effect": "startQuest:torvins_tools" },
-            { "text": "That sounds like a lot of work.", "nextNodeId": "farewell" }
+            {
+              "text": "I'll do it.",
+              "nextNodeId": "quest_accepted",
+              "effect": "startQuest:torvins_tools"
+            },
+            {
+              "text": "That sounds like a lot of work.",
+              "nextNodeId": "farewell"
+            }
           ]
         },
         {
@@ -637,7 +698,10 @@
           "id": "progress_check",
           "text": "How's the smithing coming along?",
           "responses": [
-            { "text": "Still working on it.", "nextNodeId": "encouragement" }
+            {
+              "text": "Still working on it.",
+              "nextNodeId": "encouragement"
+            }
           ]
         },
         {
@@ -723,6 +787,10 @@
     "description": "A docile cow grazing in the field",
     "category": "mob",
     "faction": "animal",
+    "levelRange": {
+      "min": 2,
+      "max": 2
+    },
     "stats": {
       "level": 2,
       "health": 8,
@@ -784,6 +852,10 @@
     "description": "A sinister wizard who attacks with Wind Strike magic",
     "category": "mob",
     "faction": "zamorak",
+    "levelRange": {
+      "min": 42,
+      "max": 42
+    },
     "stats": {
       "level": 42,
       "health": 42,
@@ -891,6 +963,10 @@
     "description": "A shadowy archer who fires bronze arrows from the darkness",
     "category": "mob",
     "faction": "zamorak",
+    "levelRange": {
+      "min": 33,
+      "max": 33
+    },
     "stats": {
       "level": 33,
       "health": 33,
@@ -994,7 +1070,9 @@
     },
     "services": {
       "enabled": true,
-      "types": ["shop"]
+      "types": [
+        "shop"
+      ]
     },
     "dialogue": {
       "entryNodeId": "greeting",
@@ -1010,17 +1088,34 @@
           "id": "greeting",
           "text": "Greetings, seeker of the arcane. The runecrafting altars nearby hold great power, but I lack the essence to fuel them. Could you assist me?",
           "responses": [
-            { "text": "What do you need help with?", "nextNodeId": "quest_offer" },
-            { "text": "I'd like to browse your wares.", "nextNodeId": "trade", "effect": "openStore" },
-            { "text": "Not right now.", "nextNodeId": "farewell" }
+            {
+              "text": "What do you need help with?",
+              "nextNodeId": "quest_offer"
+            },
+            {
+              "text": "I'd like to browse your wares.",
+              "nextNodeId": "trade",
+              "effect": "openStore"
+            },
+            {
+              "text": "Not right now.",
+              "nextNodeId": "farewell"
+            }
           ]
         },
         {
           "id": "quest_offer",
           "text": "The essence rocks near the altars contain rune essence - the raw material for crafting runes. Mine 25 essence, then use them at the air altar to craft air runes. Here's a pickaxe to get you started.",
           "responses": [
-            { "text": "I'll do it.", "nextNodeId": "quest_accepted", "effect": "startQuest:rune_mysteries" },
-            { "text": "Maybe later.", "nextNodeId": "farewell" }
+            {
+              "text": "I'll do it.",
+              "nextNodeId": "quest_accepted",
+              "effect": "startQuest:rune_mysteries"
+            },
+            {
+              "text": "Maybe later.",
+              "nextNodeId": "farewell"
+            }
           ]
         },
         {
@@ -1031,8 +1126,15 @@
           "id": "progress_check",
           "text": "How goes the runecrafting? Have you mined the essence and crafted the air runes?",
           "responses": [
-            { "text": "Still working on it.", "nextNodeId": "encouragement" },
-            { "text": "I'd like to browse your wares.", "nextNodeId": "trade", "effect": "openStore" }
+            {
+              "text": "Still working on it.",
+              "nextNodeId": "encouragement"
+            },
+            {
+              "text": "I'd like to browse your wares.",
+              "nextNodeId": "trade",
+              "effect": "openStore"
+            }
           ]
         },
         {
@@ -1048,8 +1150,15 @@
           "id": "post_quest",
           "text": "Ah, my star pupil returns. Feel free to browse my wares or continue crafting runes at the altars.",
           "responses": [
-            { "text": "I'd like to browse your wares.", "nextNodeId": "trade", "effect": "openStore" },
-            { "text": "Goodbye.", "nextNodeId": "farewell" }
+            {
+              "text": "I'd like to browse your wares.",
+              "nextNodeId": "trade",
+              "effect": "openStore"
+            },
+            {
+              "text": "Goodbye.",
+              "nextNodeId": "farewell"
+            }
           ]
         },
         {
@@ -1084,7 +1193,9 @@
     },
     "services": {
       "enabled": true,
-      "types": ["shop"]
+      "types": [
+        "shop"
+      ]
     },
     "dialogue": {
       "entryNodeId": "greeting",
@@ -1100,17 +1211,34 @@
           "id": "greeting",
           "text": "Looking for ranged gear? I sell the finest bows and arrows, but I could also teach you to make your own. Interested?",
           "responses": [
-            { "text": "Teach me to fletch.", "nextNodeId": "quest_offer" },
-            { "text": "Let me see your stock.", "nextNodeId": "trade", "effect": "openStore" },
-            { "text": "Not right now.", "nextNodeId": "farewell" }
+            {
+              "text": "Teach me to fletch.",
+              "nextNodeId": "quest_offer"
+            },
+            {
+              "text": "Let me see your stock.",
+              "nextNodeId": "trade",
+              "effect": "openStore"
+            },
+            {
+              "text": "Not right now.",
+              "nextNodeId": "farewell"
+            }
           ]
         },
         {
           "id": "quest_offer",
           "text": "A good ranger makes their own ammunition. Use a knife on logs to cut arrow shafts, add feathers to make headless arrows, then string a shortbow. Here's everything you need.",
           "responses": [
-            { "text": "I'll give it a try.", "nextNodeId": "quest_accepted", "effect": "startQuest:fletchers_introduction" },
-            { "text": "Maybe another time.", "nextNodeId": "farewell" }
+            {
+              "text": "I'll give it a try.",
+              "nextNodeId": "quest_accepted",
+              "effect": "startQuest:fletchers_introduction"
+            },
+            {
+              "text": "Maybe another time.",
+              "nextNodeId": "farewell"
+            }
           ]
         },
         {
@@ -1121,8 +1249,15 @@
           "id": "progress_check",
           "text": "How's the fletching coming along?",
           "responses": [
-            { "text": "Still working on it.", "nextNodeId": "encouragement" },
-            { "text": "I'd like to buy some supplies.", "nextNodeId": "trade", "effect": "openStore" }
+            {
+              "text": "Still working on it.",
+              "nextNodeId": "encouragement"
+            },
+            {
+              "text": "I'd like to buy some supplies.",
+              "nextNodeId": "trade",
+              "effect": "openStore"
+            }
           ]
         },
         {
@@ -1138,8 +1273,15 @@
           "id": "post_quest",
           "text": "My best student! Need any supplies for your fletching?",
           "responses": [
-            { "text": "Let me see your stock.", "nextNodeId": "trade", "effect": "openStore" },
-            { "text": "Goodbye.", "nextNodeId": "farewell" }
+            {
+              "text": "Let me see your stock.",
+              "nextNodeId": "trade",
+              "effect": "openStore"
+            },
+            {
+              "text": "Goodbye.",
+              "nextNodeId": "farewell"
+            }
           ]
         },
         {
@@ -1174,7 +1316,9 @@
     },
     "services": {
       "enabled": true,
-      "types": ["shop"]
+      "types": [
+        "shop"
+      ]
     },
     "dialogue": {
       "entryNodeId": "greeting",
@@ -1183,8 +1327,15 @@
           "id": "greeting",
           "text": "Need some armour? I've got the best protection in town.",
           "responses": [
-            { "text": "Show me your armour.", "nextNodeId": "trade", "effect": "openStore" },
-            { "text": "No thanks.", "nextNodeId": "farewell" }
+            {
+              "text": "Show me your armour.",
+              "nextNodeId": "trade",
+              "effect": "openStore"
+            },
+            {
+              "text": "No thanks.",
+              "nextNodeId": "farewell"
+            }
           ]
         },
         {
@@ -1219,7 +1370,9 @@
     },
     "services": {
       "enabled": true,
-      "types": ["shop"]
+      "types": [
+        "shop"
+      ]
     },
     "dialogue": {
       "entryNodeId": "greeting",
@@ -1235,17 +1388,34 @@
           "id": "greeting",
           "text": "Welcome! I stock everything you need for crafting. Say, you look like you could learn a thing or two about leatherwork. Interested?",
           "responses": [
-            { "text": "Teach me about crafting.", "nextNodeId": "quest_offer" },
-            { "text": "Let me see your supplies.", "nextNodeId": "trade", "effect": "openStore" },
-            { "text": "No thanks.", "nextNodeId": "farewell" }
+            {
+              "text": "Teach me about crafting.",
+              "nextNodeId": "quest_offer"
+            },
+            {
+              "text": "Let me see your supplies.",
+              "nextNodeId": "trade",
+              "effect": "openStore"
+            },
+            {
+              "text": "No thanks.",
+              "nextNodeId": "farewell"
+            }
           ]
         },
         {
           "id": "quest_offer",
           "text": "Use a needle and thread on leather to craft gloves and boots. Make 5 of each and I'll know you've got the basics down. Here's a needle, some thread, and leather to get started.",
           "responses": [
-            { "text": "I'll give it a go.", "nextNodeId": "quest_accepted", "effect": "startQuest:crafting_basics" },
-            { "text": "Maybe later.", "nextNodeId": "farewell" }
+            {
+              "text": "I'll give it a go.",
+              "nextNodeId": "quest_accepted",
+              "effect": "startQuest:crafting_basics"
+            },
+            {
+              "text": "Maybe later.",
+              "nextNodeId": "farewell"
+            }
           ]
         },
         {
@@ -1256,8 +1426,15 @@
           "id": "progress_check",
           "text": "How's the crafting going? Finished those gloves and boots?",
           "responses": [
-            { "text": "Still working on it.", "nextNodeId": "encouragement" },
-            { "text": "I need more supplies.", "nextNodeId": "trade", "effect": "openStore" }
+            {
+              "text": "Still working on it.",
+              "nextNodeId": "encouragement"
+            },
+            {
+              "text": "I need more supplies.",
+              "nextNodeId": "trade",
+              "effect": "openStore"
+            }
           ]
         },
         {
@@ -1273,8 +1450,15 @@
           "id": "post_quest",
           "text": "Good to see you again! Need any more crafting supplies?",
           "responses": [
-            { "text": "Let me see your supplies.", "nextNodeId": "trade", "effect": "openStore" },
-            { "text": "Goodbye.", "nextNodeId": "farewell" }
+            {
+              "text": "Let me see your supplies.",
+              "nextNodeId": "trade",
+              "effect": "openStore"
+            },
+            {
+              "text": "Goodbye.",
+              "nextNodeId": "farewell"
+            }
           ]
         },
         {
@@ -1299,6 +1483,10 @@
     "description": "A town guard armed with a bronze sword, tasked with keeping the peace",
     "category": "mob",
     "faction": "town",
+    "levelRange": {
+      "min": 21,
+      "max": 21
+    },
     "stats": {
       "level": 21,
       "health": 22,
@@ -1405,6 +1593,10 @@
     "description": "A cunning outlaw who preys on unwary travelers",
     "category": "mob",
     "faction": "monster",
+    "levelRange": {
+      "min": 7,
+      "max": 7
+    },
     "stats": {
       "level": 7,
       "health": 10,
@@ -1476,6 +1668,10 @@
     "description": "A fierce warrior from the desert lands",
     "category": "mob",
     "faction": "monster",
+    "levelRange": {
+      "min": 14,
+      "max": 14
+    },
     "stats": {
       "level": 14,
       "health": 17,
