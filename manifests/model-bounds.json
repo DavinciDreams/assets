@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-13T08:11:17.770Z",
+  "generatedAt": "2026-02-18T19:59:01.422Z",
   "tileSize": 1,
   "models": [
     {
@@ -1475,6 +1475,31 @@
       "footprint": {
         "width": 2,
         "depth": 1
+      }
+    },
+    {
+      "id": "mining-rocks/essence-rock",
+      "assetPath": "asset://models/mining-rocks/essence-rock/essence-rock.glb",
+      "bounds": {
+        "min": {
+          "x": -0.8521069884300232,
+          "y": -0.6698529124259949,
+          "z": -0.9571139812469482
+        },
+        "max": {
+          "x": 0.8467000126838684,
+          "y": 0.6701290011405945,
+          "z": 0.9553869962692261
+        }
+      },
+      "dimensions": {
+        "x": 1.6988070011138916,
+        "y": 1.3399819135665894,
+        "z": 1.9125009775161743
+      },
+      "footprint": {
+        "width": 2,
+        "depth": 2
       }
     },
     {

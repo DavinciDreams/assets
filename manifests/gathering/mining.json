@@ -273,6 +273,32 @@
           "stackable": false
         }
       ]
+    },
+    {
+      "id": "ore_essence",
+      "name": "Essence Rock",
+      "type": "ore",
+      "examine": "A rock pulsing with runic energy.",
+      "modelPath": "asset://models/mining-rocks/essence-rock/essence-rock.glb",
+      "depletedModelPath": "asset://models/mining-rocks/depleted-rock/depleted-rock.glb",
+      "scale": 1.0,
+      "depletedScale": 1.0,
+      "harvestSkill": "mining",
+      "toolRequired": "pickaxe",
+      "levelRequired": 1,
+      "baseCycleTicks": 4,
+      "depleteChance": 1.0,
+      "respawnTicks": 2,
+      "harvestYield": [
+        {
+          "itemId": "rune_essence",
+          "itemName": "Rune Essence",
+          "quantity": 1,
+          "chance": 1.0,
+          "xpAmount": 5.0,
+          "stackable": true
+        }
+      ]
     }
   ]
 }

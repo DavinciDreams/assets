@@ -998,13 +998,58 @@
     },
     "dialogue": {
       "entryNodeId": "greeting",
+      "questOverrides": {
+        "rune_mysteries": {
+          "in_progress": "progress_check",
+          "ready_to_complete": "quest_complete",
+          "completed": "post_quest"
+        }
+      },
       "nodes": [
         {
           "id": "greeting",
-          "text": "Greetings, seeker of the arcane. Do you wish to browse my magical wares?",
+          "text": "Greetings, seeker of the arcane. The runecrafting altars nearby hold great power, but I lack the essence to fuel them. Could you assist me?",
           "responses": [
-            { "text": "Yes, show me what you have.", "nextNodeId": "trade", "effect": "openStore" },
-            { "text": "No thanks.", "nextNodeId": "farewell" }
+            { "text": "What do you need help with?", "nextNodeId": "quest_offer" },
+            { "text": "I'd like to browse your wares.", "nextNodeId": "trade", "effect": "openStore" },
+            { "text": "Not right now.", "nextNodeId": "farewell" }
+          ]
+        },
+        {
+          "id": "quest_offer",
+          "text": "The essence rocks near the altars contain rune essence - the raw material for crafting runes. Mine 25 essence, then use them at the air altar to craft air runes. Here's a pickaxe to get you started.",
+          "responses": [
+            { "text": "I'll do it.", "nextNodeId": "quest_accepted", "effect": "startQuest:rune_mysteries" },
+            { "text": "Maybe later.", "nextNodeId": "farewell" }
+          ]
+        },
+        {
+          "id": "quest_accepted",
+          "text": "Excellent! The essence rocks are just south of here, near the runecrafting altars. Mine the essence, then use it at the air altar to craft air runes."
+        },
+        {
+          "id": "progress_check",
+          "text": "How goes the runecrafting? Have you mined the essence and crafted the air runes?",
+          "responses": [
+            { "text": "Still working on it.", "nextNodeId": "encouragement" },
+            { "text": "I'd like to browse your wares.", "nextNodeId": "trade", "effect": "openStore" }
+          ]
+        },
+        {
+          "id": "encouragement",
+          "text": "The essence rocks are near the altars to the south. Mine the essence, then use it at the air altar."
+        },
+        {
+          "id": "quest_complete",
+          "text": "Wonderful! You've grasped the fundamentals of runecrafting. The arcane arts are now open to you. Here's your reward.",
+          "effect": "completeQuest:rune_mysteries"
+        },
+        {
+          "id": "post_quest",
+          "text": "Ah, my star pupil returns. Feel free to browse my wares or continue crafting runes at the altars.",
+          "responses": [
+            { "text": "I'd like to browse your wares.", "nextNodeId": "trade", "effect": "openStore" },
+            { "text": "Goodbye.", "nextNodeId": "farewell" }
           ]
         },
         {
@@ -1043,13 +1088,58 @@
     },
     "dialogue": {
       "entryNodeId": "greeting",
+      "questOverrides": {
+        "fletchers_introduction": {
+          "in_progress": "progress_check",
+          "ready_to_complete": "quest_complete",
+          "completed": "post_quest"
+        }
+      },
       "nodes": [
         {
           "id": "greeting",
-          "text": "Looking for ranged gear? Bows, arrows, armour - I've got the lot.",
+          "text": "Looking for ranged gear? I sell the finest bows and arrows, but I could also teach you to make your own. Interested?",
           "responses": [
+            { "text": "Teach me to fletch.", "nextNodeId": "quest_offer" },
             { "text": "Let me see your stock.", "nextNodeId": "trade", "effect": "openStore" },
             { "text": "Not right now.", "nextNodeId": "farewell" }
+          ]
+        },
+        {
+          "id": "quest_offer",
+          "text": "A good ranger makes their own ammunition. Use a knife on logs to cut arrow shafts, add feathers to make headless arrows, then string a shortbow. Here's everything you need.",
+          "responses": [
+            { "text": "I'll give it a try.", "nextNodeId": "quest_accepted", "effect": "startQuest:fletchers_introduction" },
+            { "text": "Maybe another time.", "nextNodeId": "farewell" }
+          ]
+        },
+        {
+          "id": "quest_accepted",
+          "text": "Good! Use the knife on the logs for arrow shafts, combine shafts with feathers for headless arrows, then use the knife on logs again and add a bowstring to make a shortbow."
+        },
+        {
+          "id": "progress_check",
+          "text": "How's the fletching coming along?",
+          "responses": [
+            { "text": "Still working on it.", "nextNodeId": "encouragement" },
+            { "text": "I'd like to buy some supplies.", "nextNodeId": "trade", "effect": "openStore" }
+          ]
+        },
+        {
+          "id": "encouragement",
+          "text": "Knife on logs for shafts, feathers on shafts for headless arrows. For the bow, cut a shortbow from logs and add a bowstring."
+        },
+        {
+          "id": "quest_complete",
+          "text": "Well done! You've got a natural talent for fletching. Keep it up and you'll be crafting magic shortbows in no time. Here's your reward.",
+          "effect": "completeQuest:fletchers_introduction"
+        },
+        {
+          "id": "post_quest",
+          "text": "My best student! Need any supplies for your fletching?",
+          "responses": [
+            { "text": "Let me see your stock.", "nextNodeId": "trade", "effect": "openStore" },
+            { "text": "Goodbye.", "nextNodeId": "farewell" }
           ]
         },
         {
@@ -1133,13 +1223,58 @@
     },
     "dialogue": {
       "entryNodeId": "greeting",
+      "questOverrides": {
+        "crafting_basics": {
+          "in_progress": "progress_check",
+          "ready_to_complete": "quest_complete",
+          "completed": "post_quest"
+        }
+      },
       "nodes": [
         {
           "id": "greeting",
-          "text": "Welcome! I stock everything you need for crafting - leather, gems, thread, you name it.",
+          "text": "Welcome! I stock everything you need for crafting. Say, you look like you could learn a thing or two about leatherwork. Interested?",
           "responses": [
+            { "text": "Teach me about crafting.", "nextNodeId": "quest_offer" },
             { "text": "Let me see your supplies.", "nextNodeId": "trade", "effect": "openStore" },
             { "text": "No thanks.", "nextNodeId": "farewell" }
+          ]
+        },
+        {
+          "id": "quest_offer",
+          "text": "Use a needle and thread on leather to craft gloves and boots. Make 5 of each and I'll know you've got the basics down. Here's a needle, some thread, and leather to get started.",
+          "responses": [
+            { "text": "I'll give it a go.", "nextNodeId": "quest_accepted", "effect": "startQuest:crafting_basics" },
+            { "text": "Maybe later.", "nextNodeId": "farewell" }
+          ]
+        },
+        {
+          "id": "quest_accepted",
+          "text": "Great! Use the needle on the leather with thread in your inventory. Craft 5 leather gloves and 5 leather boots, then come back to me."
+        },
+        {
+          "id": "progress_check",
+          "text": "How's the crafting going? Finished those gloves and boots?",
+          "responses": [
+            { "text": "Still working on it.", "nextNodeId": "encouragement" },
+            { "text": "I need more supplies.", "nextNodeId": "trade", "effect": "openStore" }
+          ]
+        },
+        {
+          "id": "encouragement",
+          "text": "Use the needle on leather to craft. You need 5 leather gloves and 5 leather boots. If you run out of materials, you can buy more from me."
+        },
+        {
+          "id": "quest_complete",
+          "text": "Excellent work! Those stitches are nice and tight. You're a natural crafter. Here's your reward.",
+          "effect": "completeQuest:crafting_basics"
+        },
+        {
+          "id": "post_quest",
+          "text": "Good to see you again! Need any more crafting supplies?",
+          "responses": [
+            { "text": "Let me see your supplies.", "nextNodeId": "trade", "effect": "openStore" },
+            { "text": "Goodbye.", "nextNodeId": "farewell" }
           ]
         },
         {
@@ -1262,6 +1397,153 @@
     "spawnBiomes": [
       "plains",
       "forest"
+    ]
+  },
+  {
+    "id": "bandit",
+    "name": "Bandit",
+    "description": "A cunning outlaw who preys on unwary travelers",
+    "category": "mob",
+    "faction": "monster",
+    "stats": {
+      "level": 7,
+      "health": 10,
+      "attack": 5,
+      "strength": 5,
+      "defense": 4,
+      "defenseBonus": 0,
+      "ranged": 1,
+      "magic": 1
+    },
+    "combat": {
+      "attackable": true,
+      "aggressive": true,
+      "retaliates": true,
+      "aggroRange": 4,
+      "combatRange": 1,
+      "leashRange": 7,
+      "attackSpeedTicks": 4,
+      "respawnTicks": 40
+    },
+    "movement": {
+      "type": "wander",
+      "speed": 3.33,
+      "wanderRadius": 5
+    },
+    "drops": {
+      "defaultDrop": {
+        "enabled": true,
+        "itemId": "bones",
+        "quantity": 1
+      },
+      "always": [],
+      "common": [
+        {
+          "itemId": "coins",
+          "minQuantity": 5,
+          "maxQuantity": 25,
+          "chance": 1.0,
+          "rarity": "common"
+        }
+      ],
+      "uncommon": [
+        {
+          "itemId": "bronze_sword",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.1,
+          "rarity": "uncommon"
+        }
+      ],
+      "rare": [],
+      "veryRare": []
+    },
+    "appearance": {
+      "modelPath": "asset://models/mobs/bandit/bandit.vrm",
+      "iconPath": "asset://icons/npcs/shopkeeper.png",
+      "scale": 1.0,
+      "heldWeaponModel": "asset://models/swords/sword-bronze/sword-bronze-aligned.glb"
+    },
+    "spawnBiomes": [
+      "forest",
+      "desert",
+      "swamp"
+    ]
+  },
+  {
+    "id": "barbarian",
+    "name": "Barbarian",
+    "description": "A fierce warrior from the desert lands",
+    "category": "mob",
+    "faction": "monster",
+    "stats": {
+      "level": 14,
+      "health": 17,
+      "attack": 11,
+      "strength": 12,
+      "defense": 10,
+      "defenseBonus": 2,
+      "ranged": 1,
+      "magic": 1
+    },
+    "combat": {
+      "attackable": true,
+      "aggressive": true,
+      "retaliates": true,
+      "aggroRange": 4,
+      "combatRange": 1,
+      "leashRange": 7,
+      "attackSpeedTicks": 4,
+      "respawnTicks": 45
+    },
+    "movement": {
+      "type": "wander",
+      "speed": 3.33,
+      "wanderRadius": 5
+    },
+    "drops": {
+      "defaultDrop": {
+        "enabled": true,
+        "itemId": "bones",
+        "quantity": 1
+      },
+      "always": [],
+      "common": [
+        {
+          "itemId": "coins",
+          "minQuantity": 10,
+          "maxQuantity": 45,
+          "chance": 1.0,
+          "rarity": "common"
+        }
+      ],
+      "uncommon": [
+        {
+          "itemId": "iron_sword",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.1,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "iron_full_helm",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.08,
+          "rarity": "uncommon"
+        }
+      ],
+      "rare": [],
+      "veryRare": []
+    },
+    "appearance": {
+      "modelPath": "asset://models/mobs/barbarian/barbarian.vrm",
+      "iconPath": "asset://icons/npcs/shopkeeper.png",
+      "scale": 1.0,
+      "heldWeaponModel": "asset://models/swords/sword-bronze/sword-bronze-aligned.glb"
+    },
+    "spawnBiomes": [
+      "desert"
     ]
   }
 ]

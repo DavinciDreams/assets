@@ -241,5 +241,182 @@
       ],
       "xp": {}
     }
+  },
+  "rune_mysteries": {
+    "id": "rune_mysteries",
+    "name": "Rune Mysteries",
+    "description": "Wizard Zamorin needs help gathering rune essence and crafting air runes.",
+    "difficulty": "novice",
+    "questPoints": 1,
+    "replayable": false,
+    "requirements": {
+      "quests": [],
+      "skills": {},
+      "items": []
+    },
+    "startNpc": "wizard_zamorin",
+    "stages": [
+      {
+        "id": "start",
+        "type": "dialogue",
+        "description": "Speak to Zamorin in Central Haven",
+        "npcId": "wizard_zamorin"
+      },
+      {
+        "id": "mine_essence",
+        "type": "gather",
+        "description": "Mine 25 rune essence",
+        "target": "rune_essence",
+        "count": 25
+      },
+      {
+        "id": "craft_air_runes",
+        "type": "interact",
+        "description": "Craft 25 air runes at the air altar",
+        "target": "air_rune",
+        "count": 25
+      },
+      {
+        "id": "return",
+        "type": "dialogue",
+        "description": "Return to Zamorin",
+        "npcId": "wizard_zamorin"
+      }
+    ],
+    "onStart": {
+      "items": [
+        { "itemId": "bronze_pickaxe", "quantity": 1 }
+      ],
+      "dialogue": "quest_accepted"
+    },
+    "rewards": {
+      "questPoints": 1,
+      "items": [
+        { "itemId": "xp_lamp_100", "quantity": 1 }
+      ],
+      "xp": {}
+    }
+  },
+  "crafting_basics": {
+    "id": "crafting_basics",
+    "name": "Crafting Basics",
+    "description": "Dommik the crafting supplier wants you to prove your skill by crafting leather goods.",
+    "difficulty": "novice",
+    "questPoints": 1,
+    "replayable": false,
+    "requirements": {
+      "quests": [],
+      "skills": {},
+      "items": []
+    },
+    "startNpc": "crafting_supplier",
+    "stages": [
+      {
+        "id": "start",
+        "type": "dialogue",
+        "description": "Speak to Dommik in Central Haven",
+        "npcId": "crafting_supplier"
+      },
+      {
+        "id": "craft_gloves",
+        "type": "interact",
+        "description": "Craft 5 leather gloves",
+        "target": "leather_gloves",
+        "count": 5
+      },
+      {
+        "id": "craft_boots",
+        "type": "interact",
+        "description": "Craft 5 leather boots",
+        "target": "leather_boots",
+        "count": 5
+      },
+      {
+        "id": "return",
+        "type": "dialogue",
+        "description": "Return to Dommik",
+        "npcId": "crafting_supplier"
+      }
+    ],
+    "onStart": {
+      "items": [
+        { "itemId": "needle", "quantity": 1 },
+        { "itemId": "thread", "quantity": 5 },
+        { "itemId": "leather", "quantity": 10 }
+      ],
+      "dialogue": "quest_accepted"
+    },
+    "rewards": {
+      "questPoints": 1,
+      "items": [
+        { "itemId": "xp_lamp_100", "quantity": 1 }
+      ],
+      "xp": {}
+    }
+  },
+  "fletchers_introduction": {
+    "id": "fletchers_introduction",
+    "name": "Fletcher's Introduction",
+    "description": "Lowe the bowyer wants you to learn the basics of fletching.",
+    "difficulty": "novice",
+    "questPoints": 1,
+    "replayable": false,
+    "requirements": {
+      "quests": [],
+      "skills": {},
+      "items": []
+    },
+    "startNpc": "bowyer",
+    "stages": [
+      {
+        "id": "start",
+        "type": "dialogue",
+        "description": "Speak to Lowe in Central Haven",
+        "npcId": "bowyer"
+      },
+      {
+        "id": "fletch_shafts",
+        "type": "interact",
+        "description": "Fletch 15 arrow shafts",
+        "target": "arrow_shaft",
+        "count": 15
+      },
+      {
+        "id": "fletch_headless",
+        "type": "interact",
+        "description": "Fletch 15 headless arrows",
+        "target": "headless_arrow",
+        "count": 15
+      },
+      {
+        "id": "fletch_shortbow",
+        "type": "interact",
+        "description": "Fletch a shortbow",
+        "target": "shortbow",
+        "count": 1
+      },
+      {
+        "id": "return",
+        "type": "dialogue",
+        "description": "Return to Lowe",
+        "npcId": "bowyer"
+      }
+    ],
+    "onStart": {
+      "items": [
+        { "itemId": "knife", "quantity": 1 },
+        { "itemId": "logs", "quantity": 2 },
+        { "itemId": "feather", "quantity": 15 },
+        { "itemId": "bowstring", "quantity": 1 }
+      ],
+      "dialogue": "quest_accepted"
+    },
+    "rewards": {
+      "questPoints": 1,
+      "items": [
+        { "itemId": "xp_lamp_100", "quantity": 1 }
+      ],
+      "xp": {}
+    }
   }
 }

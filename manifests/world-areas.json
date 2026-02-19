@@ -157,6 +157,21 @@
           "type": "ore",
           "position": { "x": 10, "y": 0, "z": 35 },
           "resourceId": "ore_runite"
+        },
+        {
+          "type": "ore",
+          "position": { "x": 32, "y": 0, "z": -42 },
+          "resourceId": "ore_essence"
+        },
+        {
+          "type": "ore",
+          "position": { "x": 35, "y": 0, "z": -46 },
+          "resourceId": "ore_essence"
+        },
+        {
+          "type": "ore",
+          "position": { "x": 38, "y": 0, "z": -43 },
+          "resourceId": "ore_essence"
         }
       ],
       "mobSpawns": [
@@ -189,6 +204,18 @@
           "position": { "x": 0, "y": 0, "z": 10 },
           "spawnRadius": 8,
           "maxCount": 3
+        },
+        {
+          "mobId": "bandit",
+          "position": { "x": -35, "y": 0, "z": 30 },
+          "spawnRadius": 6,
+          "maxCount": 4
+        },
+        {
+          "mobId": "barbarian",
+          "position": { "x": -25, "y": 0, "z": 18 },
+          "spawnRadius": 6,
+          "maxCount": 4
         }
       ],
       "fishing": {
@@ -279,7 +306,14 @@
       "pvpEnabled": true,
       "npcs": [],
       "resources": [],
-      "mobSpawns": [],
+      "mobSpawns": [
+        {
+          "mobId": "bandit",
+          "position": { "x": 230, "y": 0, "z": -20 },
+          "spawnRadius": 6,
+          "maxCount": 3
+        }
+      ],
       "fishing": {
         "enabled": true,
         "spotCount": 2,
