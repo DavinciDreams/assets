@@ -52,10 +52,24 @@
       ],
       "uncommon": [
         {
-          "itemId": "bronze_sword",
+          "itemId": "bronze_shortsword",
           "minQuantity": 1,
           "maxQuantity": 1,
           "chance": 0.1,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "bronze_dagger",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.1,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "bronze_longsword",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.08,
           "rarity": "uncommon"
         },
         {
@@ -96,34 +110,6 @@
       ],
       "rare": [
         {
-          "itemId": "steel_sword",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "chance": 0.02,
-          "rarity": "rare"
-        },
-        {
-          "itemId": "iron_full_helm",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "chance": 0.015,
-          "rarity": "rare"
-        },
-        {
-          "itemId": "iron_platebody",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "chance": 0.01,
-          "rarity": "rare"
-        },
-        {
-          "itemId": "iron_kiteshield",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "chance": 0.012,
-          "rarity": "rare"
-        },
-        {
           "itemId": "cape",
           "minQuantity": 1,
           "maxQuantity": 1,
@@ -138,54 +124,19 @@
           "rarity": "rare"
         },
         {
-          "itemId": "amulet_of_accuracy",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "chance": 0.01,
-          "rarity": "rare"
-        },
-        {
           "itemId": "uncut_sapphire",
           "minQuantity": 1,
           "maxQuantity": 1,
           "chance": 0.02,
           "rarity": "rare"
-        },
-        {
-          "itemId": "uncut_emerald",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "chance": 0.01,
-          "rarity": "rare"
         }
       ],
       "veryRare": [
         {
-          "itemId": "mithril_sword",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "chance": 0.002,
-          "rarity": "very_rare"
-        },
-        {
-          "itemId": "steel_platebody",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "chance": 0.003,
-          "rarity": "very_rare"
-        },
-        {
-          "itemId": "uncut_ruby",
+          "itemId": "uncut_emerald",
           "minQuantity": 1,
           "maxQuantity": 1,
           "chance": 0.005,
-          "rarity": "very_rare"
-        },
-        {
-          "itemId": "uncut_diamond",
-          "minQuantity": 1,
-          "maxQuantity": 1,
-          "chance": 0.002,
           "rarity": "very_rare"
         }
       ]
@@ -1500,7 +1451,7 @@
   {
     "id": "guard",
     "name": "Guard",
-    "description": "A town guard armed with a bronze sword, tasked with keeping the peace",
+    "description": "A town guard armed with an iron longsword, tasked with keeping the peace",
     "category": "mob",
     "faction": "town",
     "levelRange": {
@@ -1557,10 +1508,24 @@
       ],
       "uncommon": [
         {
-          "itemId": "iron_sword",
+          "itemId": "iron_shortsword",
           "minQuantity": 1,
           "maxQuantity": 1,
           "chance": 0.05,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "iron_dagger",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.04,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "iron_longsword",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.03,
           "rarity": "uncommon"
         },
         {
@@ -1580,10 +1545,24 @@
       ],
       "rare": [
         {
-          "itemId": "steel_sword",
+          "itemId": "steel_shortsword",
           "minQuantity": 1,
           "maxQuantity": 1,
           "chance": 0.02,
+          "rarity": "rare"
+        },
+        {
+          "itemId": "steel_dagger",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.015,
+          "rarity": "rare"
+        },
+        {
+          "itemId": "steel_longsword",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.01,
           "rarity": "rare"
         },
         {
@@ -1600,7 +1579,7 @@
       "modelPath": "asset://models/mobs/gaurd/gaurd.vrm",
       "iconPath": "asset://icons/npcs/shopkeeper.png",
       "scale": 1.0,
-      "heldWeaponModel": "asset://models/swords/sword-bronze/sword-bronze-aligned.glb"
+      "heldWeaponModel": "asset://models/swords/long-swords/longsword-iron-aligned.glb"
     },
     "spawnBiomes": [
       "plains",
@@ -1660,21 +1639,50 @@
       ],
       "uncommon": [
         {
-          "itemId": "bronze_sword",
+          "itemId": "bronze_scimitar",
           "minQuantity": 1,
           "maxQuantity": 1,
           "chance": 0.1,
           "rarity": "uncommon"
+        },
+        {
+          "itemId": "bronze_dagger",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.08,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "bronze_shortsword",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.06,
+          "rarity": "uncommon"
         }
       ],
-      "rare": [],
+      "rare": [
+        {
+          "itemId": "iron_scimitar",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.02,
+          "rarity": "rare"
+        },
+        {
+          "itemId": "iron_dagger",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.02,
+          "rarity": "rare"
+        }
+      ],
       "veryRare": []
     },
     "appearance": {
       "modelPath": "asset://models/mobs/bandit/bandit.vrm",
       "iconPath": "asset://icons/npcs/shopkeeper.png",
       "scale": 1.0,
-      "heldWeaponModel": "asset://models/swords/sword-bronze/sword-bronze-aligned.glb"
+      "heldWeaponModel": "asset://models/swords/scimitars/scimitar-bronze-aligned.glb"
     },
     "spawnBiomes": [
       "forest",
@@ -1735,10 +1743,24 @@
       ],
       "uncommon": [
         {
-          "itemId": "iron_sword",
+          "itemId": "iron_scimitar",
           "minQuantity": 1,
           "maxQuantity": 1,
           "chance": 0.1,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "iron_dagger",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.08,
+          "rarity": "uncommon"
+        },
+        {
+          "itemId": "iron_shortsword",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.06,
           "rarity": "uncommon"
         },
         {
@@ -1749,14 +1771,22 @@
           "rarity": "uncommon"
         }
       ],
-      "rare": [],
+      "rare": [
+        {
+          "itemId": "steel_scimitar",
+          "minQuantity": 1,
+          "maxQuantity": 1,
+          "chance": 0.02,
+          "rarity": "rare"
+        }
+      ],
       "veryRare": []
     },
     "appearance": {
       "modelPath": "asset://models/mobs/barbarian/barbarian.vrm",
       "iconPath": "asset://icons/npcs/shopkeeper.png",
       "scale": 1.0,
-      "heldWeaponModel": "asset://models/swords/sword-bronze/sword-bronze-aligned.glb"
+      "heldWeaponModel": "asset://models/swords/scimitars/scimitar-iron-aligned.glb"
     },
     "spawnBiomes": [
       "desert"

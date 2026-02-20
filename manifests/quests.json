@@ -35,7 +35,7 @@
     ],
     "onStart": {
       "items": [
-        { "itemId": "bronze_sword", "quantity": 1 }
+        { "itemId": "bronze_shortsword", "quantity": 1 }
       ],
       "dialogue": "quest_accepted"
     },
@@ -202,8 +202,8 @@
       {
         "id": "smith_sword",
         "type": "interact",
-        "description": "Smith a bronze sword",
-        "target": "bronze_sword",
+        "description": "Smith a bronze shortsword",
+        "target": "bronze_shortsword",
         "count": 1
       },
       {

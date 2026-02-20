@@ -376,63 +376,307 @@
     "description": "Fine melee weapons forged by the dwarven smith Torvin.",
     "items": [
       {
-        "id": "bronze_sword",
-        "itemId": "bronze_sword",
-        "name": "Bronze Sword",
+        "id": "bronze_shortsword",
+        "itemId": "bronze_shortsword",
+        "name": "Bronze Shortsword",
         "price": 100,
         "stockQuantity": -1,
         "restockTime": 0,
-        "description": "A basic sword made of bronze",
+        "description": "A basic shortsword made of bronze",
         "category": "weapons"
       },
       {
-        "id": "iron_sword",
-        "itemId": "iron_sword",
-        "name": "Iron Sword",
+        "id": "iron_shortsword",
+        "itemId": "iron_shortsword",
+        "name": "Iron Shortsword",
         "price": 200,
         "stockQuantity": -1,
         "restockTime": 0,
-        "description": "A sword made of iron",
+        "description": "A shortsword made of iron",
         "category": "weapons"
       },
       {
-        "id": "steel_sword",
-        "itemId": "steel_sword",
-        "name": "Steel Sword",
+        "id": "steel_shortsword",
+        "itemId": "steel_shortsword",
+        "name": "Steel Shortsword",
         "price": 500,
         "stockQuantity": -1,
         "restockTime": 0,
-        "description": "A sturdy sword made of steel",
+        "description": "A sturdy shortsword made of steel",
         "category": "weapons"
       },
       {
-        "id": "mithril_sword",
-        "itemId": "mithril_sword",
-        "name": "Mithril Sword",
+        "id": "mithril_shortsword",
+        "itemId": "mithril_shortsword",
+        "name": "Mithril Shortsword",
         "price": 2000,
         "stockQuantity": -1,
         "restockTime": 0,
-        "description": "A legendary sword made of mithril",
+        "description": "A shortsword made of mithril",
         "category": "weapons"
       },
       {
-        "id": "adamant_sword",
-        "itemId": "adamant_sword",
-        "name": "Adamant Sword",
+        "id": "adamant_shortsword",
+        "itemId": "adamant_shortsword",
+        "name": "Adamant Shortsword",
         "price": 4000,
         "stockQuantity": -1,
         "restockTime": 0,
-        "description": "A powerful sword made of adamantite",
+        "description": "A powerful shortsword made of adamantite",
         "category": "weapons"
       },
       {
-        "id": "rune_sword",
-        "itemId": "rune_sword",
-        "name": "Rune Sword",
+        "id": "rune_shortsword",
+        "itemId": "rune_shortsword",
+        "name": "Rune Shortsword",
         "price": 12000,
         "stockQuantity": -1,
         "restockTime": 0,
-        "description": "A formidable sword made of runite",
+        "description": "A formidable shortsword made of runite",
+        "category": "weapons"
+      },
+
+      {
+        "id": "bronze_dagger",
+        "itemId": "bronze_dagger",
+        "name": "Bronze Dagger",
+        "price": 10,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A short bronze dagger",
+        "category": "weapons"
+      },
+      {
+        "id": "iron_dagger",
+        "itemId": "iron_dagger",
+        "name": "Iron Dagger",
+        "price": 35,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A short iron dagger",
+        "category": "weapons"
+      },
+      {
+        "id": "steel_dagger",
+        "itemId": "steel_dagger",
+        "name": "Steel Dagger",
+        "price": 125,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A sharp steel dagger",
+        "category": "weapons"
+      },
+      {
+        "id": "mithril_dagger",
+        "itemId": "mithril_dagger",
+        "name": "Mithril Dagger",
+        "price": 325,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A mithril dagger",
+        "category": "weapons"
+      },
+      {
+        "id": "adamant_dagger",
+        "itemId": "adamant_dagger",
+        "name": "Adamant Dagger",
+        "price": 800,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "An adamant dagger",
+        "category": "weapons"
+      },
+      {
+        "id": "rune_dagger",
+        "itemId": "rune_dagger",
+        "name": "Rune Dagger",
+        "price": 8000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A rune dagger",
+        "category": "weapons"
+      },
+
+      {
+        "id": "bronze_longsword",
+        "itemId": "bronze_longsword",
+        "name": "Bronze Longsword",
+        "price": 40,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A bronze longsword",
+        "category": "weapons"
+      },
+      {
+        "id": "iron_longsword",
+        "itemId": "iron_longsword",
+        "name": "Iron Longsword",
+        "price": 84,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "An iron longsword",
+        "category": "weapons"
+      },
+      {
+        "id": "steel_longsword",
+        "itemId": "steel_longsword",
+        "name": "Steel Longsword",
+        "price": 500,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A steel longsword",
+        "category": "weapons"
+      },
+      {
+        "id": "mithril_longsword",
+        "itemId": "mithril_longsword",
+        "name": "Mithril Longsword",
+        "price": 1300,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A mithril longsword",
+        "category": "weapons"
+      },
+      {
+        "id": "adamant_longsword",
+        "itemId": "adamant_longsword",
+        "name": "Adamant Longsword",
+        "price": 3200,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "An adamant longsword",
+        "category": "weapons"
+      },
+      {
+        "id": "rune_longsword",
+        "itemId": "rune_longsword",
+        "name": "Rune Longsword",
+        "price": 32000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A rune longsword",
+        "category": "weapons"
+      },
+
+      {
+        "id": "bronze_scimitar",
+        "itemId": "bronze_scimitar",
+        "name": "Bronze Scimitar",
+        "price": 32,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A curved bronze scimitar",
+        "category": "weapons"
+      },
+      {
+        "id": "iron_scimitar",
+        "itemId": "iron_scimitar",
+        "name": "Iron Scimitar",
+        "price": 64,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A curved iron scimitar",
+        "category": "weapons"
+      },
+      {
+        "id": "steel_scimitar",
+        "itemId": "steel_scimitar",
+        "name": "Steel Scimitar",
+        "price": 400,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A curved steel scimitar",
+        "category": "weapons"
+      },
+      {
+        "id": "mithril_scimitar",
+        "itemId": "mithril_scimitar",
+        "name": "Mithril Scimitar",
+        "price": 1040,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A curved mithril scimitar",
+        "category": "weapons"
+      },
+      {
+        "id": "adamant_scimitar",
+        "itemId": "adamant_scimitar",
+        "name": "Adamant Scimitar",
+        "price": 2560,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A curved adamant scimitar",
+        "category": "weapons"
+      },
+      {
+        "id": "rune_scimitar",
+        "itemId": "rune_scimitar",
+        "name": "Rune Scimitar",
+        "price": 25600,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A curved rune scimitar",
+        "category": "weapons"
+      },
+
+      {
+        "id": "bronze_2h_sword",
+        "itemId": "bronze_2h_sword",
+        "name": "Bronze 2H Sword",
+        "price": 80,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A large bronze two-handed sword",
+        "category": "weapons"
+      },
+      {
+        "id": "iron_2h_sword",
+        "itemId": "iron_2h_sword",
+        "name": "Iron 2H Sword",
+        "price": 280,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A large iron two-handed sword",
+        "category": "weapons"
+      },
+      {
+        "id": "steel_2h_sword",
+        "itemId": "steel_2h_sword",
+        "name": "Steel 2H Sword",
+        "price": 1000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A large steel two-handed sword",
+        "category": "weapons"
+      },
+      {
+        "id": "mithril_2h_sword",
+        "itemId": "mithril_2h_sword",
+        "name": "Mithril 2H Sword",
+        "price": 2600,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A large mithril two-handed sword",
+        "category": "weapons"
+      },
+      {
+        "id": "adamant_2h_sword",
+        "itemId": "adamant_2h_sword",
+        "name": "Adamant 2H Sword",
+        "price": 6400,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A large adamant two-handed sword",
+        "category": "weapons"
+      },
+      {
+        "id": "rune_2h_sword",
+        "itemId": "rune_2h_sword",
+        "name": "Rune 2H Sword",
+        "price": 64000,
+        "stockQuantity": -1,
+        "restockTime": 0,
+        "description": "A large rune two-handed sword",
         "category": "weapons"
       }
     ]
