@@ -5,10 +5,10 @@
     "description": "A weak goblin creature, perfect for beginners",
     "category": "mob",
     "faction": "monster",
-    "levelRange": {
-      "min": 2,
-      "max": 2
-    },
+    "levelRange": [
+      1,
+      2
+    ],
     "stats": {
       "level": 2,
       "health": 5,
@@ -752,10 +752,10 @@
     "description": "A docile cow grazing in the field",
     "category": "mob",
     "faction": "animal",
-    "levelRange": {
-      "min": 2,
-      "max": 2
-    },
+    "levelRange": [
+      1,
+      2
+    ],
     "stats": {
       "level": 2,
       "health": 8,
@@ -817,10 +817,10 @@
     "description": "A sinister wizard who attacks with Wind Strike magic",
     "category": "mob",
     "faction": "zamorak",
-    "levelRange": {
-      "min": 42,
-      "max": 42
-    },
+    "levelRange": [
+      40,
+      44
+    ],
     "stats": {
       "level": 42,
       "health": 42,
@@ -928,10 +928,10 @@
     "description": "A shadowy archer who fires bronze arrows from the darkness",
     "category": "mob",
     "faction": "zamorak",
-    "levelRange": {
-      "min": 33,
-      "max": 33
-    },
+    "levelRange": [
+      30,
+      33
+    ],
     "stats": {
       "level": 33,
       "health": 33,
@@ -1454,10 +1454,10 @@
     "description": "A town guard armed with an iron longsword, tasked with keeping the peace",
     "category": "mob",
     "faction": "town",
-    "levelRange": {
-      "min": 21,
-      "max": 21
-    },
+    "levelRange": [
+      20,
+      22
+    ],
     "stats": {
       "level": 21,
       "health": 22,
@@ -1592,10 +1592,10 @@
     "description": "A cunning outlaw who preys on unwary travelers",
     "category": "mob",
     "faction": "monster",
-    "levelRange": {
-      "min": 7,
-      "max": 7
-    },
+    "levelRange": [
+      5,
+      8
+    ],
     "stats": {
       "level": 7,
       "health": 10,
@@ -1696,10 +1696,10 @@
     "description": "A fierce warrior from the desert lands",
     "category": "mob",
     "faction": "monster",
-    "levelRange": {
-      "min": 14,
-      "max": 14
-    },
+    "levelRange": [
+      12,
+      15
+    ],
     "stats": {
       "level": 14,
       "health": 17,
