@@ -38,19 +38,6 @@
       "enabled": true,
       "layers": [
         {
-          "category": "tree",
-          "density": 5,
-          "assets": ["tree1"],
-          "minSpacing": 12,
-          "clustering": true,
-          "clusterSize": 3,
-          "noiseScale": 0.02,
-          "noiseThreshold": 0.4,
-          "avoidWater": true,
-          "avoidSteepSlopes": true,
-          "minHeight": 6
-        },
-        {
           "category": "bush",
           "density": 20,
           "assets": [],
@@ -157,19 +144,6 @@
       "enabled": true,
       "layers": [
         {
-          "category": "tree",
-          "density": 35,
-          "assets": ["tree1"],
-          "minSpacing": 6,
-          "clustering": true,
-          "clusterSize": 8,
-          "noiseScale": 0.015,
-          "noiseThreshold": 0.2,
-          "avoidWater": true,
-          "avoidSteepSlopes": true,
-          "minHeight": 6
-        },
-        {
           "category": "rock",
           "density": 8,
           "assets": ["pathway_rock_1", "pathway_rock_2", "pathway_rock_3", "round_rock_1", "round_rock_2"],
@@ -232,19 +206,6 @@
     "vegetation": {
       "enabled": true,
       "layers": [
-        {
-          "category": "tree",
-          "density": 15,
-          "assets": ["tree1"],
-          "minSpacing": 10,
-          "clustering": true,
-          "clusterSize": 4,
-          "noiseScale": 0.025,
-          "noiseThreshold": 0.35,
-          "avoidWater": true,
-          "avoidSteepSlopes": true,
-          "minHeight": 6
-        },
         {
           "category": "bush",
           "density": 35,
@@ -328,18 +289,6 @@
     "vegetation": {
       "enabled": true,
       "layers": [
-        {
-          "category": "tree",
-          "density": 5,
-          "assets": ["tree1"],
-          "minSpacing": 20,
-          "clustering": false,
-          "noiseScale": 0.02,
-          "noiseThreshold": 0.6,
-          "avoidWater": true,
-          "avoidSteepSlopes": true,
-          "maxHeight": 40
-        },
         {
           "category": "bush",
           "density": 8,
@@ -651,18 +600,6 @@
     "vegetation": {
       "enabled": true,
       "layers": [
-        {
-          "category": "tree",
-          "density": 20,
-          "assets": ["tree1"],
-          "minSpacing": 8,
-          "clustering": true,
-          "clusterSize": 4,
-          "noiseScale": 0.02,
-          "noiseThreshold": 0.3,
-          "avoidWater": false,
-          "avoidSteepSlopes": true
-        },
         {
           "category": "rock",
           "density": 6,
