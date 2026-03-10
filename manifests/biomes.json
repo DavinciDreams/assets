@@ -23,7 +23,7 @@
     ],
     "terrainMultiplier": 1.0,
     "waterLevel": 0.0,
-    "maxSlope": 0.8,
+    "maxSlope": 1.8,
     "mobTypes": [],
     "difficulty": 3,
     "baseHeight": 0.3,
@@ -97,7 +97,7 @@
     ],
     "terrainMultiplier": 1.0,
     "waterLevel": 0.0,
-    "maxSlope": 0.8,
+    "maxSlope": 1.5,
     "mobTypes": [
       "goblin",
       "bandit"
@@ -166,7 +166,7 @@
     ],
     "terrainMultiplier": 1.0,
     "waterLevel": 0.0,
-    "maxSlope": 0.6,
+    "maxSlope": 2.5,
     "mobTypes": [
       "goblin",
       "bandit",
