@@ -397,10 +397,7 @@
       "name": "Wind Pine",
       "type": "tree",
       "examine": "A wind-battered pine, bent and stripped by harsh tundra gales.",
-      "modelPath": null,
-      "modelVariants": [
-        "asset://models/trees/dead_06.glb"
-      ],
+      "modelPath": "asset://models/trees/dead_06.glb",
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
       "scale": 0.008,
       "depletedScale": 0.1,
