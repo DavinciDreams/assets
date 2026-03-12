@@ -15,7 +15,7 @@
         "asset://models/trees/fir_04.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.008,
+      "scale": 0.01,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -46,7 +46,7 @@
         "asset://models/trees/pine_03.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.008,
+      "scale": 0.015,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -175,7 +175,7 @@
         "asset://models/trees/chinaPine_04.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.008,
+      "scale": 0.015,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -305,7 +305,7 @@
         "asset://models/trees/dead_05.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.008,
+      "scale": 0.015,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -399,7 +399,7 @@
       "examine": "A wind-battered pine, bent and stripped by harsh tundra gales.",
       "modelPath": "asset://models/trees/dead_06.glb",
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.008,
+      "scale": 0.015,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
