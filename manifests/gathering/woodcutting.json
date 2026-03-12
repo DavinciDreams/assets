@@ -239,7 +239,7 @@
         "asset://models/trees/coconut_05.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.008,
+      "scale": 0.015,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -272,7 +272,7 @@
         "asset://models/trees/palm_05.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.008,
+      "scale": 0.012,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -302,8 +302,7 @@
         "asset://models/trees/dead_02.glb",
         "asset://models/trees/dead_03.glb",
         "asset://models/trees/dead_04.glb",
-        "asset://models/trees/dead_05.glb",
-        "asset://models/trees/dead_06.glb"
+        "asset://models/trees/dead_05.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
       "scale": 0.008,
@@ -372,6 +371,35 @@
         "asset://models/trees/knotwood_02.glb",
         "asset://models/trees/knotwood_03.glb",
         "asset://models/trees/knotwood_04.glb"
+      ],
+      "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
+      "scale": 0.008,
+      "depletedScale": 0.1,
+      "harvestSkill": "woodcutting",
+      "toolRequired": "bronze_hatchet",
+      "levelRequired": 1,
+      "baseCycleTicks": 4,
+      "depleteChance": 0.125,
+      "respawnTicks": 80,
+      "harvestYield": [
+        {
+          "itemId": "logs",
+          "itemName": "Logs",
+          "quantity": 1,
+          "chance": 1.0,
+          "xpAmount": 25,
+          "stackable": true
+        }
+      ]
+    },
+    {
+      "id": "tree_windPine",
+      "name": "Wind Pine",
+      "type": "tree",
+      "examine": "A wind-battered pine, bent and stripped by harsh tundra gales.",
+      "modelPath": null,
+      "modelVariants": [
+        "asset://models/trees/dead_06.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
       "scale": 0.008,
