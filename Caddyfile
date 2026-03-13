@@ -1,0 +1,15 @@
+:{$PORT} {
+	root * /app
+
+	header {
+		Access-Control-Allow-Origin *
+		Access-Control-Allow-Methods "GET, HEAD, OPTIONS"
+		Access-Control-Allow-Headers "Content-Type, Range"
+		Access-Control-Expose-Headers "Content-Length, Content-Range"
+		defer
+	}
+
+	file_server {
+		precompressed gzip br
+	}
+}
