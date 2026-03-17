@@ -292,6 +292,39 @@
       ]
     },
     {
+      "id": "tree_yucca",
+      "name": "Yucca Tree",
+      "type": "tree",
+      "examine": "A hardy yucca tree with sharp, spiky leaves.",
+      "modelPath": null,
+      "modelVariants": [
+        "asset://models/trees/yucca_01.glb",
+        "asset://models/trees/yucca_02.glb",
+        "asset://models/trees/yucca_03.glb",
+        "asset://models/trees/yucca_04.glb",
+        "asset://models/trees/yucca_05.glb"
+      ],
+      "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
+      "scale": 0.008,
+      "depletedScale": 0.1,
+      "harvestSkill": "woodcutting",
+      "toolRequired": "bronze_hatchet",
+      "levelRequired": 1,
+      "baseCycleTicks": 4,
+      "depleteChance": 0.125,
+      "respawnTicks": 80,
+      "harvestYield": [
+        {
+          "itemId": "logs",
+          "itemName": "Logs",
+          "quantity": 1,
+          "chance": 1.0,
+          "xpAmount": 25,
+          "stackable": true
+        }
+      ]
+    },
+    {
       "id": "tree_dead",
       "name": "Dead Tree",
       "type": "tree",
