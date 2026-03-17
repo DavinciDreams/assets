@@ -305,7 +305,40 @@
         "asset://models/trees/yucca_05.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.008,
+      "scale": 0.007,
+      "depletedScale": 0.1,
+      "harvestSkill": "woodcutting",
+      "toolRequired": "bronze_hatchet",
+      "levelRequired": 1,
+      "baseCycleTicks": 4,
+      "depleteChance": 0.125,
+      "respawnTicks": 80,
+      "harvestYield": [
+        {
+          "itemId": "logs",
+          "itemName": "Logs",
+          "quantity": 1,
+          "chance": 1.0,
+          "xpAmount": 25,
+          "stackable": true
+        }
+      ]
+    },
+    {
+      "id": "tree_windSwept",
+      "name": "Windswept Tree",
+      "type": "tree",
+      "examine": "A wind-battered tree with dry, sand-colored leaves.",
+      "modelPath": null,
+      "modelVariants": [
+        "asset://models/trees/windSwept_01.glb",
+        "asset://models/trees/windSwept_02.glb",
+        "asset://models/trees/windSwept_03.glb",
+        "asset://models/trees/windSwept_04.glb",
+        "asset://models/trees/windSwept_05.glb"
+      ],
+      "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
+      "scale": 0.015,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
