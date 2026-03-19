@@ -6,10 +6,10 @@
       "description": "The central hub of Hyperscape, a peaceful sanctuary protected by ancient wards.",
       "difficultyLevel": 0,
       "bounds": {
-        "minX": -150,
-        "maxX": 150,
-        "minZ": -150,
-        "maxZ": 150
+        "minX": 294,
+        "maxX": 594,
+        "minZ": 180,
+        "maxZ": 480
       },
       "biomeType": "starter_town",
       "safeZone": true,
@@ -330,10 +330,10 @@
       "description": "A grand arena where warriors settle disputes through honorable combat. Challenge other players to duels with agreed-upon rules and stakes.",
       "difficultyLevel": 0,
       "bounds": {
-        "minX": 36,
-        "maxX": 140,
-        "minZ": 85,
-        "maxZ": 225
+        "minX": 316,
+        "maxX": 420,
+        "minZ": 349,
+        "maxZ": 489
       },
       "biomeType": "desert",
       "safeZone": true,
@@ -343,7 +343,7 @@
           "id": "duel_arena_nurse",
           "type": "healer",
           "name": "Nurse Sarah",
-          "position": { "x": 55, "y": 0, "z": 105 },
+          "position": { "x": 335, "y": 0, "z": 369 },
           "dialogue": {
             "greeting": "Welcome to the Duel Arena hospital. Let me restore your health and prayer.",
             "heal": "There you go, fully restored!"
@@ -353,7 +353,7 @@
           "id": "duel_arena_scoreboard",
           "type": "scoreboard",
           "name": "Duel Scoreboard",
-          "position": { "x": 100, "y": 0, "z": 105 },
+          "position": { "x": 380, "y": 0, "z": 369 },
           "dialogue": {
             "greeting": "View the duel arena rankings and statistics."
           }
@@ -362,7 +362,7 @@
           "id": "duel_arena_guide",
           "type": "guide",
           "name": "Duel Master Marcus",
-          "position": { "x": 110, "y": 0, "z": 110 },
+          "position": { "x": 390, "y": 0, "z": 374 },
           "dialogue": {
             "greeting": "Welcome to the Duel Arena! Right-click another player and select 'Challenge to Duel' to begin. You can set rules and stake items before fighting."
           }
@@ -374,7 +374,7 @@
         {
           "id": "duel_arena_bank",
           "type": "bank",
-          "position": { "x": 135, "y": 0, "z": 115 },
+          "position": { "x": 415, "y": 0, "z": 379 },
           "bankId": "duel_arena_bank"
         }
       ]
