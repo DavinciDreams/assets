@@ -78,7 +78,7 @@
         "asset://models/trees/oak_04.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.008,
+      "scale": 0.012,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -305,7 +305,7 @@
         "asset://models/trees/yucca_05.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.007,
+      "scale": 0.012,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
