@@ -3,38 +3,6 @@
   "_comment": "Woodcutting resource data. Trees and their log yields. OSRS-accurate levels and XP.",
   "trees": [
     {
-      "id": "tree_fir",
-      "name": "Fir Tree",
-      "type": "tree",
-      "examine": "A tall fir tree with strong, durable wood.",
-      "modelPath": null,
-      "modelVariants": [
-        "asset://models/trees/fir_01.glb",
-        "asset://models/trees/fir_02.glb",
-        "asset://models/trees/fir_03.glb",
-        "asset://models/trees/fir_04.glb"
-      ],
-      "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.01,
-      "depletedScale": 0.1,
-      "harvestSkill": "woodcutting",
-      "toolRequired": "bronze_hatchet",
-      "levelRequired": 1,
-      "baseCycleTicks": 4,
-      "depleteChance": 0.125,
-      "respawnTicks": 80,
-      "harvestYield": [
-        {
-          "itemId": "logs",
-          "itemName": "Logs",
-          "quantity": 1,
-          "chance": 1.0,
-          "xpAmount": 25,
-          "stackable": true
-        }
-      ]
-    },
-    {
       "id": "tree_pine",
       "name": "Pine Tree",
       "type": "tree",
@@ -78,7 +46,7 @@
         "asset://models/trees/oak_04.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.012,
+      "scale": 0.006,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -111,7 +79,7 @@
         "asset://models/trees/birch_05.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.008,
+      "scale": 0.004,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -241,7 +209,7 @@
         "asset://models/trees/dead_05.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.015,
+      "scale": 0.006,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
@@ -293,11 +261,16 @@
       ]
     },
     {
-      "id": "tree_windPine",
-      "name": "Wind Pine",
+      "id": "tree_pineDead",
+      "name": "Dead Pine",
       "type": "tree",
-      "examine": "A wind-battered pine, bent and stripped by harsh tundra gales.",
-      "modelPath": "asset://models/trees/dead_06.glb",
+      "examine": "A weathered pine, stripped bare by harsh tundra winds.",
+      "modelPath": null,
+      "modelVariants": [
+        "asset://models/trees/pine_dead_01.glb",
+        "asset://models/trees/pine_dead_02.glb",
+        "asset://models/trees/pine_dead_03.glb"
+      ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
       "scale": 0.015,
       "depletedScale": 0.1,
