@@ -290,6 +290,36 @@
           "stackable": true
         }
       ]
+    },
+    {
+      "id": "tree_pineSnow",
+      "name": "Snow Pine",
+      "type": "tree",
+      "examine": "A hardy pine capped with heavy snow, standing defiant against the tundra cold.",
+      "modelPath": null,
+      "modelVariants": [
+        "asset://models/trees/pine_snow_01.glb",
+        "asset://models/trees/pine_snow_02.glb"
+      ],
+      "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
+      "scale": 0.015,
+      "depletedScale": 0.1,
+      "harvestSkill": "woodcutting",
+      "toolRequired": "bronze_hatchet",
+      "levelRequired": 1,
+      "baseCycleTicks": 4,
+      "depleteChance": 0.125,
+      "respawnTicks": 80,
+      "harvestYield": [
+        {
+          "itemId": "logs",
+          "itemName": "Logs",
+          "quantity": 1,
+          "chance": 1.0,
+          "xpAmount": 25,
+          "stackable": true
+        }
+      ]
     }
   ]
 }
