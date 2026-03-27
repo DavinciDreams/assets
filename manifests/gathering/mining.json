@@ -118,7 +118,7 @@
       "levelRequired": 40,
       "baseCycleTicks": 4,
       "depleteChance": 1.0,
-      "respawnTicks": 30,
+      "respawnTicks": 100,
       "harvestYield": [
         {
           "itemId": "gold_ore",
@@ -287,8 +287,8 @@
       "toolRequired": "pickaxe",
       "levelRequired": 1,
       "baseCycleTicks": 4,
-      "depleteChance": 1.0,
-      "respawnTicks": 2,
+      "depleteChance": 0,
+      "respawnTicks": 0,
       "harvestYield": [
         {
           "itemId": "rune_essence",
