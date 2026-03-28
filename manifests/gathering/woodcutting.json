@@ -209,7 +209,7 @@
         "asset://models/trees/dead_05.glb"
       ],
       "depletedModelPath": "asset://models/trees/wood-tree-stump/wood-tree-stump.glb",
-      "scale": 0.006,
+      "scale": 0.0075,
       "depletedScale": 0.1,
       "harvestSkill": "woodcutting",
       "toolRequired": "bronze_hatchet",
