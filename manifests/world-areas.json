@@ -227,7 +227,7 @@
         {
           "id": "bank_spawn",
           "type": "bank",
-          "position": { "x": 0, "y": 0, "z": 0 },
+          "position": { "x": -2, "y": 0, "z": -2 },
           "bankId": "spawn_bank"
         },
         {
@@ -290,6 +290,28 @@
     }
   },
   "level1Areas": {
+    "haven_pond": {
+      "id": "haven_pond",
+      "name": "Haven Pond",
+      "description": "A tranquil fishing pond north of Central Haven, teeming with fish.",
+      "difficultyLevel": 0,
+      "bounds": {
+        "minX": -125,
+        "maxX": 70,
+        "minZ": 235,
+        "maxZ": 420
+      },
+      "biomeType": "forest",
+      "safeZone": true,
+      "npcs": [],
+      "resources": [],
+      "mobSpawns": [],
+      "fishing": {
+        "enabled": true,
+        "spotCount": 8,
+        "spotTypes": ["fishing_spot_net", "fishing_spot_bait", "fishing_spot_fly", "fishing_spot_cage", "fishing_spot_harpoon"]
+      }
+    },
     "wilderness_test": {
       "id": "wilderness_test",
       "name": "The Wastes",

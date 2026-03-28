@@ -44,8 +44,8 @@
       "common": [
         {
           "itemId": "coins",
-          "minQuantity": 5,
-          "maxQuantity": 15,
+          "minQuantity": 3,
+          "maxQuantity": 12,
           "chance": 1.0,
           "rarity": "common"
         }
